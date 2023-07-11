@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32px"
+   height="32px"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg132"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview134"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:lockguides="true"
+     inkscape:zoom="1.4503086"
+     inkscape:cx="207.19728"
+     inkscape:cy="196.85465"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg132" />
+  <defs
+     id="defs129" />
+  <g
+     inkscape:label="Background"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#192436;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;fill-opacity:1"
+       id="rect240"
+       width="106.72298"
+       height="106.72298"
+       x="-3.2837837"
+       y="-2.3716216" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Crown" />
+  <g
+     id="layer1-1"
+     transform="matrix(2.2544173,0,0,2.2544173,-522.15984,-463.86061)">
+    <path
+       id="path4095-9"
+       class="cls-1"
+       d="m 253.69,214.98 -6.02,13.56 -10.9,-6.4 3.28,18.75 13.49,-0.15"
+       style="fill:none;stroke:#ae9c86;stroke-width:3.52px;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       id="path4095-3-2"
+       class="cls-1"
+       d="m 253.9,214.98 6.02,13.56 10.9,-6.4 -3.28,18.75 -13.49,-0.15"
+       style="fill:none;stroke:#ae9c86;stroke-width:3.52px;stroke-linecap:round;stroke-linejoin:round" />
+  </g>
+</svg>

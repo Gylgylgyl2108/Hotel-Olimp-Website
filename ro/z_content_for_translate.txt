@@ -1,0 +1,204 @@
+HEAD =============
+Description ROMANIAN =============
+Cautati un hotel confortabil si convenabil in Cluj-Napoca? Nu este nevoie sa mai cautati! Hotelul nostru este situat pe strada Observatorului, in fermecatoarea parte de sud a orasului. Locatia noastra privilegiata ofera acces usor la numeroasele atractii din Cluj, inclusiv Gradina Botanica si Centrul Vechi. Camerele noastre sunt spatioase si bine dotate, cu toate facilitatile de care aveti nevoie pentru un sejur confortabil. Fie ca sunteti in oras pentru afaceri sau pentru placere, Hotel Olimp este alegerea perfecta pentru urmatoarea dvs. calatorie la Cluj-Napoca. Rezerva-ti sederea la noi astazi!
+
+Description ENGLISH =============
+Looking for a comfortable and convenient hotel in Cluj-Napoca? Look no further than Hotel Olimp! Our hotel is located on Observatorului street, in the charming southern part of the city. Our prime location provides easy access to Cluj's many attractions, including the Botanical Garden and the Old Town. Our rooms are spacious and well-appointed, with all the amenities you need for a comfortable stay. Whether you're in town for business or pleasure, Hotel Olimp is the perfect choice for your next trip to Cluj-Napoca. Book your stay with us today!
+
+HEAD END =============
+
+
+==================================================================================================================================
+
+// 1. INDEX PAGE ================================
+<strong>Hotel Olimp</strong> is an excellent choice for business people visiting Cluj-Napoca. I was impressed by the excellent facilities, such as <strong>wireless internet access</strong>, <strong>the fitness room (additional fees may apply)</strong>, <strong>the restaurant</strong> and <strong>free parking</strong>. And the excellent services made my stay as pleasant as possible.
+
+Georgian P.
+
+I spent a perfect weekend at Hotel Olimp. I was <strong>impressed by the excellent facilities</strong>, such as <strong>the fitness center</strong> and <strong>the restaurant next door</strong>, which offered me an <strong>unforgettable relaxation</strong> experience. The rooms are <strong>elegant</strong> and <strong>comfortable</strong>, and the staff was always ready to help us with anything we needed.
+
+Vlad P.
+
+I had an <strong>unforgettable experience</strong> at the Olimp Hotel. We were impressed by <strong>the quiet and welcoming atmosphere</strong> of the hotel and <strong>the comfort and elegance of the room</strong>. The staff was <strong>very kind and helpful</strong>, and the Homemade Happiness restaurant offered us excellent<strong> dishes</strong>. I warmly <strong>recommend this hotel!</strong>
+
+Amalia V.
+
+I had a <strong>wonderful experience</strong> at Hotel Olimp! The staff was <strong>extremely welcoming and kind</strong>, the rooms are <strong>spacious and clean</strong>, and the restaurant offered <strong>excellent cuisine</strong>. Plus the facilities such as <strong>the sauna and the fitness room</strong> made me feel good throughout my stay. <strong>I will definitely come back</strong> to this hotel!
+
+Ecaternia S.
+
+Hotel Olimp is an <strong>excellent choice for business people visiting Cluj-Napoca.</strong> I was impressed by the excellent facilities, such as <strong>wireless internet access, sauna and fitness room.</strong> The staff was always at my disposal, and <strong>the excellent services</strong> made <strong>my stay as pleasant as possible.</strong>
+
+Adrian P.
+
+I chose Hotel Olimp to spend <strong>a few days in Cluj-Napoca</strong> and I couldn't be more satisfied. I was impressed by <strong>the impeccable cleanliness</strong> of the room and the <strong>attention to detail</strong> of the staff. The hotel is located in a <strong>quiet and safe area</strong>, which gave me <strong>a restful and unforgettable night's sleep.</strong>
+
+Arafat H.
+
+//
+Some pictures around the hotel
+
+//
+Frequently asked questions
+How do I make a reservation?
+Very simple, directly from the hotel website! Click here and we will redirect you to the reservation form!
+
+How much does the hotel stay cost?
+The rates at Hotel Olimp may vary depending on the stay (e.g., depending on the selected interval, hotel policies, etc.). Find out the rates by entering the desired data.
+
+How far is Hotel Olimp from the center of Cluj-Napoca?
+Hotel Olimp is located 1.8 km from the center of Cluj-Napoca.
+
+What activities can be carried out at Hotel Olimp?
+Hotel Olimp offers the following activities/services (additional costs may be charged):
+
+Sauna
+Gym
+In what time can you check-in and check-out at Hotel Olimp?
+At Hotel Olimp, you can check-in starting at 3:00 p.m., and check-out until 10:30 a.m.
+
+What kind of breakfast is offered at Hotel Olimp?
+Guests staying at Hotel Olimp can enjoy a breakfast with excellent ratings during their stay (score from guest ratings: 7.8).
+
+Breakfast variant/variants:
+
+Continental
+American
+Buffet
+What type of rooms can be booked at Hotel Olimp?
+Among the room types at Hotel Olimp are:
+
+Single
+Triple
+Suite
+Twin
+Double
+
+//
+Do you still have questions?
+
+Please do not hesitate to contact us!
+Name and surname
+Enter the Name
+ 
+E-mail
+Enter the Email
+ 
+Message
+// 1. INDEX PAGE ================================ END
+
+==================================================================================================================================
+
+// 2. CONTACT PAGE ================================
+Contact Us
+Home
+Contact Us
+
+Leave us a message here
+We are happy to be able to help you and answer any questions you may have about our services at Hotel Olimp. We warmly await your messages through the contact form below.
+
+// placeholder
+Surname
+Name
+Email
+Phone number
+Your message...
+// 2. CONTACT PAGE ============================== END
+ 
+==================================================================================================================================
+
+// 3. EAT&DRINK PAGE ==============================
+Eat & Drink
+Home
+Eat & Drink
+
+<strong>Homemade Happiness</strong> is for us, the chance to be closer to you, our friends.
+
+every day and every time you choose us to delight your taste buds!
+
+We are proud to be with you in moments of joy, of sadness, in noisy moments but also in the best moments when you share feelings and emotions with your loved ones!
+// 3. EAT&DRINK PAGE ============================== END
+
+==================================================================================================================================
+
+// 4. APARTMENT ZORILOR VIEW =========================
+// BREADCRUMBS
+apartment Zorilor View
+Home
+apartment Zorilor View
+// BREADCRUMBS END
+
+// BANNER 
+Hotel apartment
+// BANNER END
+
+// BOOKING FORM APARTMENT ZORILOR
+Apartment Zorilor View
+<strong>To make a reservation</strong>, please <strong>fill out the form below</strong> and specify the<strong> desired period and the number of people</strong>
+
+<strong>For apartments, reservations are made by <a href="mailto:office@hotel-olimp.ro" class="link-primary">Email</a>, or through the Contact Form below.</strong>
+
+<strong>We will contact you</strong> as soon as possible to confirm your reservation and provide you with all the necessary details.
+
+
+Surname
+Name
+Email
+Phone number
+Please specify the dates you want to stay...
+Submit
+// BOOKING FORM APARTMENT ZORILOR END
+
+// ABOUT
+About Zorilor View Apartment
+<strong>Zorilor View</strong> is for us, the chance to be closer to you, our friends.
+
+With a modern design, this apartment welcomes clients with state-of-the-art equipment such as <strong>flat screen TV</strong> with cable-digital channels, <strong>WIFI internet access, fully equipped kitchen with crockery and refrigerator, coffee maker, washing machine.</strong>
+
+<strong>The wonderful view will delight any tourist</strong>, and its terrace will be a place you probably <strong>won't forget too soon.</strong>
+
+This apartment is located next to the <strong>Clinical Recovery Hospital</strong>, <strong>near Observatorului Street</strong>, in a <strong>quiet area with a great view.</strong>
+// ABOUT END
+// 4. APARTMENT ZORILOR VIEW ========================= END
+
+==================================================================================================================================
+
+// 5. APARTMENT ZORILOR VIEW =========================
+// BREADCRUMBS
+apartment Zorilor View
+Home
+apartment Zorilor View
+// BREADCRUMBS END
+
+// BANNER 
+Hotel apartment
+// BANNER END
+
+// BOOKING FORM APARTMENT ZORILOR
+Apartment Zorilor View
+<strong>To make a reservation</strong>, please <strong>fill out the form below</strong> and specify the<strong> desired period and the number of people</strong>
+
+<strong>For apartments, reservations are made by <a href="mailto:office@hotel-olimp.ro" class="link-primary">Email</a>, or through the Contact Form below.</strong>
+
+<strong>We will contact you</strong> as soon as possible to confirm your reservation and provide you with all the necessary details.
+
+
+Surname
+Name
+Email
+Phone number
+Please specify the dates you want to stay...
+Submit
+// BOOKING FORM APARTMENT ZORILOR END
+
+// ABOUT
+About Zorilor Cactus Apartment
+<strong>Zorilor Cactus</strong> is for us, the chance to be closer to you, our friends.
+
+With a modern design, this apartment welcomes clients with state-of-the-art equipment such as <strong>flat screen TV</strong> with cable-digital channels, <strong>WIFI internet access, fully equipped kitchen with crockery and refrigerator, coffee maker, washing machine.</strong>
+
+<strong>The wonderful view will delight any tourist</strong>, and its terrace will be a place you probably <strong>won't forget too soon.</strong>
+
+This apartment is located <strong>on Strada Padurii (in the southern part of Cluj)</strong>, in a <strong>particularly quiet area.</strong>
+// ABOUT END
+// 4. APARTMENT ZORILOR VIEW ========================= END
