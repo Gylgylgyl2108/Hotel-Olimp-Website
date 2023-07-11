@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home3/hotel3xd/repositories/Hotel-Olimp-Website/ro
+    - export DEPLOYPATH=/home3/hotel3xd/public_html/
     - /bin/cp * $DEPLOYPATH
