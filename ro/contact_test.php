@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="ro">
-<script src="https://www.google.com/recaptcha/enterprise.js?render=6LdECnQpAAAAAGS4omLOl9KceTQ9agcxa5aytsUk"></script>
-
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <head>
 <!-- Header -->
     <?php require_once "./components/header.php" ?>
