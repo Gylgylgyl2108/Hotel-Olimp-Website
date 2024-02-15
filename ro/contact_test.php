@@ -4,11 +4,14 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        document.getElementById('contactForm').addEventListener('submit', function (event) {
-            // Your existing submit event handling code
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc', { action: 'submit_form' }).then(function (token) {
+                // Your existing code
+            });
         });
     });
 </script>
+
 
 
 <head>
@@ -66,6 +69,8 @@
                                         <textarea required name="message" id="message" class="form--control form-message radius-5" placeholder="Mesajul dumneavoastra..."></textarea>
                                     </div>
                                     <button type="submit" class="submit-btn radius-5 w-100"> Trimite </button>
+
+                                    <button type="submit" id="submitButton">Submit</button>
                                 </form>
                             </div>
                         </div>
