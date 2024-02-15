@@ -557,8 +557,8 @@
 
     // Custom js
     // Load the header and the footer dinamicaly from a template 
-    $("#header").load("components/header.html");
-    $("#footer").load("components/footer.html");    
+    // $("#header").load("components/header.html");
+    // $("#footer").load("components/footer.php");    
 
     // Fix Masonry on very first visit
     $('#gallery').imagesLoaded(function() {

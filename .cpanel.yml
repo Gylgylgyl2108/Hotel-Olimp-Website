@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home3/hotel3xd/public_html/
-    - /bin/cp * $DEPLOYPATH
