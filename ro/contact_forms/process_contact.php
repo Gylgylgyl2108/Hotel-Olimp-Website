@@ -1,6 +1,4 @@
 <?php
-
-
 // Set subject
 $subject = "Contact de la Website Hotel de catre $name";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
