@@ -59,7 +59,7 @@
                                     </div>
                                     <button type="submit" class="submit-btn radius-5 w-100"> Trimite </button>
 
-                                    <div class="g-recaptcha" data-sitekey="6LdECnQpAAAAAGS4omLOl9KceTQ9agcxa5aytsUk"></div>
+                                    <div class="g-recaptcha" data-sitekey="6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc"></div>
                                 </form>
                             </div>
                         </div>

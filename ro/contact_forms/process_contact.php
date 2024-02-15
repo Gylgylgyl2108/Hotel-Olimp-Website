@@ -1,7 +1,7 @@
 <?php
 // Your reCAPTCHA keys
-$siteKey = '6LdECnQpAAAAAGS4omLOl9KceTQ9agcxa5aytsUk';
-$secretKey = '6LdECnQpAAAAAKrDNnS-7MKDfOjpXYiI7nuwaAC8';
+$siteKey = '6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc';
+$secretKey = '6LeS_3MpAAAAAFpMAGckDYSJbYFN3nR3nIvmJ4Fp';
 
 // Verify reCAPTCHA response
 function verifyRecaptcha($response, $secretKey) {
