@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ro">
-<script src="https://www.google.com/recaptcha/api.js"></script>
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LdECnQpAAAAAGS4omLOl9KceTQ9agcxa5aytsUk"></script>
+
 
 <head>
 <!-- Header -->
@@ -58,10 +59,7 @@
                                     </div>
                                     <button type="submit" class="submit-btn radius-5 w-100"> Trimite </button>
 
-                                    <button class="g-recaptcha" 
-                                    data-sitekey="6LdECnQpAAAAAGS4omLOl9KceTQ9agcxa5aytsUk" 
-                                    data-callback='onSubmit' 
-                                    data-action='submit'>Submit</button>
+                                    <div class="g-recaptcha" data-sitekey="6LdECnQpAAAAAGS4omLOl9KceTQ9agcxa5aytsUk"></div>
                                 </form>
                             </div>
                         </div>
@@ -77,10 +75,11 @@
     <!-- footer area start -->
     <?php require_once "./components/footer.php" ?>
     <!-- footer area end -->
+    <!-- Replace the variables below. -->
     <script>
-        function onSubmit(token) {
-            document.getElementById("myForm").submit();
-        }
+    function onSubmit(token) {
+        document.getElementById("contactForm").submit();
+    }
     </script>
     </body>
 </html>
