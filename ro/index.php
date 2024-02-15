@@ -1,4 +1,3 @@
-<?php echo "test"; ?>
 <!DOCTYPE html>
 <html lang="ro">
 <head>
