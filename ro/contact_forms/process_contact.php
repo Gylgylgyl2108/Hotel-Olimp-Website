@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $context  = stream_context_create($options);
         $result = file_get_contents($url, false, $context);
-        $response = json_decode($result);
+        $response = json_decode(0);
 
         /*
         - google response score is between 0.0 to 1.0
