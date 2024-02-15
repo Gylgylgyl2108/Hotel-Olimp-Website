@@ -8,7 +8,6 @@
     grecaptcha.ready(() => {
         grecaptcha.execute('6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc', { action: 'contact' }).then(token => {
             document.querySelector('#recaptchaResponse').value = token;
-            console.log('reCAPTCHA token', token);
         });
     });
 </script>
