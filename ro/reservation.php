@@ -57,7 +57,7 @@
                                                             Check In
                                                         </span>
                                                         <div class="banner-location-single-contents-dropdown custom-select custom--date-picker__relative">
-                                                            <input type="date" name="CheckInDate" id="CheckInDate" class="custom--nice_date radius-5">
+                                                            <input required type="date" name="CheckInDate" id="CheckInDate" class="custom--nice_date radius-5">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -69,7 +69,7 @@
                                                             Check Out
                                                         </span>
                                                         <div class="banner-location-single-contents-dropdown custom-select custom--date-picker__relative">
-                                                            <input type="date" name="CheckOutDate" id="CheckOutDate" class="custom--nice_date radius-5">
+                                                            <input required type="date" name="CheckOutDate" id="CheckOutDate" class="custom--nice_date radius-5">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -81,7 +81,7 @@
                                                            Oaspeti
                                                         </span>
                                                         <div class="details-sidebar-quantity-field">
-                                                            <span class="minus"><i class="las la-minus"></i></span><input name="oaspeti" id="oaspeti" class="quantity-input border-secondary" type="number" value="1"><span class="plus"><i class="las la-plus"></i></span>
+                                                            <span class="minus"><i class="las la-minus"></i></span><input required name="oaspeti" id="oaspeti" class="quantity-input border-secondary" type="number" value="1"><span class="plus"><i class="las la-plus"></i></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -93,7 +93,7 @@
                                                             Copii
                                                         </span>
                                                         <div class="details-sidebar-quantity-field">
-                                                            <span class="minus"><i class="las la-minus"></i></span><input name="copii" id="copii" class="quantity-input" type="number" value="0"><span class="plus"><i class="las la-plus"></i></span>
+                                                            <span class="minus"><i class="las la-minus"></i></span><input required name="copii" id="copii" class="quantity-input" type="number" value="0"><span class="plus"><i class="las la-plus"></i></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -120,6 +120,7 @@
                                             <div class="single-input mt-4">
                                                 <span class="banner-location-single-contents-subtitle"><i class="fa-regular fa-address-card"></i> Prenume </span>
                                                 <input
+                                                    required
                                                     name="prenume" id="prenume"
                                                     type="text"
                                                     class="form--control radius-5 text-black"
@@ -129,6 +130,7 @@
                                             <div class="single-input mt-4">
                                                 <span class="banner-location-single-contents-subtitle"> Nume </span>
                                                 <input
+                                                    required
                                                     name="nume" id="nume"
                                                     type="text"
                                                     class="form--control radius-5 text-black"
@@ -140,6 +142,7 @@
                                             <div class="single-input mt-4">
                                                 <span class="banner-location-single-contents-subtitle"> Email </span>
                                                 <input
+                                                    required
                                                     name="email" id="email"
                                                     type="text"
                                                     class="form--control radius-5 text-black"
@@ -149,6 +152,7 @@
                                             <div class="single-input mt-4">
                                                 <span class="banner-location-single-contents-subtitle"> Numar de Telefon </span>
                                                 <input
+                                                    required
                                                     name="phone"
                                                     id="phone"
                                                     type="tel"
