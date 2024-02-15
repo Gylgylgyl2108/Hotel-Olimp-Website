@@ -17,4 +17,4 @@ jobs:
         server: ftp.hotel-olimp.ro
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server.dir: ftp.hotel-olimp.ro
+        # server.dir: ftp.hotel-olimp.ro
