@@ -1,7 +1,7 @@
 <?php
+// Set subject
+$subject = "Contact de la Website Hotel de catre $name";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Set subject
-    $subject = "Contact from Hotel Website by $name";
     
     // Sanitize user input to prevent security issues
     $name = htmlspecialchars($_POST["name"]);
@@ -12,15 +12,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Validate input (you can add more validation as needed)
     // Set recipient email address
-    $to = "petrisor.buciutaa@gmail.com";
+    $to = "office@hotel-olimp.ro";
 
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
     $html_message = <<<EOT
     <p style="font-size: 20px;"><b>Nume:</b> $name</p>
-    <p style="font-size: 20px;"><b>Prenume:</b> $name</p>
+    <p style="font-size: 20px;"><b>Prenume:</b> $surname</p>
     <p style="font-size: 20px;"><b>Email:</b> $email</p>
-    <p style="font-size: 20px;"><b>Telefon :</b> $email</p>
+    <p style="font-size: 20px;"><b>Telefon :</b> $phone</p>
     <p style="font-size: 20px;"><b>Mesajul:</b> $message</p>
     EOT;
 

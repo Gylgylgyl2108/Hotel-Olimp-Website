@@ -90,10 +90,10 @@
                         <div class="attraction-item">
                             <div class="single-attraction radius-20">
                                 <div class="single-attraction-thumb">
-                                    <a href="#"> <img loading="lazy" src="assets/img/attraction/a1.jpg" alt="image of touristic attraction nearby"> </a>
+                                    <a href="https://maps.app.goo.gl/GC9dMfpeS9YM4uuY9"> <img loading="lazy" src="assets/img/attraction/a1.jpg" alt="image of touristic attraction nearby"> </a>
                                 </div>
                                 <div class="single-attraction-contents">
-                                    <h4 class="single-attraction-contents-title text-center"> <a href="#"> Turnul Croitorilor <br></br></a> </h4>
+                                    <h4 class="single-attraction-contents-title text-center"> <a href="https://maps.app.goo.gl/GC9dMfpeS9YM4uuY9"> Turnul Croitorilor <br></br></a> </h4>
                                     <p class="single-attraction-contents-para"><b>1.8km -</b> Bijuteria arhitecturala medievala din centrul Clujului, locul unde istoria prinde viata!</p>
                                 </div>
                             </div>
@@ -101,10 +101,10 @@
                         <div class="attraction-item">
                             <div class="single-attraction radius-20">
                                 <div class="single-attraction-thumb">
-                                    <a href="#"> <img loading="lazy" src="assets/img/attraction/a2.jpg" alt="image of touristic attraction nearby"> </a>
+                                    <a href="https://maps.app.goo.gl/MyjceCqfP4R3oMSy8"> <img loading="lazy" src="assets/img/attraction/a2.jpg" alt="image of touristic attraction nearby"> </a>
                                 </div>
                                 <div class="single-attraction-contents">
-                                    <h4 class="single-attraction-contents-title text-center"> <a href="#"> Palatul Bánffy <br></br> </a> </h4>
+                                    <h4 class="single-attraction-contents-title text-center"> <a href="https://maps.app.goo.gl/MyjceCqfP4R3oMSy8"> Palatul Bánffy <br></br> </a> </h4>
                                     <p class="single-attraction-contents-para"><b>1.8km -</b> Simbolul rafinamentului aristocratic, impresioneaza prin expozitiile culturale de inalta clasa.</p>
                                 </div>
                             </div>
@@ -112,10 +112,10 @@
                         <div class="attraction-item">
                             <div class="single-attraction radius-20">
                                 <div class="single-attraction-thumb">
-                                    <a href="#"> <img loading="lazy" src="assets/img/attraction/a3.jpg" alt="image of touristic attraction nearby"> </a>
+                                    <a href="https://maps.app.goo.gl/34LC3drQdkGh4m1b8"> <img loading="lazy" src="assets/img/attraction/a3.jpg" alt="image of touristic attraction nearby"> </a>
                                 </div>
                                 <div class="single-attraction-contents">
-                                    <h4 class="single-attraction-contents-title text-center"> <a href="#">Muzeul National de Istorie a Transilvaniei</a> </h4>
+                                    <h4 class="single-attraction-contents-title text-center"> <a href="https://maps.app.goo.gl/34LC3drQdkGh4m1b8">Muzeul National de Istorie a Transilvaniei</a> </h4>
                                     <p class="single-attraction-contents-para"><b>1.9km -</b> Fascinantul univers al istoriei locale si internationale, expus intr-un cadru impresionant!</p>
                                 </div>
                             </div>
@@ -123,10 +123,10 @@
                         <div class="attraction-item">
                             <div class="single-attraction radius-20">
                                 <div class="single-attraction-thumb">
-                                    <a href="#"> <img loading="lazy" src="assets/img/attraction/a4.jpg" alt="image of touristic attraction nearby"> </a>
+                                    <a href="https://maps.app.goo.gl/78wJYUBVhUFAsHe49"> <img loading="lazy" src="assets/img/attraction/a4.jpg" alt="image of touristic attraction nearby"> </a>
                                 </div>
                                 <div class="single-attraction-contents">
-                                    <h4 class="single-attraction-contents-title text-center"> <a href="#"> Casino Parcul Central <br></br></a> </h4>
+                                    <h4 class="single-attraction-contents-title text-center"> <a href="https://maps.app.goo.gl/78wJYUBVhUFAsHe49"> Casino Parcul Central <br></br></a> </h4>
                                     <p class="single-attraction-contents-para"><b>1.9km -</b> Bijuteria arhitecturala Art Nouveau, un loc emblematic pentru cultura si distractie inima Clujului!</p>
                                 </div>
                             </div>
@@ -134,10 +134,10 @@
                         <div class="attraction-item">
                             <div class="single-attraction radius-20">
                                 <div class="single-attraction-thumb">
-                                    <a href="#"> <img loading="lazy" src="assets/img/attraction/a5.jpg" alt="image of touristic attraction nearby"> </a>
+                                    <a href="https://maps.app.goo.gl/GyLM8GEtStwVAgMi9"> <img loading="lazy" src="assets/img/attraction/a5.jpg" alt="image of touristic attraction nearby"> </a>
                                 </div>
                                 <div class="single-attraction-contents">
-                                    <h4 class="single-attraction-contents-title text-center"> <a href="#"> Piata Muzeului <br></br></a> </h4>
+                                    <h4 class="single-attraction-contents-title text-center"> <a href="https://maps.app.goo.gl/GyLM8GEtStwVAgMi9"> Piata Muzeului <br></br></a> </h4>
                                     <p class="single-attraction-contents-para"><b>1.9km -</b> Locul vibrant și pitoresc din inima orașului, unde se întalnesc istoria, cultura și traditiile locale!</p>
                                 </div>
                             </div>

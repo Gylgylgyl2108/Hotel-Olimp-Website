@@ -1,17 +1,5 @@
 <?php
-$subject = "Rezervare client";
-$formular = "De la formularul de rezervare.";
-
-$checkin=$_POST["CheckInDate"];
-$checkout=$_POST["CheckOutDate"];
-$oaspeti=$_POST["oaspeti"];
-$copii=$_POST["copii"];
-$nume = $_POST["nume"];
-$prenume = $_POST["prenume"];
-$email = $_POST["email"];
-$telefon = $_POST["phone"];
-$mesaj = $_POST["mesaj"];
-$camera = $_POST["room"];
+$subject = "Rezervare camera de la Website Hotel de catre $name";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Sanitize user input to prevent security issues
@@ -29,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Validate input (you can add more validation as needed)
     // Set recipient email address
-    $to = "petrisor.buciutaa@gmail.com";
+    $to = "office@hotel-olimp.ro";
 
     // Set subject
     $subject = "Contact from Hotel Website by $name";
@@ -37,7 +25,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
     $html_message = <<<EOT
-        <p style="font-size: 20px"><b>Pagina:</b> $formular<br></br></p>
         <p style="font-size: 20px"><b>CheckIn:</b> $checkin <br></br></p>
         <p style="font-size: 20px"><b>CheckOut:</b> $checkout <br></br></p>
         <p style="font-size: 20px"><b>Oaspeti:</b> $oaspeti <br></br></p>
