@@ -54,7 +54,7 @@
           </a>
       </div>
       <div class="responsive-mobile-menu d-lg-none">
-            <a href="javascript:void(0)" class="click-nav-right-icon">
+            <a href="#" class="click-nav-right-icon">
                 <img class="flag-icon me-1" src="assets/flags/ro.svg" alt="">
             </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hotel_booking_menu">
@@ -68,7 +68,7 @@
               <li><a href="contact.php"> Contacteaza-ne </a></li>
               <li><a href="eat-and-drink.php"> Eat & Drink </a></li>
               <li class="menu-item-has-children current-menu-item">
-                <a href="javascript:void(0)">Apartamente</a>
+                <a href="#">Apartamente</a>
                 <ul class="sub-menu">
                     <li><a href="apartament_zorilor_view.php">Apartament Zorilor View</a></li>
                     <li><a href="apartament_zorilor_cactus.php">Apartament Zorilor Cactus</a></li>
