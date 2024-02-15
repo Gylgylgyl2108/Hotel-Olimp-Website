@@ -1,19 +1,4 @@
-
 <?php
-$recaptcha_secret = '6LeS_3MpAAAAAFpMAGckDYSJbYFN3nR3nIvmJ4Fp';
-$recaptcha_response = $_POST['g-recaptcha-response'];
-
-$verify_url = "https://www.google.com/recaptcha/api/siteverify?secret={$recaptcha_secret}&response={$recaptcha_response}";
-$verify_response = file_get_contents($verify_url);
-$captcha_data = json_decode($verify_response);
-
-if ($captcha_data->success) {
-    // Process the form data
-    // Your form processing code goes here
-} else {
-    // Handle reCAPTCHA verification failure
-    echo "reCAPTCHA verification failed.";
-}
 
 
 // Set subject

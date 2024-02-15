@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html lang="ro">
-<script src="https://www.google.com/recaptcha/api.js?render=6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc"></script>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        grecaptcha.ready(function () {
-            grecaptcha.execute('6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc', { action: 'submit_form' }).then(function (token) {
-                // Your existing code
-            });
-        });
-    });
-</script>
-
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <head>
+    <?php
+    $recaptcha_secret = '6LeS_3MpAAAAAFpMAGckDYSJbYFN3nR3nIvmJ4Fp';
+    $recaptcha_response = $_POST['g-recaptcha-response'];
+    
+    $url = 'https://www.google.com/recaptcha/api/siteverify';
+    $data = [
+        'secret' => $recaptcha_secret,
+        'response' => $recaptcha_response,
+    ];
+    
+    $options = [
+        'http' => [
+            'header' => "Content-type: application/x-www-form-urlencoded\r\n",
+            'method' => 'POST',
+            'content' => http_build_query($data),
+        ],
+    ];
+    
+    $context = stream_context_create($options);
+    $result = file_get_contents($url, false, $context);
+    $result_json = json_decode($result, true);
+    
+    if ($result_json['success']) {
+        // reCAPTCHA verification passed, proceed with form processing
+    } else {
+        // reCAPTCHA verification failed, display an error message
+    }
+    ?>
 <!-- Header -->
     <?php require_once "./components/header.php" ?>
     <!-- Header end -->
@@ -70,7 +86,8 @@
                                     </div>
                                     <button type="submit" class="submit-btn radius-5 w-100"> Trimite </button>
 
-                                    <button type="submit" id="submitButton">Submit</button>
+                                    <div class="g-recaptcha" data-sitekey="6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc"></div>
+
                                 </form>
                             </div>
                         </div>
@@ -83,8 +100,8 @@
         </div>
     </section>
     <!-- Contact Area end -->
-        <!-- footer area start -->
-        <?php require_once "./components/footer.php" ?>
+    <!-- footer area start -->
+    <?php require_once "./components/footer.php" ?>
     <!-- footer area end -->
     </body>
 </html>
