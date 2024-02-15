@@ -40,7 +40,7 @@
                                 <i class="las la-thumbs-up"></i>
                             </div>
                             <div class="single-why-two-contents">
-                                <h4 class="single-why-two-contents-title"> <a href="javascript:void(0)">Rezervare simpla</a> </h4>
+                                <h4 class="single-why-two-contents-title"> <a href="#">Rezervare simpla</a> </h4>
                                 <p class="single-why-two-contents-para mt-2">Rezervati camere direct de pe site-ul nostru!</p>
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                                 <i class="las la-star"></i>
                             </div>
                             <div class="single-why-two-contents">
-                                <h4 class="single-why-two-contents-title"> <a href="javascript:void(0)">+1.000 Recenzii pozitive </a> </h4>
+                                <h4 class="single-why-two-contents-title"> <a href="#">+1.000 Recenzii pozitive </a> </h4>
                                 <p class="single-why-two-contents-para mt-2">Clientii nostri sunt mereu satisfacuti.</p>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
                                 <i class="las la-ticket-alt "></i>
                             </div>
                             <div class="single-why-two-contents">
-                                <h4 class="single-why-two-contents-title"> <a href="javascript:void(0)"> Acceptam Tichete </a> </h4>
+                                <h4 class="single-why-two-contents-title"> <a href="#"> Acceptam Tichete </a> </h4>
                                 <p class="single-why-two-contents-para mt-2">Acceptam plata cu tichete de vacanta.</p>
                             </div>
                         </div>
@@ -307,7 +307,7 @@
                 <div class="section-title-shapes"> </div>
             </div>
             <div class="row g-4 mt-4">
-                <div class="col-xl-8 col-lg-7">
+                <div class="col-12">
                     <div class="faq-wrapper">
                         <div class="faq-contents">
                             <div class="faq-item wow active open">
@@ -384,28 +384,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-4 col-lg-5">
-                    <div class="faq-question faq-question-border radius-10 sticky-top">
-                        <h3 class="faq-question-title text-center">Inca aveti intrebari?<br></br>Va rugam nu ezitati sa ne contactati!</h3>
-                        <div class="faq-question-form custom-form mat-20">
-                            <form action="#">
-                                <div class="single-input">
-                                    <label class="label-title">Nume si Prenume</label>
-                                    <input type="text" class="form--control radius-10" placeholder="Introduceti Numele">
-                                </div>
-                                <div class="single-input">
-                                    <label class="label-title">Email</label>
-                                    <input type="text" class="form--control radius-10" placeholder="Introduceti Email-ul">
-                                </div>
-                                <div class="single-input">
-                                    <label class="label-title">Mesaj</label>
-                                    <textarea name="message" class="form--control form-message radius-10" placeholder="Introduceti Mesajul Dumneavoastra..."></textarea>
-                                </div>
-                                <button class="submit-btn w-100 radius-10" type="submit"> Trimite </button>
-                            </form>
-                        </div>
-                    </div>
+                    <h3 class="faq-question-title text-center">Inca aveti intrebari?<br></br>Va rugam <a href="contact.php">nu ezitati sa ne contactati!</a></h3>
                 </div>
             </div>
         </div>

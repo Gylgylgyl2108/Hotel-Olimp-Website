@@ -43,26 +43,26 @@
                         <p class="single-para my-3 fs-20 fw-bold">Pentru apartamente rezervarile se fac prin <a href="mailto:office@hotel-olimp.ro" class="link-primary">Email</a>, sau prin Formularul de Contact de mai jos.</p>
                         <p class="single-para my-3 fs-20"><b>Va vom contacta</b> in cel mai scurt timp posibil pentru a va confirma rezervarea si a va oferi toate detaliile necesare. </p>
                             <div class="contact-contents-form custom-form">
-                            <form action="#">
+                            <form action="contact_forms/process_apartament_zorilor_cactus.php" method="post">
                                 <div class="single-flex-input mt-4">
                                     <div class="single-input mt-4">
-                                        <input type="text" class="form--control radius-5" placeholder="Prenume">
+                                        <input required name="surname" id="surname" type="text" class="form--control radius-5" placeholder="Prenume">
                                     </div>
                                     <div class="single-input mt-4">
-                                        <input type="text" class="form--control radius-5" placeholder="Nume">
+                                        <input required name="name" id="name" type="text" class="form--control radius-5" placeholder="Nume">
                                     </div>
                                 </div>
                                 <div class="single-flex-input mt-0">
                                     <div class="single-input mt-4">
-                                        <input type="text" class="form--control radius-5" placeholder="Email">
+                                        <input required name="email" id="email" type="text" class="form--control radius-5" placeholder="Email">
                                     </div>
                                     <div class="single-input mt-4">
-                                        <input type="tel" class="form--control radius-5" id="phone" placeholder="Numar de telefon">
+                                        <input required name="phone" id="phone" type="tel" class="form--control radius-5" id="phone" placeholder="Numar de telefon">
                                     </div>
                                 </div>
                                 
                                 <div class="single-input mt-4">
-                                    <textarea class="form--control form-message radius-5 custom--textarea_height" placeholder="Va rugam specificati datele in care doriti sa va cazati..."></textarea>
+                                    <textarea required name="message" id="message" class="form--control form-message radius-5 custom--textarea_height" placeholder="Va rugam specificati datele in care doriti sa va cazati..."></textarea>
                                 </div>
                                 <button type="submit" class="submit-btn radius-5 w-100 fw-bold fs-20 py-3"> Trimite </button>
                             </form>
