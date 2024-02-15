@@ -1,47 +1,57 @@
 <?php
-$subject = "Rezervare client";
-$formular = "De la formularul de contact.";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Sanitize user input to prevent security issues
+    $name = htmlspecialchars($_POST["name"]);
+    $surname = htmlspecialchars($_POST["surname"]);
+    $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
+    $phone = htmlspecialchars($_POST["phone"]);
+    $message = htmlspecialchars($_POST["message"]);
 
-$nume = $_POST["nume"];
-$prenume = $_POST["prenume"];
-$email = $_POST["email"];
-$phone = $_POST["phone"];
-$mesaj = $_POST["mesaj"];
+    // Validate input (you can add more validation as needed)
+    if (empty($name) || empty($email) || empty($message)) {
+        echo "Please fill in all fields.";
+    } else {
+        // Set recipient email address
+        $to = "petrisor.buciutaa@gmail.com";
 
-require "../vendor/autoload.php";
+        // Set subject
+        $subject = "Contact Form Submission from $name";
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
+        // Build text and HTML email parts
+        $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
+        $html_message = "<html><body>";
+        $html_message .= "<p><b>Name:</b> $name</p>";
+        $html_message .= "<p><b>Email:</b> $email</p>";
+        $html_message .= "<p><b>Message:</b> $message</p>";
+        $html_message .= "</body></html>";
 
-$mail = new PHPMailer(true);
+        // Set additional headers
+        $headers = "From: $email\r\n";
+        $headers .= "Reply-To: $email\r\n";
+        $headers .= "X-Mailer: PHP/" . phpversion();
+        $headers .= "MIME-Version: 1.0\r\n";
+        $headers .= "Content-type: multipart/alternative; boundary=\"boundary123\"";
 
-// $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+        // Build the email body with both text and HTML parts
+        $email_body = "--boundary123\r\n";
+        $email_body .= "Content-Type: text/plain; charset=\"UTF-8\"\r\n";
+        $email_body .= "Content-Transfer-Encoding: 7bit\r\n\n";
+        $email_body .= $text_message . "\r\n\n";
+        $email_body .= "--boundary123\r\n";
+        $email_body .= "Content-Type: text/html; charset=\"UTF-8\"\r\n";
+        $email_body .= "Content-Transfer-Encoding: 7bit\r\n\n";
+        $email_body .= $html_message . "\r\n\n";
+        $email_body .= "--boundary123--";
 
-$mail->isSMTP();
-$mail->SMTPAuth = true;
+        // Send email
+        $success = mail($to, $subject, $email_body, $headers);
 
-$mail->Host = "mail.hotel-olimp.ro";
-$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-$mail->Port = 465;
-
-$mail->Username = "testing@hotel-olimp.ro";
-$mail->Password = "testingtesting";
-
-$mail->setFrom($email, $nume);
-$mail->addAddress("testing@hotel-olimp.ro");
-
-$mail->isHTML(true);
-$mail->Subject = $subject;
-$mail->Body = <<<EOT
-<p style="font-size: 20px"><b>Pagina:</b> $formular<br></br></p>
-<p style="font-size: 20px"><b>Nume:</b> $nume<br></br></p>
-<p style="font-size: 20px"><b>Prenume:</b> $prenume<br></br></p>
-<p style="font-size: 20px"><b>Email:</b> $email<br></br></p>
-<p style="font-size: 20px"><b>Telefon:</b> $phone<br></br></p>
-<p style="font-size: 20px"><b>Message:</b> $mesaj<br></br></p>
-EOT;
-
-$mail->SMTPDebug = 4;
-$mail->send();
-
-header("Location: ../confirm_email.php");
+        // Check if mail was sent successfully
+        if ($success) {
+            header("Location: confirm_email.php");
+        } else {
+            echo "Oops! Something went wrong, and we couldn't send your message.";
+        }
+    }
+}
+?>

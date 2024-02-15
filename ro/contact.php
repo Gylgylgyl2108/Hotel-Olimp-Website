@@ -39,20 +39,20 @@
                             <form action="contact_forms/process_contact.php" method="post">
                                     <div class="single-flex-input mt-4">
                                         <div class="single-input mt-4">
-                                            <input type="text" name="prenume" id="prenume" class="form--control radius-5" placeholder="Prenume">
+                                            <input required type="text" name="surname" id="surname" class="form--control radius-5" placeholder="Prenume">
                                         </div>
                                         <div class="single-input mt-4">
-                                            <input type="text" name="nume" id="nume" class="form--control radius-5" placeholder="Nume">
+                                            <input required type="text" name="name" id="name" class="form--control radius-5" placeholder="Nume">
                                         </div>
                                     </div>
                                     <div class="single-input mt-4">
-                                        <input type="text" name="email" id="email" class="form--control radius-5" placeholder="Email">
+                                        <input required type="text" name="email" id="email" class="form--control radius-5" placeholder="Email">
                                     </div>
                                     <div class="single-input mt-4">
-                                        <input type="tel" name="phone" id="phone" class="form--control radius-5" id="phone" placeholder="+40">
+                                        <input required type="tel" name="phone" id="phone" class="form--control radius-5" id="phone" placeholder="+40">
                                     </div>
                                     <div class="single-input mt-4">
-                                        <textarea name="mesaj" id="mesaj" class="form--control form-message radius-5" placeholder="Mesajul dumneavoastra..."></textarea>
+                                        <textarea required name="message" id="message" class="form--control form-message radius-5" placeholder="Mesajul dumneavoastra..."></textarea>
                                     </div>
                                     <button type="submit" class="submit-btn radius-5 w-100"> Trimite </button>
                                 </form>
