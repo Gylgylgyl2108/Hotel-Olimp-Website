@@ -19,11 +19,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Build text and HTML email parts
         $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
-        $html_message = "<html><body>";
-        $html_message .= "<p><b>Name:</b> $name</p>";
-        $html_message .= "<p><b>Email:</b> $email</p>";
-        $html_message .= "<p><b>Message:</b> $message</p>";
-        $html_message .= "</body></html>";
+        $html_message = <<<EOT
+        <p><b>Name:</b> $name</p>
+        <p><b>Email:</b> $email</p>
+        <p><b>Message:</b> $message</p>
+        EOT;
 
         // Set additional headers
         $headers = "From: $email\r\n";
