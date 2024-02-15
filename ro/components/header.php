@@ -11,16 +11,16 @@
     />
     <meta
       property="og:description"
-      content="Cautati un hotel confortabil si convenabil in Cluj-Napoca? Nu este nevoie sa mai cautati! Hotelul nostru este situat pe strada Observatorului, in fermecatoarea parte de sud a orasului. Locatia noastra privilegiata ofera acces usor la numeroasele atractii din Cluj, inclusiv Gradina Botanica si Centrul Vechi. Camerele noastre sunt spatioase si bine dotate, cu toate facilitatile de care aveti nevoie pentru un sejur confortabil. Fie ca sunteti in oras pentru afaceri sau pentru placere, Hotel Olimp este alegerea perfecta pentru urmatoarea dvs. calatorie la Cluj-Napoca. Rezerva-ti sederea la noi astazi!"
+      content="Descoperiți confortul la Hotelul nostru din Cluj-Napoca, pe strada Observatorului. Camere spațioase, locație ideală pentru atracții precum Gradina Botanica. Rezervați acum pentru o ședere perfectă!"
     />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://petrizer.com/project_hotel/ro/index.php" />
+    <meta property="og:url" content="https://hotel-olimp.ro/ro/index.php" />
     <meta property="og:title" content="Hotel Olimp - Cluj Napoca" />
     <title>Hotel Olimp - Cluj Napoca</title>
 
     <!-- LANGUAGES -->
-    <link rel="alternate" hreflang="ro" href="http://127.0.0.1:5500/ro/index.php">
-    <link rel="alternate" hreflang="en" href="http://127.0.0.1:5500/en/index.php">
+    <link rel="alternate" hreflang="ro" href="https://hotel-olimp.ro/ro/index.php">
+    <link rel="alternate" hreflang="en" href="https://hotel-olimp.ro/z_en/index.html">
 
     <!-- favicon -->
     <link rel="icon" type="image/png" href="assets/img/favicon.svg" />

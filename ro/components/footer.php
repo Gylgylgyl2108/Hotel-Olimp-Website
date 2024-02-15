@@ -68,7 +68,7 @@
                       </div>
                   </div>
               </div>
-              <span class="copyright-contents-main"> © 2000-2022, All Rights Reserved by <a href="https://github.com/Titi923"> Buciuta Petrisor </a> </span>
+              <span class="copyright-contents-main"> © 2000-2022, All Rights Reserved by <a href="#"> Hotel Olimp </a> </span>
           </div>
       </div>
   </div>
