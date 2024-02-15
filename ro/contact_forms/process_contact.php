@@ -1,5 +1,8 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Set subject
+    $subject = "Contact from Hotel Website by $name";
+    
     // Sanitize user input to prevent security issues
     $name = htmlspecialchars($_POST["name"]);
     $surname = htmlspecialchars($_POST["surname"]);
@@ -10,9 +13,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validate input (you can add more validation as needed)
     // Set recipient email address
     $to = "petrisor.buciutaa@gmail.com";
-
-    // Set subject
-    $subject = "Contact from Hotel Website by $name";
 
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
