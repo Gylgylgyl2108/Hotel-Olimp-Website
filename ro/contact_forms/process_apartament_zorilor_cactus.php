@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Check if mail was sent successfully
     if ($success) {
-        header("Location: ../confirm_rezervation.php");
+        header("Location: ../confirm_reservation.php");
     } else {
         echo "<h1 style='font-size: 50px color=red'>Oops! Something went wrong, and we couldn't send your message.</h1>";
     }
