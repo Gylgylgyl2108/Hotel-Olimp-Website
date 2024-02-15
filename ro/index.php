@@ -1,4 +1,3 @@
-test
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -91,7 +90,7 @@ test
                         <div class="attraction-item">
                             <div class="single-attraction radius-20">
                                 <div class="single-attraction-thumb">
-                                    <a href="https://maps.app.goo.gl/GC9dMfpeS9YM4uuY9" target="_blank"> <img loading="lazy" src="assets/img/attraction/a1.jpg" alt="image of touristic attraction nearby"> </a>
+                                    <img loading="lazy" src="assets/img/attraction/a1.jpg" alt="image of touristic attraction nearby">
                                 </div>
                                 <div class="single-attraction-contents">
                                     <h4 class="single-attraction-contents-title text-center"> <a href="https://maps.app.goo.gl/GC9dMfpeS9YM4uuY9" target="_blank"> Turnul Croitorilor <br></br></a> </h4>
@@ -102,7 +101,7 @@ test
                         <div class="attraction-item">
                             <div class="single-attraction radius-20">
                                 <div class="single-attraction-thumb">
-                                    <a href="https://maps.app.goo.gl/oLR1jcyeBUAAH9Ne9" target="_blank"> <img loading="lazy" src="assets/img/attraction/a2.jpg" alt="image of touristic attraction nearby"> </a>
+                                    <img loading="lazy" src="assets/img/attraction/a2.jpg" alt="image of touristic attraction nearby">
                                 </div>
                                 <div class="single-attraction-contents">
                                     <h4 class="single-attraction-contents-title text-center"> <a href="https://maps.app.goo.gl/oLR1jcyeBUAAH9Ne9" target="_blank"> Palatul Bánffy <br></br> </a> </h4>
@@ -113,7 +112,7 @@ test
                         <div class="attraction-item">
                             <div class="single-attraction radius-20">
                                 <div class="single-attraction-thumb">
-                                    <a href="https://maps.app.goo.gl/34LC3drQdkGh4m1b8" target="_blank"> <img loading="lazy" src="assets/img/attraction/a3.jpg" alt="image of touristic attraction nearby"> </a>
+                                    <img loading="lazy" src="assets/img/attraction/a3.jpg" alt="image of touristic attraction nearby">
                                 </div>
                                 <div class="single-attraction-contents">
                                     <h4 class="single-attraction-contents-title text-center"> <a href="https://maps.app.goo.gl/34LC3drQdkGh4m1b8" target="_blank">Muzeul National de Istorie a Transilvaniei</a> </h4>
@@ -124,7 +123,7 @@ test
                         <div class="attraction-item">
                             <div class="single-attraction radius-20">
                                 <div class="single-attraction-thumb">
-                                    <a href="https://maps.app.goo.gl/78wJYUBVhUFAsHe49" target="_blank"> <img loading="lazy" src="assets/img/attraction/a4.jpg" alt="image of touristic attraction nearby"> </a>
+                                    <img loading="lazy" src="assets/img/attraction/a4.jpg" alt="image of touristic attraction nearby">
                                 </div>
                                 <div class="single-attraction-contents">
                                     <h4 class="single-attraction-contents-title text-center"> <a href="https://maps.app.goo.gl/78wJYUBVhUFAsHe49" target="_blank"> Casino Parcul Central <br></br></a> </h4>
@@ -135,7 +134,7 @@ test
                         <div class="attraction-item">
                             <div class="single-attraction radius-20">
                                 <div class="single-attraction-thumb">
-                                    <a href="https://maps.app.goo.gl/GyLM8GEtStwVAgMi9" target="_blank"> <img loading="lazy" src="assets/img/attraction/a5.jpg" alt="image of touristic attraction nearby"> </a>
+                                    <img loading="lazy" src="assets/img/attraction/a5.jpg" alt="image of touristic attraction nearby">
                                 </div>
                                 <div class="single-attraction-contents">
                                     <h4 class="single-attraction-contents-title text-center"> <a href="https://maps.app.goo.gl/GyLM8GEtStwVAgMi9" target="_blank"> Piata Muzeului <br></br></a> </h4>
