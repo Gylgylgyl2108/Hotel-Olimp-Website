@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Check if mail was sent successfully
         if ($success) {
-            header("Location: confirm_email.php");
+            header("Location: ../confirm_email.php");
         } else {
             echo "Oops! Something went wrong, and we couldn't send your message.";
         }
