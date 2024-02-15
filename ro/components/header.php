@@ -84,7 +84,7 @@
             </button>
             <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
                 <li>
-                    <a class="dropdown-item" href="../z_en/index.php"><img class="flag-icon me-1" src="assets/flags/gb.svg" alt=""> <span cls>Engleză</span> </a>
+                    <a class="dropdown-item" href="../z_en/index.html"><img class="flag-icon me-1" src="assets/flags/gb.svg" alt=""> <span cls>Engleză</span> </a>
                 </li>
             </ul>
         </div>

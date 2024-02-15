@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <p style="font-size: 20px"><b>Email:</b> $email<br></br></p>
         <p style="font-size: 20px"><b>Telefon:</b> $phone<br></br></p>
         <p style="font-size: 20px"><b>Camera:</b> $room<br></br></p>
-        <p style="font-size: 20px"><b>Mesajul:</b> $messsage<br></br></p>
+        <p style="font-size: 20px"><b>Mesajul:</b> $message<br></br></p>
     EOT;
 
     // Set additional headers

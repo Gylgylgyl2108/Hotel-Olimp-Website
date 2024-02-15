@@ -121,7 +121,7 @@
                                                 <span class="banner-location-single-contents-subtitle"><i class="fa-regular fa-address-card"></i> Prenume </span>
                                                 <input
                                                     required
-                                                    name="prenume" id="prenume"
+                                                    name="surname" id="surname"
                                                     type="text"
                                                     class="form--control radius-5 text-black"
                                                     placeholder="Prenume"
@@ -131,7 +131,7 @@
                                                 <span class="banner-location-single-contents-subtitle"> Nume </span>
                                                 <input
                                                     required
-                                                    name="nume" id="nume"
+                                                    name="name" id="name"
                                                     type="text"
                                                     class="form--control radius-5 text-black"
                                                     placeholder="Nume"
@@ -165,7 +165,7 @@
                                             <span class="banner-location-single-contents-subtitle"> Observatii (Optional) </span>
                                             
                                             <textarea
-                                                name="mesaj" id="mesaj"
+                                                name="message" id="message"
                                                 class="form--control form-message radius-5 custom--textarea_height text-black"
                                                 placeholder="Va rugam specificati datele in care doriti sa va cazati..."
                                             ></textarea>
