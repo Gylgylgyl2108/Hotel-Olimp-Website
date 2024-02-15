@@ -4,6 +4,11 @@
 <head>
 <!-- Header -->
     <?php require_once "./components/header.php" ?>
+    <?php
+    // Your reCAPTCHA keys
+$siteKey = '6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc';
+$secretKey = '6LeS_3MpAAAAAFpMAGckDYSJbYFN3nR3nIvmJ4Fp';
+    ?>
     <!-- Header end -->
     <!-- Breadcrumb area Starts -->
     <div class="breadcrumb-area breadcrumb-padding">
@@ -57,7 +62,8 @@
                                     </div>
                                     <button type="submit" class="submit-btn radius-5 w-100"> Trimite </button>
 
-                                    <div class="g-recaptcha" data-sitekey="6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc"></div>
+                                    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $siteKey; ?>"></script>
+                                    <button type="submit" onclick="submitForm()">Submit</button>
                                 </form>
                             </div>
                         </div>
@@ -74,10 +80,14 @@
     <?php require_once "./components/footer.php" ?>
     <!-- footer area end -->
     <!-- Replace the variables below. -->
-    <script>
-    function onSubmit(token) {
-        document.getElementById("contactForm").submit();
-    }
+    script>
+        function submitForm() {
+            grecaptcha.ready(function () {
+                grecaptcha.execute('<?php echo $siteKey; ?>', { action: 'submit' }).then(function (token) {
+                    document.getElementById('g-recaptcha-response').value = token;
+                });
+            });
+        }
     </script>
     </body>
 </html>
