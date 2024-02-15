@@ -29,7 +29,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="section-title-booking">
                         <div class="section-title-three">
-                            <h2 class="title"> De ce Hotel Olimp este un hotel special? </h2>
+                            <h2 class="title">? </h2>
                         </div>
                     </div>
                 </div>
