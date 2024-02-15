@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
     $phone = htmlspecialchars($_POST["phone"]);
     $message = htmlspecialchars($_POST["message"]);
-    $camera = htmlspecialchars($_POST["room"]);
+    $room = htmlspecialchars($_POST["room"]);
 
 
     // Validate input (you can add more validation as needed)
@@ -26,12 +26,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <p style="font-size: 20px"><b>CheckOut:</b> $checkout <br></br></p>
         <p style="font-size: 20px"><b>Oaspeti:</b> $oaspeti <br></br></p>
         <p style="font-size: 20px"><b>Copii:</b> $copii <br></br></p>
-        <p style="font-size: 20px"><b>Nume:</b> $nume<br></br></p>
-        <p style="font-size: 20px"><b>Prenume:</b> $prenume<br></br></p>
+        <p style="font-size: 20px"><b>Nume:</b> $name<br></br></p>
+        <p style="font-size: 20px"><b>Prenume:</b> $surname<br></br></p>
         <p style="font-size: 20px"><b>Email:</b> $email<br></br></p>
-        <p style="font-size: 20px"><b>Telefon:</b> $telefon<br></br></p>
-        <p style="font-size: 20px"><b>Camera:</b> $camera<br></br></p>
-        <p style="font-size: 20px"><b>Mesajul:</b> $mesaj<br></br></p>
+        <p style="font-size: 20px"><b>Telefon:</b> $phone<br></br></p>
+        <p style="font-size: 20px"><b>Camera:</b> $room<br></br></p>
+        <p style="font-size: 20px"><b>Mesajul:</b> $messsage<br></br></p>
     EOT;
 
     // Set additional headers
