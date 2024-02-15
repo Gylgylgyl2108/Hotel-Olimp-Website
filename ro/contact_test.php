@@ -4,17 +4,14 @@
 <html lang="ro">
 <head>
 <script src="https://www.google.com/recaptcha/api.js?render=6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc"></script>
-<script>
-    grecaptcha.ready(function() {
-    // do request for recaptcha token
-    // response is promise with passed token
-        grecaptcha.execute('6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc', {action:'validate_captcha'})
-                  .then(function(token) {
-            // add token value to form
-            document.getElementById('g-recaptcha-response').value = token;
+<script src="https://www.google.com/recaptcha/api.js?render=6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc"></script>
+    <script>
+        grecaptcha.ready(() => {
+            grecaptcha.execute('6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc', { action: 'contact' }).then(token => {
+              document.querySelector('#recaptchaResponse').value = token;
+            });
         });
-    });
-</script>
+    </script>
     
 <!-- Header -->
     <?php require_once "./components/header.php" ?>
@@ -71,8 +68,8 @@
                                     </div>
                                     <button type="submit" class="submit-btn radius-5 w-100"> Trimite </button>
 
-                                    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
-                                    <input type="hidden" name="action" value="validate_captcha">
+                                    <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+
                                 </form>
                             </div>
                         </div>

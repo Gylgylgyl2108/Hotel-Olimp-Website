@@ -1,28 +1,24 @@
 <?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['recaptcha_response'])) {
+    // Build POST request:
+    $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+    $recaptcha_secret = '6LeS_3MpAAAAAFpMAGckDYSJbYFN3nR3nIvmJ4Fp';
+    $recaptcha_response = $_POST['recaptcha_response'];
 
-if(isset($_POST['g-recaptcha-response'])){
-    $captcha=$_POST['g-recaptcha-response'];
-}
-else
-    $captcha = false;
+    // Make and decode POST request:
+    $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+    $recaptcha = json_decode($recaptcha);
 
-if(!$captcha){
-    //Do something with error
-}
-else{
-    $secret = '6LeS_3MpAAAAAFpMAGckDYSJbYFN3nR3nIvmJ4Fp';
-    $response = json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']));
-    if($response->{'success'}==false)
-    {
-        //Do something with error
+    // Take action based on the score returned:
+    if ($recaptcha->score >= 0.5) {
+        // Verified - send email
+    } else {
+        // Not verified - show form error
     }
 }
 
-//... The Captcha is valid you can continue with the rest of your code
-//... Add code to filter access using $response . score
-if ($response->{'success'}==true && $response->{'score'} <= 0.5) {
-    //Do something to denied access
-}
+
+
 
 
 // Set subject
