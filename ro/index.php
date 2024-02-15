@@ -315,7 +315,7 @@
                                     Cum fac o rezervare?
                                 </h3>
                                 <div class="faq-panel">
-                                    <p class="faq-para"> Foarte simplu, direct de pe site-ul hotelului!<a href="reservation.php" class="link-primary"> Da-ti click aici</a> si va vom redirectiona catre formularul de rezervare! </p>
+                                    <p class="faq-para"> Foarte simplu, direct de pe site-ul hotelului!<a href="contact.php" class="link-primary"> Da-ti click aici</a> si va vom redirectiona catre formularul de rezervare! </p>
                                 </div>
                             </div>
                             <div class="faq-item wow ">
