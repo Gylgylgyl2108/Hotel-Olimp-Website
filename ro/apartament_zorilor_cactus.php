@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang="ro">
+<script src="https://www.google.com/recaptcha/api.js?render=6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc"></script>
+<script>
+    grecaptcha.ready(() => {
+        grecaptcha.execute('6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc', { action: 'contact' }).then(token => {
+            document.querySelector('#recaptchaResponse').value = token;
+        });
+    });
+</script>
 <head>
 <!-- Header -->
     <?php require_once "./components/header.php" ?>
@@ -65,6 +73,8 @@
                                     <textarea required name="message" id="message" class="form--control form-message radius-5 custom--textarea_height" placeholder="Va rugam specificati datele in care doriti sa va cazati..."></textarea>
                                 </div>
                                 <button type="submit" class="submit-btn radius-5 w-100 fw-bold fs-20 py-3"> Trimite </button>
+
+                                <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
                             </form>
                         </div>
                     </div>

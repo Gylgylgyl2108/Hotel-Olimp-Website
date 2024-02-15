@@ -2,6 +2,14 @@
 
 <!DOCTYPE html>
 <html lang="ro">
+<script src="https://www.google.com/recaptcha/api.js?render=6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc"></script>
+<script>
+    grecaptcha.ready(() => {
+        grecaptcha.execute('6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc', { action: 'contact' }).then(token => {
+            document.querySelector('#recaptchaResponse').value = token;
+        });
+    });
+</script>
 <head>
 <!-- Header -->
     <?php require_once "./components/header.php" ?>
@@ -182,6 +190,8 @@
                                         >
                                             Confirma Rezervarea
                                         </button>
+
+                                        <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
                                     </form>
                                 </div>
                             </div>

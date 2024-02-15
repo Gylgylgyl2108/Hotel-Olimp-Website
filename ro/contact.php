@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
+<script src="https://www.google.com/recaptcha/api.js?render=6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc"></script>
+<script>
+    grecaptcha.ready(() => {
+        grecaptcha.execute('6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc', { action: 'contact' }).then(token => {
+            document.querySelector('#recaptchaResponse').value = token;
+        });
+    });
+</script>
+    
 <!-- Header -->
     <?php require_once "./components/header.php" ?>
     <!-- Header end -->
     <!-- Breadcrumb area Starts -->
     <div class="breadcrumb-area breadcrumb-padding">
         <div class="container custom-container-one">
-            <div class="row">
+            <div class="row2">
                 <div class="col-lg-12">
                     <div class="breadcrumb-contents">
                         <h4 class="breadcrumb-contents-title"> Contacteaza-ne </h4>
@@ -36,7 +45,7 @@
                             <h4 class="contact-contents-title"> Lasa-ne un mesaj aici </h4>
                             <p class="contact-contents-para mt-2">Ne bucuram sa va putem ajuta si sa va raspundem la orice intrebari aveti despre serviciile noastre la Hotel Olimp. Asteptam cu caldura mesajele dumneavoastra prin intermediul formularului de contact de mai jos.</p>
                             <div class="contact-contents-form custom-form">
-                            <form action="contact_forms/process_contact.php" method="post">
+                            <form action="contact_forms/process_contact.php" method="post" id="contactForm">
                                     <div class="single-flex-input mt-4">
                                         <div class="single-input mt-4">
                                             <input required type="text" name="surname" id="surname" class="form--control radius-5" placeholder="Prenume">
@@ -55,6 +64,8 @@
                                         <textarea required name="message" id="message" class="form--control form-message radius-5" placeholder="Mesajul dumneavoastra..."></textarea>
                                     </div>
                                     <button type="submit" class="submit-btn radius-5 w-100"> Trimite </button>
+
+                                    <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
                                 </form>
                             </div>
                         </div>
@@ -67,8 +78,8 @@
         </div>
     </section>
     <!-- Contact Area end -->
-        <!-- footer area start -->
-        <?php require_once "./components/footer.php" ?>
+    <!-- footer area start -->
+    <?php require_once "./components/footer.php" ?>
     <!-- footer area end -->
     </body>
 </html>
