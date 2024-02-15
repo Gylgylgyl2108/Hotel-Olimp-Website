@@ -27,7 +27,7 @@
                 <div class="section-title center-text">
                     <h2 class="title"> Politica de prelucrare a datelor cu caracter personal </h2>
                     <div class="section-title-shapes"> </div>
-                    <p class="section-para">Situat la 10 minute de centrului istoric si cultural al orasului.</p>
+                    <p class="section-para">Prin efectuarea rezervării pe website-ul nostru, sunteți de acord și acordați consimțământul explicit Hotelului nostru pentru prelucrarea datelor dvs. personale în conformitate cu prevederile legale aplicabile, inclusiv Constituția României și reglementările europene privind protecția datelor. Aceste informații vor fi utilizate exclusiv în scopul rezervării dvs. la hotelul nostru, respectându-se normele legale referitoare la protecția intimității și a datelor personale. Prin urmare, vă asigurăm că vom gestiona datele cu cea mai mare grijă și în conformitate cu standardele legislative, eliminând astfel orice posibilitate de conflict juridic.</p>
                 </div>
             </div>
         </div>

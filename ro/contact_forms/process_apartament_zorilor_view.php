@@ -1,6 +1,6 @@
 <?php
 // Set subject
-$subject = "Rezervare Apartament de la Website Hotel de catre $name";
+$subject = "Rezervare Apartament Zorilor View de la Website Hotel de catre $name";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     // Sanitize user input to prevent security issues
