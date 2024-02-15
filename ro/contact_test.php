@@ -2,8 +2,6 @@
 <html lang="ro">
 <script src="https://www.google.com/recaptcha/api.js"></script>
 
-
-
 <head>
 <!-- Header -->
     <?php require_once "./components/header.php" ?>
@@ -40,7 +38,7 @@
                             <h4 class="contact-contents-title"> Lasa-ne un mesaj aici </h4>
                             <p class="contact-contents-para mt-2">Ne bucuram sa va putem ajuta si sa va raspundem la orice intrebari aveti despre serviciile noastre la Hotel Olimp. Asteptam cu caldura mesajele dumneavoastra prin intermediul formularului de contact de mai jos.</p>
                             <div class="contact-contents-form custom-form">
-                            <form action="contact_forms/process_contact.php" method="post" id="demo-form">
+                            <form action="contact_forms/process_contact.php" method="post" id="contactForm">
                                     <div class="single-flex-input mt-4">
                                         <div class="single-input mt-4">
                                             <input required type="text" name="surname" id="surname" class="form--control radius-5" placeholder="Prenume">
@@ -81,7 +79,7 @@
     <!-- footer area end -->
     <script>
         function onSubmit(token) {
-            document.getElementById("contactForm").submit();
+            document.getElementById("myForm").submit();
         }
     </script>
     </body>

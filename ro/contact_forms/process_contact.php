@@ -1,7 +1,9 @@
 <?php
+
 // Set subject
 $subject = "Contact de la Website Hotel de catre $name";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
     if(isset($_POST['g-recaptcha-response'])){
         $token = $_POST['g-recaptcha-response'];
         $url = 'https://www.google.com/recaptcha/api/siteverify';
@@ -20,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $context  = stream_context_create($options);
         $result = file_get_contents($url, false, $context);
-        $response = json_decode(0);
+        $response = json_decode($result);
 
         /*
         - google response score is between 0.0 to 1.0
@@ -41,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo json_encode(array('success' => false, "msg"=>"You are a robot!", "response"=>$response));
         }
     }
-
+    
     // Sanitize user input to prevent security issues
     $name = htmlspecialchars($_POST["name"]);
     $surname = htmlspecialchars($_POST["surname"]);
