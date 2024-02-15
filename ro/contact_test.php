@@ -55,7 +55,13 @@
                                     <div class="single-input mt-4">
                                         <textarea required name="message" id="message" class="form--control form-message radius-5" placeholder="Mesajul dumneavoastra..."></textarea>
                                     </div>
-                                    <button type="submit" class="submit-btn radius-5 w-100"> Trimite </button>
+                                    <!-- <button type="submit" class="submit-btn radius-5 w-100"> Trimite </button> -->
+
+                                    <!-- Add the reCAPTCHA v3 button -->
+    <button type="button" id="recaptchaButton">Verify reCAPTCHA</button>
+    <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response" />
+
+    <button type="submit">Submit</button>
                                 </form>
                             </div>
                         </div>
@@ -71,6 +77,19 @@
     <!-- footer area start -->
     <?php require_once "./components/footer.php" ?>
     <!-- footer area end -->
+
+    <!-- Include reCAPTCHA JavaScript -->
+<script src="https://www.google.com/recaptcha/api.js?render=<?php echo $siteKey; ?>"></script>
+<script>
+    // Attach reCAPTCHA verification to the button click
+    document.getElementById('recaptchaButton').addEventListener('click', function () {
+        grecaptcha.ready(function () {
+            grecaptcha.execute('<?php echo $siteKey; ?>', { action: 'submit' }).then(function (token) {
+                document.getElementById('g-recaptcha-response').value = token;
+            });
+        });
+    });
+</script>
     </body>
 </html>
     

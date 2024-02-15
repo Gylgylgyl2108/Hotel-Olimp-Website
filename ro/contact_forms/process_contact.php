@@ -1,4 +1,47 @@
 <?php
+// Your reCAPTCHA keys
+$siteKey = '6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc';
+$secretKey = '6LeS_3MpAAAAAFpMAGckDYSJbYFN3nR3nIvmJ4Fp';
+
+// Verify reCAPTCHA response
+function verifyRecaptcha($response, $secretKey) {
+    $url = 'https://www.google.com/recaptcha/api/siteverify';
+    $data = [
+        'secret' => $secretKey,
+        'response' => $response,
+    ];
+
+    $options = [
+        'http' => [
+            'header' => "Content-type: application/x-www-form-urlencoded\r\n",
+            'method' => 'POST',
+            'content' => http_build_query($data),
+        ],
+    ];
+
+    $context = stream_context_create($options);
+    $result = file_get_contents($url, false, $context);
+    return json_decode($result, true);
+}
+
+// Process form submission
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Verify reCAPTCHA
+    $recaptchaResponse = $_POST['g-recaptcha-response'];
+    $recaptchaResult = verifyRecaptcha($recaptchaResponse, $secretKey);
+
+    if ($recaptchaResult['success']) {
+        // Process your form here
+        // ...
+        echo 'Form submission successful!';
+    } else {
+        echo 'reCAPTCHA verification failed.';
+    }
+}
+?>
+
+
+<?php
 
 
 // Set subject
