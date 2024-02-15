@@ -384,7 +384,7 @@
                             </div>
                         </div>
                     </div>
-                    <h3 class="faq-question-title text-center">Inca aveti intrebari?<br></br>Va rugam <a href="contact.php">nu ezitati sa ne contactati!</a></h3>
+                    <h3 class="faq-question-title text-center faq-more-questions">Inca aveti intrebari?<br></br>Va rugam <a class="link-primary" href="contact.php">nu ezitati sa ne contactati!</a></h3>
                 </div>
             </div>
         </div>
