@@ -19,9 +19,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Set recipient email address
     $to = "office@hotel-olimp.ro";
 
-    // Set subject
-    $subject = "Contact from Hotel Website by $name";
-
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
     $html_message = <<<EOT
