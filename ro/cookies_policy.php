@@ -27,8 +27,8 @@
                 <div class="section-title center-text">
                     <h2 class="title"> Politica privind Fisiere Cookies </h2>
                     <div class="section-title-shapes"> </div>
-                    <p class="section-para">POLITICA PRIVIND FISIERELE COOKIES
-                    Ultima actualizare: FEBRUARIE 2024
+                    <p class="section-para">
+                    POLITICA PRIVIND FISIERELE COOKIES <br></br>
                     1. INTRODUCERE
                     Politica privind fisierele cookies se aplica tuturor utilizatorilor paginii de internet
                     https://www.hotel-olimp.ro/ro/. Informatiile prezentate in continuare au ca scop informarea

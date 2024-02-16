@@ -27,8 +27,8 @@
                 <div class="section-title center-text">
                     <h2 class="title"> Politica de Confidentialitate a Hotelului </h2>
                     <div class="section-title-shapes"> </div>
-                    <p class="section-para">Politica de Confidențialitate a Hotelului
-                    Ultima actualizare: Februarie 2024
+                    <p class="section-para">
+                    Politica de Confidențialitate a Hotelului <br></br>
                     Vă mulțumim pentru alegerea de a utiliza serviciile hotelului nostru. Suntem dedicați
                     protejării confidențialității și securității informațiilor dumneavoastră personale. Această
                     politică descrie practicile noastre în colectarea, utilizarea și protejarea datelor personale

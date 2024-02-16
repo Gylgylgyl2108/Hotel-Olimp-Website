@@ -27,7 +27,8 @@
                 <div class="section-title center-text">
                     <h2 class="title"> Termeni si Conditii </h2>
                     <div class="section-title-shapes"> </div>
-                    <p class="section-para">Termeni si Conditii
+                    <p class="section-para">
+                        Termeni si Conditii<br></br>
                         Bine ati venit pe https://www.hotel-olimp.ro/ro/
                         Suntem conștienți că prelucrarea datelor cu caracter personal este un subiect extrem de
                         important, de aceea, această procedură descrie în detaliu fiecare flux din interiorul organizației, în care
