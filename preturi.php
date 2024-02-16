@@ -1,5 +1,5 @@
 <?php
-    // Preturile afisate pe website
+    // Preturile afisate pe website (inlocuiesti ce e dupa egal, altfel ii schimbi valoarea pretului)
     $camera_single = 200;
     $camera_double_deluxe = 200;
     $camera_triple = 260;
