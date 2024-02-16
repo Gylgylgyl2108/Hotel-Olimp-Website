@@ -30,7 +30,7 @@
                     <i class="las la-check"></i>
                 </div>
                 <h4 class="confirmation-contents-title"> Email-ul a fost trimis </h4>
-                <p class="confirmation-contents-para"> Vom reveni cat mai curand cu un raspuns! :) </p>
+                <p class="confirmation-contents-para"> Vom reveni cat mai curand cu un raspuns! </p>
                 <div class="btn-wrapper flex-btn mt-4 mt-lg-5">
                     <a href="index.php" class="cmn-btn btn-outline-1 color-one"> Inapoi acasa </a>
                 </div>

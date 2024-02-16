@@ -77,7 +77,7 @@
                       </div>
                   </div>
               </div>
-              <span class="copyright-contents-main"> © 2000-2022, All Rights Reserved by <a href="#"> Hotel Olimp </a> </span>
+              <span class="copyright-contents-main"> © All Rights Reserved by <a href="#"> Hotel Olimp </a> </span>
           </div>
       </div>
   </div>
@@ -89,11 +89,6 @@
         <span class="back-top"> <i class="las la-angle-up"></i> </span>
     </div>
     <!-- back to top area end -->
-
-    <!-- Mouse Cursor start -->
-    <div class="mouse-move mouse-outer"></div>
-    <div class="mouse-move mouse-inner"></div>
-    <!-- Mouse Cursor Ends -->
 
     <!-- jquery -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>

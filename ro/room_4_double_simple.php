@@ -68,10 +68,6 @@
                                             <span> <i class="las la-receipt"></i> </span>
                                             <p class="hotel-view-contents-icon-title flex-fill"> Receptie </p>
                                         </div>
-                                        <div class="hotel-view-contents-icon d-flex gap-1">
-                                            <span> <i class="las la-dumbbell"></i> </span>
-                                            <p class="hotel-view-contents-icon-title flex-fill"> Sala Fitness </p>
-                                        </div>
                                     </div>
                                 </div>
                                 <div class="hotel-view-contents-bottom">

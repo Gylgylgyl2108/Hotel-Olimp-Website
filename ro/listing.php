@@ -55,9 +55,6 @@
                                                 <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Servicii Curatenie">
                                                     <i class="las la-quidditch"></i>
                                                 </div>
-                                                <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Sala Fitness">
-                                                    <i class="las la-dumbbell"></i>
-                                                </div>
                                                 <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Receptie">
                                                     <i class="las la-receipt"></i>
                                                 </div>
@@ -95,9 +92,6 @@
                                                 </div>
                                                 <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Servicii Curatenie">
                                                     <i class="las la-quidditch"></i>
-                                                </div>
-                                                <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Sala Fitness">
-                                                    <i class="las la-dumbbell"></i>
                                                 </div>
                                                 <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Receptie">
                                                     <i class="las la-receipt"></i>
@@ -137,9 +131,6 @@
                                                 <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Servicii Curatenie">
                                                     <i class="las la-quidditch"></i>
                                                 </div>
-                                                <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Sala Fitness">
-                                                    <i class="las la-dumbbell"></i>
-                                                </div>
                                                 <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Receptie">
                                                     <i class="las la-receipt"></i>
                                                 </div>
@@ -177,9 +168,6 @@
                                                 </div>
                                                 <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Servicii Curatenie">
                                                     <i class="las la-quidditch"></i>
-                                                </div>
-                                                <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Sala Fitness">
-                                                    <i class="las la-dumbbell"></i>
                                                 </div>
                                                 <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Receptie">
                                                     <i class="las la-receipt"></i>
@@ -219,9 +207,6 @@
                                                 <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Servicii Curatenie">
                                                     <i class="las la-quidditch"></i>
                                                 </div>
-                                                <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Sala Fitness">
-                                                    <i class="las la-dumbbell"></i>
-                                                </div>
                                                 <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Receptie">
                                                     <i class="las la-receipt"></i>
                                                 </div>
@@ -259,9 +244,6 @@
                                                 </div>
                                                 <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Servicii Curatenie">
                                                     <i class="las la-quidditch"></i>
-                                                </div>
-                                                <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Sala Fitness">
-                                                    <i class="las la-dumbbell"></i>
                                                 </div>
                                                 <div class="hotel-view-contents-icon myTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Receptie">
                                                     <i class="las la-receipt"></i>

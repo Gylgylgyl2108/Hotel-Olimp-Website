@@ -34,8 +34,8 @@
                     <p class="section-para">De asemenea Hotel Olimp creeaza <strong>spatiul ideal pentru turismul medical</strong> aflandu-se <strong>in apropierea Spitalului Clinic De Recuperare</strong> ,  si <strong>Centrului Medical Transilvania.</strong></p>
                     <ul class="list-group my-4 fs-18 ">
                         <li class="list-group-item mt-4 bg--main-color text-white text-capitalize fw-bold"> Cele mai apreciate facilitati </li>
-                        <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Mic-dejun disponibil: 8.00AM - 10.00AM</li>
-                        <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Acces WI-FI gratuit </li>
+                        <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Mic-dejun disponibil: <?php echo $mic_dejun ?></li>
+                        <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Acces WI-FI gratuit - Internet de mare viteza</li>
                         <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Parcare gratuita</li>
                         <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Sala de Fitness <b>( se pot percepe taxe suplimentare )</b></li>
                         <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Barbar store & Crispy store</li>
@@ -48,28 +48,6 @@
         </div>
     </section>
     <!-- About Area end -->
-    <!-- Team Area Starts -->
-    <section class="team-area pab-50">
-        <div class="container">
-            <div class="section-title center-text">
-                <h2 class="title"> Echipa Hotel Olimp </h2>
-                <div class="section-title-line"></div>
-            </div>
-            <div class="row g-5 mt-0 flex justify-content-center">
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="single-team center-text">
-                        <div class="single-team-thumb">
-                            <a href="javascript:void(0)"> <img src="assets/img/logo_full.svg" alt="img"> </a>
-                        </div>
-                        <!-- <div class="single-team-contents">
-                            <h4 class="single-team-contents-title"> Echipa Hotel Olimp </h4>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Team area ends -->
     <!-- Partners area start -->
     <section class="partner-area pat-50 pab-100">
         <div class="container">
