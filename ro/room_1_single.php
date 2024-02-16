@@ -29,14 +29,18 @@
                 <div class="col-xl-12 col-lg-7">
                     <div class="details-left-wrapper">
                         <div class="details-contents bg-white radius-10">
+                            <!-- Aici sunt pozele -->
                             <div class="details-contents-header">
+                                <!-- Poza mare principala -->
                                 <div class="single-attraction-two-thumb flex-center">
                                     <a href="assets/images_hotel/rooms/Room_1_Single/room_single_1.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_1_Single/room_single_1-main.jpg" alt="hotel room image"> </a>
                                 </div>
+                                <!-- Alea lalte 2 poze mici -->
                                 <div class="details-contents-header-flex">
                                     <div class="single-attraction-two-thumb">
                                         <a href="assets/images_hotel/rooms/Room_1_Single/room_single_2.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_1_Single/room_single_2-main.jpg" alt="hotel room image"> </a>
                                     </div>
+                                    <!-- O poza -->
                                     <div class="single-attraction-two-thumb">
                                         <a href="assets/images_hotel/rooms/Room_1_Single/room_single_3.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_1_Single/room_single_3-main.jpg" alt="hotel room image"> </a>
                                     </div>
