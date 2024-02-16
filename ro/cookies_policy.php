@@ -27,35 +27,6 @@
                 <div class="section-title center-text">
                     <h2 class="title"> Politica privind Fisiere Cookies </h2>
                     <div class="section-title-shapes"> </div>
-                    <p class="section-para"><!DOCTYPE html>
-<html lang="ro">
-<head>
-<!-- Header -->
-    <?php require_once "./components/header.php" ?>
-    <!-- Header end -->
-    <!-- Breadcrumb area Starts -->
-    <div class="breadcrumb-area breadcrumb-padding">
-        <div class="container custom-container-one">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb-contents">
-                        <h4 class="breadcrumb-contents-title"> Termeni si Conditii </h4>
-                        <ul class="breadcrumb-contents-list list-style-none">
-                            <li class="breadcrumb-contents-list-item"> <a href="index.php" class="breadcrumb-contents-list-item-link"> Acasa </a> </li>
-                            <li class="breadcrumb-contents-list-item"> Termeni si Conditii </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Breadcrumb area end -->
-    <section class="about-area pat-50 pab-50">
-        <div class="container">
-            <div class="row">
-                <div class="section-title center-text">
-                    <h2 class="title"> Politica privind Fisiere Cookies </h2>
-                    <div class="section-title-shapes"> </div>
                     <p class="section-para">POLITICA PRIVIND FISIERELE COOKIES
                     Ultima actualizare: FEBRUARIE 2024
                     1. INTRODUCERE
@@ -178,16 +149,6 @@
                     Pentru orice intrebari suplimentare cu privire la modul in sunt utilizate cookie-urile prin intermediul
                     acestei pagini de internet, precum si pentru alte solicitari referitoare la protectia datelor dumneavoastra
                     cu caracter personale, va rugam sa va adresati catre: office@hotel-olimp.ro.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-        <!-- footer area start -->
-        <?php require_once "./components/footer.php" ?>
-    <!-- footer area end -->
-    </body>
-</html>
-    </p>
                 </div>
             </div>
         </div>
