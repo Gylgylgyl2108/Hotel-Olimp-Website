@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     $email_body .= "--boundary123--";
 
     // Check if mail was sent successfully
-    if ($success && $recaptcha->score >= 0.5) {
+    if ($recaptcha->score >= 0.5) {
         // Send email
         $success = mail($to, $subject, $email_body, $headers);
 
