@@ -374,11 +374,12 @@
                                 <div class="faq-panel">
                                     <p class="faq-para">Printre <b>tipurile de camera</b> de la Hotel Olimp se numara:</p>
                                     <ul class="mb-0">
-                                        <li>Single</li>
-                                        <li>Tripla</li>
-                                        <li>Suita</li>
-                                        <li>Twin</li>
-                                        <li>Dubla</li>
+                                        <li>Camera Single</li>
+                                        <li>Camera Twin</li>
+                                        <li>Camera Dubla Simpla</li>
+                                        <li>Camera Dubla Deluxe</li>
+                                        <li>Camera Tripla</li>
+                                        <li>Camera Camera Qvadrupla (4 persoane)</li>
                                     </ul>
                                 </div>
                             </div>
