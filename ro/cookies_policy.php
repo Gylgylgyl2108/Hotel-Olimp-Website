@@ -33,7 +33,7 @@
                     Politica privind fisierele cookies se aplica tuturor utilizatorilor paginii de internet
                     https://www.hotel-olimp.ro/ro/. Informatiile prezentate in continuare au ca scop informarea
                     utilizatorilor acestei pagini de internet cu privire la plasarea, utilizarea si administrarea cookie-urilor de
-                    catre VICEN SRL  in contextul navigarii utilizatorilor pe aceasta pagina de internet.
+                    catre VICEN SRL  in contextul navigarii utilizatorilor pe aceasta pagina de internet.<br></br>
                     2. CE SUNT COOKIE-URILE?
                     Folosim termenul „cookie”-uri pentru a ne referi la modulele cookie si la tehnologiile similare
                     prin intermediul carora pot fi colectate informatii in mod automat.
@@ -46,49 +46,49 @@
                     ramanand „pasive”, in sensul ca nu contin programe software, virusi sau spyware si nu vor accesa
                     informatiile de pe hard driverul utilizatorului pe al carui echipament au fost instalate.
                     Un cookie este format din doua parti:
-                     numele cookie-ului
-                     continutul sau valoarea cookie-ului.
+                    numele cookie-ului
+                    continutul sau valoarea cookie-ului.
                     Din punct de vedere tehnic, doar web-serverul care a trimis cookie-ul il poate accesa din nou in
-                    momentul in care un utilizator se intoarce pe pagina de internet asociata web-serverului respectiv.
+                    momentul in care un utilizator se intoarce pe pagina de internet asociata web-serverului respectiv.<br></br>
                     3. PENTRU CE SCOPURI SUNT UTILIZATE COOKIE-URILE PRIN INTERMEDIUL ACESTEI PAGINI DE
                     INTERNET
                     Cookie-urile sunt utilizate pentru a furniza utilizatorilor acestei pagini de internet o experienta
                     mai buna de navigare si servicii adaptate nevoilor si interesului fiecarui utilizator in parte si anume
                     pentru:
-                     imbunatatirea utilizarii acestei pagini de internet, inclusiv prin identificarea oricaror erori care
+                    imbunatatirea utilizarii acestei pagini de internet, inclusiv prin identificarea oricaror erori care
                     apar in timpul vizitarii/utilizarii acesteia de catre utilizatori;
-                     furnizarea de statistici anonime cu privire la modul in care este utilizata aceasta pagina de
+                    furnizarea de statistici anonime cu privire la modul in care este utilizata aceasta pagina de
                     internet catre VICEN SRL, in calitate de detinator al acestei pagini de internet;
-                     anticiparea unor eventuale bunuri care vor fi in viitor puse la dispozitia utilizatorilor prin
-                    intermediul acestei pagini de internet, in functie de serviciile / produsele accesate.
+                    anticiparea unor eventuale bunuri care vor fi in viitor puse la dispozitia utilizatorilor prin
+                    intermediul acestei pagini de internet, in functie de serviciile / produsele accesate.<br></br>
 
                     Pe baza feedback-ului transmis prin cookie-uri in legatura cu modul in care se utilizeaza aceasta
                     pagina de internet, VICEN SRL poate adopta masuri pentru ca aceasta pagina de internet sa fie mai
                     eficienta si mai accesibila pentru utilizatori.
                     Astfel, utilizarea cookie-urilor permite memorarea anumitor setari/preferinte stabilite de catre
                     utilizatorii acestei pagini de internet, precum:
-                     limba in care este vizualizata o pagina de internet;
-                     moneda in care se exprima anumite preturi sau tarife;
-                     facilitarea accesului in contul utilizatorilor;
-                     postarea comentariilor pe site.
+                    limba in care este vizualizata o pagina de internet;
+                    moneda in care se exprima anumite preturi sau tarife;
+                    facilitarea accesului in contul utilizatorilor;
+                    postarea comentariilor pe site.<br></br>
                     4. CARE ESTE DURATA DE VIATA A COOKIE-URILOR?
                     Durata de viata a cookie-urilor poate varia semnificativ, depinzand de scopul pentru care este
                     plasat. Exista urmatoarele categorii de cookie-uri care determina si durata de viata a acestora:
-                     Cookie-uri de sesiune – Un „cookie de sesiune” este un cookie care este sters automat cand
+                    Cookie-uri de sesiune – Un „cookie de sesiune” este un cookie care este sters automat cand
                     utilizatorul isi inchide browserul.
-                     Cookie-uri persistente sau fixe – Un „cookie persistent” sau „fix” este un cookie care ramane
+                    Cookie-uri persistente sau fixe – Un „cookie persistent” sau „fix” este un cookie care ramane
                     stocat in terminalul utilizatorului pana cand atinge o anumita data de expirare (care poate fi in
                     cateva minute, zile sau cativa ani in viitor) sau pana la stegerea acestuia de catre utilizator in
-                    orice moment prin intermediul setarilor browserului.
+                    orice moment prin intermediul setarilor browserului.<br></br>
                     5. CE SUNT COOKIE-URILE PLASATE DE TERTI? 
                     Anumite sectiuni de continut de pe pagina de internet pot fi furnizate prin intermediul unor
                     terti, adica nu de catre VICEN SRL, caz in care aceste cookie-uri sunt denumite cookie-uri plasate de terti
                     („third party cookie-uri”).
                     Tertii furnizori ai cookie-urilor trebuie sa respecte, de asemenea, regulile in materie de protectie
                     a datelor si Politica de Confidentialitate.
-                    Aceste cookie-uri pot proveni de la urmatorii terti: Google, Google Analytics, Facebook. 
+                    Aceste cookie-uri pot proveni de la urmatorii terti: Google, Google Analytics, Facebook.<br></br>
                     6. Ce cookie-uri sunt folosite prin intermediul acestei pagini de internet:
-                    Prin utilizarea/vizitarea paginii de internet pot fi plasate urmatoarele cookie-uri: 
+                    Prin utilizarea/vizitarea paginii de internet pot fi plasate urmatoarele cookie-uri:
                     a. Cookie-uri de performanta a paginii de internet;
                     b. Cookie-uri de analiza a utilizatorilor;
                     c. Cookie-uri pentru geotargetting;
@@ -117,34 +117,34 @@
                     Aceste cookie-uri permit aflarea vizualizarii de catre un utilizator a unei reclame online, tipul
                     acesteia si timpul scurs de la momentul vizualizarii respectviului mesaj publicitar. Ca atare, astfel de
                     cookie-uri sunt folosite pentru targetarea publicitatii online. Aceste cookie-uri sunt anonime, stocand
-                    informatii despre contentul vizualizat, nu si despre utilizatori.
+                    informatii despre contentul vizualizat, nu si despre utilizatori.<br></br>
                     7. CE TIP DE INFORMATII SUNT STOCATE SI ACCESATE PRIN INTERMEDIUL COOKIE-URILOR?
                     Cookie-urile pastreaza informatii intr-un fisier text de mici dimensiuni care permit recunoasterea
                     browserului. Aceasta pagina de internet recunoaste browserul pana cand cookie-urile expira sau sunt
-                    sterse.
+                    sterse.<br></br>
                     8. PARTICULARIZAREA SETARILE BROWSERULUI IN CEEA CE PRIVESTE COOKIE-URILE
                     In cazul in care utilizarea cookie-urilor nu este deranjanta iar calculatorul sau echipamentul
                     tehnic utilizat pentru navigarea pe aceasta pagina de internet este folosit doar de catre dumneavoastra,
                     pot fi setate termene lungi de expirare pentru stocrarea istoricului de navigare.
                     In cazul in care calculatorul sau echipamentul tehnic utilizat pentru navigarea pe aceasta pagina de
                     internet este folosit de mai multe persoane, poate fi luata in considerare setarea pentru stergerea
-                    datelor individuale de navigare de fiecare data cand browserul este inchis.
+                    datelor individuale de navigare de fiecare data cand browserul este inchis.<br></br>
                     9. CUM POT FI OPRITE COOKIE-URILE? 
                     Dezactivarea si refuzul de a primi cookie-uri pot face aceasta pagina de internet dificil de vizitat,
                     atragand dupa sine limitari ale posibilitatilor de utilizare ale acesteia.
                     Utilizatorii isi pot configura browserul sa respinga fisierele cookie sau sa fie acceptate cookie-uri
                     de la o pagina de internet anume.
                     Toate browserele moderne ofera posibilitatea de a schimba setarile cookie-urilor. Aceste setari
-                    pot fi accesate, ca regula, in sectiunea „optiuni” sau in meniul de „preferinte” al browserului tau.
+                    pot fi accesate, ca regula, in sectiunea „optiuni” sau in meniul de „preferinte” al browserului tau.<br></br>
 
                     Totusi, refuzarea sau dezactivarea cookie-urilor nu inseamna ca nu veti mai primi publicitate
                     online – ci doar ca aceasta nu va fi adaptata preferintelor si interesele dumneavoastra, evidentiate prin
                     comportamentul de navigare.
                     Pentru a intelege aceste setari, urmatoarele linkuri pot fi folositoare:
-                     Cookie settings in Internet Explorer
-                     Cookie settings in Firefox
-                     Cookie settings in Chrome
-                     Cookie settings in Safari
+                    Cookie settings in Internet Explorer
+                    Cookie settings in Firefox
+                    Cookie settings in Chrome
+                    Cookie settings in Safari
 
                     Pentru orice intrebari suplimentare cu privire la modul in sunt utilizate cookie-urile prin intermediul
                     acestei pagini de internet, precum si pentru alte solicitari referitoare la protectia datelor dumneavoastra

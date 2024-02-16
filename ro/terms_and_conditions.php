@@ -50,7 +50,7 @@
                         solicităm doar informațiile de care avem nevoie și le stocăm pentru a îmbunătăți experiența
                         dumneavoastră.<br></br>
                         Vă rugăm să citiți cu atenție termenii și condițiile înainte de a utiliza acest site.<br></br>
-                         TERMENI ȘI CONDIȚII DE UTILIZARE
+                        TERMENI ȘI CONDIȚII DE UTILIZARE
                         Site-ul https://www.hotel-olimp.ro/ro/ este proprietatea VICEN SRL, CUI RO16144568, Nr.
                         Reg. Com. J12/546/2004, denumită în continuare VICEN SRL.<br></br>
                         Accesarea, vizitarea, folosirea sau cumpărarea produselor/serviciilor/pachetelor prezentate pe site-ul
@@ -65,7 +65,7 @@
                         dreptul de a corecta eventuale omisiuni sau erori în afișare care pot apărea în urma unor greșeli de
                         dactilografiere, lipsă de acuratețe sau erori ale produselor software, fără a anunța în prealabil. Aceste
                         erori nu obligă VICEN SRL la nicio acțiune.<br></br>
-                         DREPTURI DE AUTOR
+                        DREPTURI DE AUTOR
 
                         Conținutul și designul site-ului https://www.hotel-olimp.ro/ro/ sunt proprietatea VICEN SRL și
                         sunt protejate conform Legii drepturilor de autor și legilor privind dreptul de proprietate intelectuală și
@@ -80,7 +80,7 @@
                         urmare a utilizării sau întreruperii utilizării ori a lipsei de regularitate a informațiilor și serviciilor
                         furnizate pe acest site. VICEN SRL nu garantează acuratețea, corectitudinea sau caracterul actual al
                         informațiilor furnizate.<br></br>
-                         COMENZI SI CERERI PENTRU OFERTE DE PRET
+                        COMENZI SI CERERI PENTRU OFERTE DE PRET
                         Comenzile sau cererile pentru oferte de preț pot fi făcute doar utilizând formularul de contact
                         de pe acest site. Utilizatorul are obligația de a furniza date corecte și cât mai concrete cu privire la
                         proiectul dorit. VICEN SRL nu poate fi tras la răspundere sub nicio formă pentru neplăceri cauzate de
@@ -88,14 +88,14 @@
                         consideră o cerere sau o comandă ca fiind incompletă sau incorectă, poate cere detalii suplimentare
                         utilizatorului folosind adresa de e-mail sau numărul de telefon de contact furnizat de acesta sau poate
                         șterge cererea fără nicio notificare a utilizatorului.<br></br>
-                         MODUL DE SOLUTIONARE AL LITIGIILOR
+                        MODUL DE SOLUTIONARE AL LITIGIILOR
                         Soluționarea litigiilor se poate face pe cale amiabilă sau prin intermediul instanțelor judecătorești
                         competente sau prin intermediul unor mediatori. Comisia Europeană a implementat o platforma de
                         solutionare online a litigiilor disponibila aici.<br></br>
-                         NOTIFICARI SI ANUNTURI
+                        NOTIFICARI SI ANUNTURI
                         VICEN SRL își rezervă dreptul de a trimite notificări privind serviciile oferite, precum și anunțuri
                         din partea unor terți, atunci când acestea pot fi în folosul utilizatorilor.<br></br>
-                         DISPOZITII FINALE
+                        DISPOZITII FINALE
                         Toți utilizatorii acestui site fac subiectul acestor termeni și condiții, astfel încât accesarea
                         acestuia presupune acceptarea și conformarea la termenii și condițiile prevăzute în acest document.
                         Scopul colectării datelor este furnizarea serviciilor conform ofertei curente. Orice persoană are dreptul
@@ -115,20 +115,20 @@
                         Informații Colectate
                         Pentru a vă oferi serviciile noastre hoteliere, colectăm următoarele categorii de
                         informații:
-                         Informații personale: nume, adresă, e-mail, număr de telefon și alte detalii de
+                        Informații personale: nume, adresă, e-mail, număr de telefon și alte detalii de
                         contact, necesare pentru crearea unui cont sau efectuarea unei rezervări.<br></br>
-                         Detalii rezervare: informații despre preferințele dvs. de cazare, inclusiv datele
+                        Detalii rezervare: informații despre preferințele dvs. de cazare, inclusiv datele
                         rezervărilor, solicitările speciale și feedback-ul privind șederea la hotel.<br></br>
-                         Informații de utilizare: date despre cum interacționați cu site-ul nostru, precum
+                        Informații de utilizare: date despre cum interacționați cu site-ul nostru, precum
                         paginile accesate și serviciile utilizate, pentru a îmbunătăți experiența dvs. pe
                         site.<br></br>
                         Utilizarea Informațiilor
                         Informațiile colectate sunt utilizate în următoarele scopuri:
-                         Pentru a procesa și gestiona rezervările: confirmarea detaliilor rezervării,
+                        Pentru a procesa și gestiona rezervările: confirmarea detaliilor rezervării,
                         oferirea de asistență și comunicarea modificărilor.<br></br>
-                         Pentru îmbunătățirea serviciilor: analiza utilizării site-ului și feedback-ul
+                        Pentru îmbunătățirea serviciilor: analiza utilizării site-ului și feedback-ul
                         clienților pentru a îmbunătăți oferta și serviciile hoteliere.<br></br>
-                         Comunicare: pentru a vă trimite informații relevante legate de rezervarea dvs. și
+                        Comunicare: pentru a vă trimite informații relevante legate de rezervarea dvs. și
                         pentru a oferi recomandări personalizate.<br></br>
                         Divulgarea Informațiilor
                         Informațiile personale nu vor fi dezvăluite terțelor părți fără consimțământul dvs. explicit,
