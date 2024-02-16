@@ -44,7 +44,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<?php require_once "preturi.php" ?>
+<?php require_once "../preturi.php" ?>
 <!-- Menu area Starts -->
 <nav class="navbar navbar-area navbar-border navbar-padding navbar-expand-lg    ">
   <div class="container custom-container-one nav-container">

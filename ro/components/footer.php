@@ -23,6 +23,15 @@
                   <div class="footer-widget widget">
                       <div class="footer-widget-nav mt-5">
                           <ul class="footer-widget-nav-list list-style-none">
+                            <li class="footer-widget-nav-list-item">
+                                  <a href="privacy_policy.php" class="footer-widget-nav-list-link"> Politica de Confidentialitate </a>
+                              </li>
+                              <li class="footer-widget-nav-list-item">
+                                  <a href="terms_and_conditions.php" class="footer-widget-nav-list-link"> Termeni si Conditii </a>
+                              </li>
+                              <li class="footer-widget-nav-list-item">
+                                  <a href="cookies_policy.php" class="footer-widget-nav-list-link"> Politica privind Cookies </a>
+                              </li>
                               <li class="footer-widget-nav-list-item">
                                   <a href="about.php" class="footer-widget-nav-list-link"> Despre Noi </a>
                               </li>
