@@ -181,7 +181,7 @@
                                         <div class="checkbox-wrap mt-4">
                                             <div class="checkbox-inline">
                                                 <input class="check-input" type="checkbox" id="agree" required>
-                                                <label class="checkbox-label" for="agree"> Sunt de acord cu <a href="privacy.php">Termenii si Conditiile si Prelucrarea datelor cu caracter personal.</a> </label>
+                                                <label class="checkbox-label" for="agree"> Sunt de acord cu <a href="terms_and_conditions.php">Termenii si Conditiile</a>, <a href="privacy_policy.php">Prelucrarea datelor cu caracter personal</a> si <a href="cookies_policy.php">cookies.</a> </label>
                                             </div>
                                         </div>
                                         <button
