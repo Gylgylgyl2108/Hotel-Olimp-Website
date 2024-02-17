@@ -52,10 +52,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     $email_body .= "--boundary123--";
 
     // Check if mail was sent successfully
-    if ($recaptcha->score >= 0.5) {
+    if ($recaptcha->score >= 0.5 && $success) {
         // Send email
         $success = mail($to, $subject, $email_body, $headers);
-
+        
         header("Location: ../confirm_email.php");
     } else {
         echo "<h1 style='font-size: 50px; color:red'>Oops! Something went wrong, and we couldn't send your message.</h1>";
