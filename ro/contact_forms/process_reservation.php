@@ -68,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     if ($success && $recaptcha->score >= 0.5) {
         header("Location: ../confirm_reservation.php");
     } else {
-        echo "<h1 style='font-size: 50px color=red'>Oops! Something went wrong, and we couldn't send your message.</h1>";
+        header("Location: ../error.php");
     }
 }
 ?>

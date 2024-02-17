@@ -1,12 +1,10 @@
 <?php
-// Set subject
-$subject = "Rezervare Apartament Zorilor View de la Website Hotel de catre $name";
 if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])) {
     // Build POST request:
     $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
     $recaptcha_secret = '6LeS_3MpAAAAAFpMAGckDYSJbYFN3nR3nIvmJ4Fp';
     $recaptcha_response = $_POST['recaptcha_response'];
-
+    
     // Make and decode POST request:
     $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
     $recaptcha = json_decode($recaptcha);
@@ -17,7 +15,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
     $phone = htmlspecialchars($_POST["phone"]);
     $message = htmlspecialchars($_POST["message"]);
-
+    
+    // Set subject
+    $subject = "Rezervare Apartament Zorilor View de la Website Hotel de catre $name";
+    
     // Validate input (you can add more validation as needed)
     // Set recipient email address
     $to = "office@hotel-olimp.ro";
@@ -57,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     if ($success && $recaptcha->score >= 0.5) {
         header("Location: ../confirm_reservation.php");
     } else {
-        echo "<h1 style='font-size: 50px color=red'>Oops! Something went wrong, and we couldn't send your message.</h1>";
+        header("Location: ../error.php");
     }
 }
 ?>
