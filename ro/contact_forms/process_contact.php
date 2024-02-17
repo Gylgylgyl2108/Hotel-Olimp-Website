@@ -1,15 +1,8 @@
 <?php
 // Set subject
 $subject = "Contact de la Website Hotel de catre $name";
-if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])) {
-    // Build POST request:
-    $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-    $recaptcha_secret = '6LeS_3MpAAAAAFpMAGckDYSJbYFN3nR3nIvmJ4Fp';
-    $recaptcha_response = $_POST['recaptcha_response'];
-
-    // Make and decode POST request:
-    $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
-    $recaptcha = json_decode($recaptcha);
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    
     
     // Sanitize user input to prevent security issues
     $name = htmlspecialchars($_POST["name"]);
@@ -51,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     $email_body .= "--boundary123--";
 
     // Check if mail was sent successfully
-    if ($recaptcha->score >= 0.5) {
+    if ($success) {
         // Send email
         $success = mail($to, $subject, $email_body, $headers);
 
