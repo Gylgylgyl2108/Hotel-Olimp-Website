@@ -300,7 +300,7 @@
     </section>
     <!-- shots area end -->
     <!-- Question area starts -->
-    <section class="question-area pat-50 pab-50">
+    <section class="question-area pat-50 pab-0">
         <div class="container">
             <div class="section-title center-text">
                 <h2 class="title">Intrebari puse frecvent</h2>
