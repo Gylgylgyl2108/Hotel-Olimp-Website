@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ro">
-<head>co
+<head>
     
 <!-- Header -->
     <?php require_once "./components/header.php" ?>

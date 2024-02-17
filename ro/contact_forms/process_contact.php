@@ -1,5 +1,14 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST" ) {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && (!empty($_POST['recaptcha_response']))) {
+    // Build POST request:
+    $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+    $recaptcha_secret = '6LeS_3MpAAAAAFpMAGckDYSJbYFN3nR3nIvmJ4Fp';
+    $recaptcha_response = $_POST['recaptcha_response'];
+    
+    // Make and decode POST request:
+    $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+    $recaptcha = json_decode($recaptcha);
+    
     // Sanitize user input to prevent security issues
     $name = htmlspecialchars($_POST["name"]);
     $surname = htmlspecialchars($_POST["surname"]);
@@ -41,11 +50,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" ) {
     $email_body .= $html_message . "\r\n\n";
     $email_body .= "--boundary123--";
 
-    // Send email
-    $success = mail($to, $subject, $email_body, $headers);
-    
     // Check if mail was sent successfully
-    if ($success) {
+    if ($recaptcha->score >= 0.5) {
+        // Send email
+        $success = mail($to, $subject, $email_body, $headers);
+        
         header("Location: ../confirm_email.php");
     } else {
         echo "<h1 style='font-size: 50px; color:red'>Oops! Something went wrong, and we couldn't send your message.</h1>";
