@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="ro">
-<head>
-<script src="https://www.google.com/recaptcha/api.js?render=6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc"></script>
-<script>
-    grecaptcha.ready(() => {
-        grecaptcha.execute('6LeS_3MpAAAAAJFGCoV3kkAyT3eoKDA3fJnZypMc', { action: 'contact' }).then(token => {
-            document.querySelector('#recaptchaResponse').value = token;
-        });
-    });
-</script>
+<head>co
     
 <!-- Header -->
     <?php require_once "./components/header.php" ?>
@@ -65,7 +57,6 @@
                                     </div>
                                     <button type="submit" class="submit-btn radius-5 w-100"> Trimite </button>
 
-                                    <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
                                 </form>
                             </div>
                         </div>
