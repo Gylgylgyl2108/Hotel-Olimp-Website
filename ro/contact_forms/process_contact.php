@@ -57,7 +57,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
 
         header("Location: ../confirm_email.php");
     } else {
-        echo "<h1 style='font-size: 50px color=red'>Oops! Something went wrong, and we couldn't send your message.</h1>";
+        echo "<h1 style='font-size: 50px; color:red'>Oops! Something went wrong, and we couldn't send your message.</h1>";
+        echo "<h1 style='font-size: 50px; color:red'>Try contact us at <a href='mailto:office@hotel-olimp.ro'>office@hotel-olimp.ro</a></h1>";
     }
 }
 ?>
