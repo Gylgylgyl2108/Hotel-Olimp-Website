@@ -53,12 +53,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" ) {
     $email_body .= $html_message . "\r\n\n";
     $email_body .= "--boundary123--";
 
+    $success = mail($to, $subject, $email_body, $headers);
+    
     // Check if mail was sent successfully
-    if ($recaptcha->score >= 0.5) {
-        // Send email
-        $success = mail($to, $subject, $email_body, $headers);
+    if ($success && $recaptcha->score >= 0.5) {
         
         header("Location: ../confirm_email.php");
+        // Send email
     } else {
         echo "<h1 style='font-size: 50px; color:red'>Oops! Something went wrong, and we couldn't send your message.</h1>";
         echo "<h1 style='font-size: 50px; color:red'>Try contact us at <a href='mailto:office@hotel-olimp.ro'>office@hotel-olimp.ro</a></h1>";
