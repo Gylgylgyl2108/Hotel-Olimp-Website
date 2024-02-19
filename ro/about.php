@@ -29,7 +29,7 @@
                     <h2 class="title"> Despre Hotel Olimp </h2>
                     <div class="section-title-shapes"> </div>
                     <p class="section-para"><strong>Situat la 10 minute de centrului istoric si cultural al orasului.</strong></p>
-                    <p class="section-para">Hotel Olimp va sta la dispozitie cu <strong>25 de camere de cazare</strong> fiecare avand un <strong>design unic.</strong></p>
+                    <p class="section-para">Hotel Olimp va sta la dispozitie cu <strong>30 de camere de cazare</strong></p>
                     <p class="section-para">Datorita <strong>pozitiel sale pe drumul european E60</strong> (Bucuresti-Cluj-Oradea-Budapesta-Viena) este <strong>recomandat turismului tranzit sau afaceri</strong>, cat si pentru cei care doresc sa isi petreaca vacanta in frumosul oras Cluj.</p>
                     <p class="section-para">De asemenea Hotel Olimp creeaza <strong>spatiul ideal pentru turismul medical</strong> aflandu-se <strong>in apropierea Spitalului Clinic De Recuperare</strong> ,  si <strong>Centrului Medical Transilvania.</strong></p>
                     <ul class="list-group my-4 fs-18 ">
