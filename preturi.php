@@ -12,19 +12,10 @@
     $mic_dejun = "7:30AM - 9:30AM";
     
     // ==========================================================================
-    // Setezi valoare in funtctie de cate poze ai in fisierul respectiv
+    // DESPRE POZE!!!
 
-    // POZE PAGINI
-    // PAGINA PRINCIPALA POZE
-    $numar_poze_pagina_principala = 7;
-    
-    // ==========================================================================
-    // CAMERE POZE
-    // Fara pozele care contin si "main" in nume.
-    $numar_poze_room_1= 3; // SINLGE
-    $numar_poze_room_2= 5; // DOUBLE DELUXE
-    $numar_poze_room_3= 4; // TRIPLE
-    $numar_poze_room_4= 3; // DOUBLE SIMPLE
-    $numar_poze_room_5= 1; // TWIN
-    $numar_poze_room_6= 1; // FOUR GUESTS
+    // (Aici ma refer cantitatea de poze in fiecare folder)
+    // Minim una cover
+    // Minim una main si una normala in perechi, 3 maxim
+    // Daca ai 1 cover, si 3 poze main si 3 poze normale, atunci poti adauga cate una normala fara sa mai fie nevoie de cele ce contin "main" in nume
 ?>

@@ -1,3 +1,28 @@
+<?php 
+$images_folder = 'assets/images_hotel/rooms/Room_2_Double_Deluxe/';
+
+// Check if the folder exists
+if (is_dir($images_folder)) {
+    // Read the contents of the folder
+    $files = scandir($images_folder);
+    // Count the number of files (excluding '.' and '..')
+    $number_of_photos = count(array_diff($files, array('.', '..')));
+
+    if ($number_of_photos == 1) {
+        $number_of_photos -= 1;
+    } elseif ($number_of_photos == 3) {
+        $number_of_photos -= 2;
+    } elseif ($number_of_photos == 5) {
+        $number_of_photos -= 3;
+    } elseif ($number_of_photos >= 7) {
+        $number_of_photos -= 4;
+    } else {
+        echo "<h1 class='text-danger'>EROARE CEVA NU E BINE!</h1>";
+    }
+} else {
+    echo "The specified folder does not exist.";
+}
+?>
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -30,23 +55,23 @@
                     <div class="details-left-wrapper">
                         <div class="details-contents bg-white radius-10">
                             <div class="details-contents-header">
-                                    <?php if ($numar_poze_room_2 >= 1) : ?>
+                                    <?php if ($number_of_photos >= 1) : ?>
                                         <div class="single-attraction-two-thumb flex-center">
                                             <a href="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_1.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_1-main.jpg" alt="hotel room image"> </a>
                                         </div>
                                     <?php endif; ?>
                                 <div class="details-contents-header-flex">
-                                    <?php if ($numar_poze_room_2 >= 2) : ?>
+                                    <?php if ($number_of_photos >= 2) : ?>
                                         <div class="single-attraction-two-thumb">
                                             <a href="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_2.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_2-main.jpg" alt="hotel room image"> </a>
                                         </div>
                                     <?php endif; ?>
-                                    <?php if ($numar_poze_room_2 >= 3) : ?>
+                                    <?php if ($number_of_photos >= 3) : ?>
                                         <div class="single-attraction-two-thumb">
                                             <a href="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_3.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_3-main.jpg" alt="hotel room image"> </a>
                                         </div>
                                     <?php endif; ?>
-                                    <?php for ($i = 4; $i <= $numar_poze_room_2; $i++) : ?>
+                                    <?php for ($i = 4; $i <= $number_of_photos; $i++) : ?>
                                         <div class="single-attraction-two-thumb d-none">
                                             <a href="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_<?php echo $i; ?>.jpg" class="gallery-popup-two"></a>
                                         </div>
