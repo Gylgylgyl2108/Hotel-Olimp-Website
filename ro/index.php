@@ -1,3 +1,17 @@
+<?php 
+$images_folder = 'assets/images_hotel/shots';
+
+// Check if the folder exists
+if (is_dir($images_folder)) {
+    // Read the contents of the folder
+    $files = scandir($images_folder);
+    // Count the number of files (excluding '.' and '..')
+    $number_of_photos = count(array_diff($files, array('.', '..')));
+} else {
+    echo "The specified folder does not exist.";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -253,7 +267,7 @@
                 <div class="section-title-shapes"> </div>
             </div>
             <div id="gallery" class="row g-4 mt-4" >
-                <?php for ($i = 1; $i <= $numar_poze_pagina_principala; $i++) : ?>
+                <?php for ($i = 1; $i <= $number_of_photos; $i++) : ?>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">

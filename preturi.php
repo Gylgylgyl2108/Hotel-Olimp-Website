@@ -13,6 +13,7 @@
     
     // ==========================================================================
     // DESPRE POZE!!!
+    // SA FIE TOATE IN FORMAT JPG, (adica sa se termine numele pozei in .jpg)
 
     // (Aici ma refer cantitatea de poze in fiecare folder)
     // Minim una cover
