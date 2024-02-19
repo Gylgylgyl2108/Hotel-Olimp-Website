@@ -1,5 +1,5 @@
 <?php 
-$images_folder = 'assets\images_hotel\rooms\Room_1_Single';
+$images_folder = 'assets/images_hotel/rooms/Room_1_Single';
 
 // Check if the folder exists
 if (is_dir($images_folder)) {
