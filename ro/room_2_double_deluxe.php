@@ -30,40 +30,29 @@
                     <div class="details-left-wrapper">
                         <div class="details-contents bg-white radius-10">
                             <div class="details-contents-header">
-                                <div class="single-attraction-two-thumb flex-center">
-                                    <a href="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_1.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_1-main.jpg" alt="hotel room image"> </a>
-                                </div>
+                                    <?php if ($numar_poze_room_2 >= 1) : ?>
+                                        <div class="single-attraction-two-thumb flex-center">
+                                            <a href="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_1.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_1-main.jpg" alt="hotel room image"> </a>
+                                        </div>
+                                    <?php endif; ?>
                                 <div class="details-contents-header-flex">
-                                    <div class="single-attraction-two-thumb">
-                                        <a href="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_2.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_2-main.jpg" alt="hotel room image"> </a>
-                                    </div>
-                                    <div class="single-attraction-two-thumb">
-                                        <a href="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_3.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_3-main.jpg" alt="hotel room image"> </a>
-                                    </div>
-                                    <div class="single-attraction-two-thumb d-none">
-                                        <a href="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_4.jpg" class="gallery-popup-two"></a>
-                                    </div>
-                                    <div class="single-attraction-two-thumb d-none">
-                                        <a href="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_5.jpg" class="gallery-popup-two"></a>
-                                    </div>
+                                    <?php if ($numar_poze_room_2 >= 2) : ?>
+                                        <div class="single-attraction-two-thumb">
+                                            <a href="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_2.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_2-main.jpg" alt="hotel room image"> </a>
+                                        </div>
+                                    <?php endif; ?>
+                                    <?php if ($numar_poze_room_2 >= 3) : ?>
+                                        <div class="single-attraction-two-thumb">
+                                            <a href="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_3.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_3-main.jpg" alt="hotel room image"> </a>
+                                        </div>
+                                    <?php endif; ?>
+                                    <?php for ($i = 4; $i <= $numar_poze_room_2; $i++) : ?>
+                                        <div class="single-attraction-two-thumb d-none">
+                                            <a href="assets/images_hotel/rooms/Room_2_Double_Deluxe/room_double_deluxe_<?php echo $i; ?>.jpg" class="gallery-popup-two"></a>
+                                        </div>
+                                    <?php endfor; ?>
                                 </div>
                             </div>
-                            <!-- <div class="details-contents-header">
-                                <div class="single-attraction-two-thumb flex-center">
-                                    <a href="assets/images_hotel/rooms/Room_3_Triple/room_triple_1.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_3_Triple/room_triple_1-main.jpg" alt="hotel room image"> </a>
-                                </div>
-                                <div class="details-contents-header-flex">
-                                    <div class="single-attraction-two-thumb">
-                                        <a href="assets/images_hotel/rooms/Room_3_Triple/room_triple_2.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_3_Triple/room_triple_2-main.jpg" alt="hotel room image"> </a>
-                                    </div>
-                                    <div class="single-attraction-two-thumb">
-                                        <a href="assets/images_hotel/rooms/Room_3_Triple/room_triple_3.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_3_Triple/room_triple_3-main.jpg" alt="hotel room image"> </a>
-                                    </div>
-                                    <div class="single-attraction-two-thumb d-none">
-                                        <a href="assets/images_hotel/rooms/Room_3_Triple/room_triple_4.jpg" class="gallery-popup-two"></a>
-                                    </div>
-                                </div>
-                            </div> -->
                             <div class="hotel-view-contents">
                                 <div class="hotel-view-contents-header">
                                     <h3 class="hotel-view-contents-title py-4 fs-36"> Camera Dubla Deluxe </h3>

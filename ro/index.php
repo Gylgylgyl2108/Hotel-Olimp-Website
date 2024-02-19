@@ -253,48 +253,15 @@
                 <div class="section-title-shapes"> </div>
             </div>
             <div id="gallery" class="row g-4 mt-4" >
+                <?php for ($i = 1; $i <= $numar_poze_pagina_principala; $i++) : ?>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/shots/s4.jpg" class="gallery-popup-two"> <img src="assets/images_hotel/shots/s4.jpg" alt="image around the hotel"> </a>
+                            <a href="assets/images_hotel/shots/s<?php echo $i; ?>.jpg" class="gallery-popup-two"> <img src="assets/images_hotel/shots/s<?php echo $i; ?>.jpg" alt="image around the hotel"> </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
-                    <div class="single-attraction-two radius-20">
-                        <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/shots/s7.jpg" class="gallery-popup-two"> <img src="assets/images_hotel/shots/s7.jpg" alt="image around the hotel"> </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
-                    <div class="single-attraction-two radius-20">
-                        <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/shots/s2.jpg" class="gallery-popup-two"> <img src="assets/images_hotel/shots/s2.jpg" alt="image around the hotel"> </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
-                    <div class="single-attraction-two radius-20">
-                        <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/shots/s3.jpg" class="gallery-popup-two"> <img src="assets/images_hotel/shots/s3.jpg" alt="image around the hotel"> </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
-                    <div class="single-attraction-two radius-20">
-                        <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/shots/s6.jpg" class="gallery-popup-two"> <img src="assets/images_hotel/shots/s6.jpg" alt="image around the hotel"> </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
-                    <div class="single-attraction-two radius-20">
-                        <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/shots/s5.jpg" class="gallery-popup-two"> <img src="assets/images_hotel/shots/s5.jpg" alt="image around the hotel"> </a>
-                        </div>
-                    </div>
-                </div>
+                <?php endfor; ?>
             </div>
         </div>
     </section>
