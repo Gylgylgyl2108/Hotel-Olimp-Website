@@ -84,7 +84,7 @@
                                 <div class="hotel-view-contents-bottom">
                                     <div class="hotel-view-contents-bottom-flex">
                                         <div class="hotel-view-contents-bottom-contents">
-                                            <h4 class="hotel-view-contents-bottom-title"> <?php echo $camera_double_deluxe ?> <sub>/ Noapte</sub> </h4>
+                                            <h4 class="hotel-view-contents-bottom-title"> <?php echo $camera_double_deluxe ?> RON <sub>/ Noapte</sub> </h4>
                                         </div>
                                         <div class="btn-wrapper">
                                             <a href="reservation.php?room=Room-DoubleDeluxe" class="cmn-btn btn-bg-1 btn-small"> Rezerva acum! </a>
