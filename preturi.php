@@ -2,11 +2,11 @@
     // AI GRIJA SA NU STERGI SIMBOLUL ";" 
     // Preturile afisate pe website (inlocuiesti ce e dupa egal, altfel ii schimbi valoarea pretului)
     $camera_single = 200;
-    $camera_double_deluxe = 200;
-    $camera_triple = 260;
-    $camera_double_simple = 180;
+    $camera_double_deluxe = 300;
+    $camera_triple = 400;
+    $camera_double_simple = 250;
     $camera_twin = 250;
-    $camera_four_guests = 320;
+    $camera_four_guests = 450;
 
     // Orarul pentru mic-dejun (inlocuiesti ce e in Ghilimele)
     $mic_dejun = "7:30AM - 9:30AM";
