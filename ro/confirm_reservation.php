@@ -29,8 +29,9 @@
                 <div class="confirmation-contents-icon">
                     <i class="las la-check"></i>
                 </div>
-                <h4 class="confirmation-contents-title"> Rezervarea dumneavoastra a fost confirmata </h4>
+                <h4 class="confirmation-contents-title"> Rezervarea dumneavoastra a fost confirmata. </h4>
                 <p class="confirmation-contents-para"> Va multumim pentru alegeara facuta! </p>
+                <p class="confirmation-contents-para my-0"> Va vom contacta inapoi cat de curand pentru a confirma rezervarea! </p>
                 <div class="btn-wrapper flex-btn mt-4 mt-lg-5">
                     <a href="index.php" class="cmn-btn btn-outline-1 color-one"> Inapoi acasa </a>
                 </div>

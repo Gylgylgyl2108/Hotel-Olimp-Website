@@ -208,9 +208,34 @@
     <script>
         let today = new Date().toISOString().split('T')[0];
         document.getElementById('CheckInDate').setAttribute('min', today);
-        let todayDay = new Date().getDate();
-        let tomorrow = new Date().toISOString().split("T")[0].replace(todayDay, todayDay+1);
-        document.getElementById('CheckOutDate').setAttribute('min', tomorrow);
+        console.log("today " + today);
+
+        document.getElementById('CheckInDate').addEventListener('change', function () {
+            let selectedDate = this.value;
+            
+            let nextDay = new Date(selectedDate);
+            nextDay.setDate(nextDay.getDate() + 1);
+
+            let nextDayFormatted = nextDay.toISOString().split("T")[0];
+
+            // Check if CheckInDate is greater than current CheckOutDate
+            if (nextDayFormatted > document.getElementById('CheckOutDate').value) {
+                // Reset CheckOutDate to default
+                document.getElementById('CheckOutDate').value = '';
+            }
+
+            // Check if CheckInDate is smaller than current CheckOutDate
+            if (selectedDate < document.getElementById('CheckOutDate').value) {
+                // Reset CheckOutDate to default
+                document.getElementById('CheckOutDate').value = '';
+            }
+
+            document.getElementById('CheckOutDate').setAttribute('min', nextDayFormatted);
+
+            console.log("CheckInDate selected: " + selectedDate);
+            console.log("Minimum CheckOutDate: " + nextDayFormatted);
+        });
+
     </script>
     </body>
 </html>
