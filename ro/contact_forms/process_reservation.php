@@ -42,6 +42,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     echo $checkout;
     echo "<br>";
 
+    // Assuming $dateTime is your DateTime object
+$dateTime = new DateTime("2024-02-20");
+
+// Format the DateTime object as a string
+$stringRepresentation = $dateTime->format("d F Y");
+
+// Now $stringRepresentation holds the formatted string
+echo $stringRepresentation; // Output: 20 February 2024
 
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
