@@ -37,9 +37,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     $datetime_checkin = new DateTime(strval($checkin));
     $datetime_checkout = new DateTime(strval($checkout));
 
-    echo $checkin;
+    echo $datetime_checkin;
     echo "<br>";
-    echo $checkout;
+    echo $datetime_checkout;
     echo "<br>";
 
     // Assuming $dateTime is your DateTime object
