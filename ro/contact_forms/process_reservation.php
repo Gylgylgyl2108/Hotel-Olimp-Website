@@ -43,6 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
     $html_message = <<<EOT
+        <div style="padding: 20px">
         <p style="font-size: 20px"><b>CheckIn:</b> $formattedDate_checkin </p>
         <p style="font-size: 20px"><b>CheckOut:</b> $formattedDate_checkout </p>
         <p style="font-size: 20px"><b>Oaspeti:</b> $oaspeti </p>
@@ -54,6 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
         <p style="font-size: 20px"><b>Camera:</b> $room</p>
         <p style="font-size: 20px"><b>Total zile cazare:</b> $daysDifference</p>
         <p style="font-size: 20px"><b>Mesajul:</b> $message</p>
+        </div>
     EOT;
 
     // Set additional headers
