@@ -35,7 +35,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     // Format the date as "d F Y" (day, month, year)
     $formattedDate_checkin = $dateTime_checkin->format("d F Y");
     $formattedDate_checkout = $dateTime_checkout->format("d F Y");
-  
+
+    // Calculate price
+    $interval = $dateTime_checkin->diff($dateTime_checkout);
+    $daysDifference = (($interval->days) * 200);
+
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
     $html_message = <<<EOT
@@ -49,6 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
         <p style="font-size: 20px"><b>Telefon:</b> $phone</p>
         <p style="font-size: 20px"><b>Camera:</b> $room</p>
         <p style="font-size: 20px"><b>Mesajul:</b> $message</p>
+        <p style="font-size: 20px"><b>Pret:</b> $daysDifference</p>
     EOT;
 
     // Set additional headers
