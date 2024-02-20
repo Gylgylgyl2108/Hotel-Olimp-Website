@@ -33,8 +33,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     $dateTime_checkout = new DateTime($checkout);
 
     // Format the date as "d F Y" (day, month, year)
-    $formattedDate_checkin = $dateTime->format("d F Y");
-    $formattedDate_checkout = $dateTime->format("d F Y");
+    $formattedDate_checkin = $dateTime_checkin->format("d F Y");
+    $formattedDate_checkout = $dateTime_checkout->format("d F Y");
   
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
