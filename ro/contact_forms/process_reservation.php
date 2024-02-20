@@ -28,11 +28,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     // Set recipient email address
     $to = "office@hotel-olimp.ro";
 
+    // Format dates
+    $datetime_checkin = new DateTime($checkin);
+    $datetime_checkout = new DateTime($checkout);
+    
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
     $html_message = <<<EOT
-        <p style="font-size: 20px"><b>CheckIn:</b> $checkin->format("d F Y") </p>
-        <p style="font-size: 20px"><b>CheckOut:</b> $checkout->format("d F Y") </p>
+        <p style="font-size: 20px"><b>CheckIn:</b> $datetime_checkin </p>
+        <p style="font-size: 20px"><b>CheckOut:</b> $datetime_checkout </p>
         <p style="font-size: 20px"><b>Oaspeti:</b> $oaspeti </p>
         <p style="font-size: 20px"><b>Copii:</b> $copii </p>
         <p style="font-size: 20px"><b>Nume:</b> $name</p>
