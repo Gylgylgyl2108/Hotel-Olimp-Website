@@ -34,27 +34,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     echo "<br>";
 
     // Format dates
-    $datetime_checkin = new DateTime(strval($checkin));
-    $datetime_checkout = new DateTime(strval($checkout));
+    $datetime_checkin = new DateTime($checkin);
 
     echo $datetime_checkin;
-    echo "<br>";
-    echo $datetime_checkout;
-    echo "<br>";
+    
+    // Format the DateTime object as desired
+    $formattedDate = $dateTime->format("d F Y");
 
-    // Assuming $dateTime is your DateTime object
-    $dateTime = new DateTime("2024-02-20");
-
-    // Format the DateTime object as a string
-    $stringRepresentation = $dateTime->format("d F Y");
-
-    // Now $stringRepresentation holds the formatted string
-    echo $stringRepresentation; // Output: 20 February 2024
-
+  
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
     $html_message = <<<EOT
-        <p style="font-size: 20px"><b>CheckIn:</b> $datetime_checkin </p>
+        <p style="font-size: 20px"><b>CheckIn:</b> $formattedDate </p>
         <p style="font-size: 20px"><b>CheckOut:</b> $datetime_checkout </p>
         <p style="font-size: 20px"><b>Oaspeti:</b> $oaspeti </p>
         <p style="font-size: 20px"><b>Copii:</b> $copii </p>
