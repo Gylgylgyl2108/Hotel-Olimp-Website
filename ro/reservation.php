@@ -208,7 +208,6 @@
     <script>
         let today = new Date().toISOString().split('T')[0];
         document.getElementById('CheckInDate').setAttribute('min', today);
-        console.log("today " + today);
 
         document.getElementById('CheckInDate').addEventListener('change', function () {
             let selectedDate = this.value;
@@ -231,9 +230,6 @@
             }
 
             document.getElementById('CheckOutDate').setAttribute('min', nextDayFormatted);
-
-            console.log("CheckInDate selected: " + selectedDate);
-            console.log("Minimum CheckOutDate: " + nextDayFormatted);
         });
 
     </script>

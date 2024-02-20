@@ -29,6 +29,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     $to = "office@hotel-olimp.ro";
 
     // Format dates
+    $checkin = strval($checkin);
+    $checkout = strval($checkout);
+
     $datetime_checkin = new DateTime($checkin);
     $datetime_checkout = new DateTime($checkout);
     
