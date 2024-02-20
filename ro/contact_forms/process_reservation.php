@@ -28,25 +28,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     // Set recipient email address
     $to = "office@hotel-olimp.ro";
 
-    echo $checkin;
-    echo "<br>";
-    echo $checkout;
-    echo "<br>";
+    // Create a DateTime object from the input date
+    $dateTime = new DateTime($checkin);
 
-    // Format dates
-    $datetime_checkin = new DateTime($checkin);
-
-    echo $datetime_checkin;
-    
-    // Format the DateTime object as desired
+    // Format the date as "d F Y" (day, month, year)
     $formattedDate = $dateTime->format("d F Y");
 
+    // Now you can use $formattedDate in your email or elsewhere
+    echo "Formatted Date: " . $formattedDate;
   
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
     $html_message = <<<EOT
-        <p style="font-size: 20px"><b>CheckIn:</b> $formattedDate </p>
-        <p style="font-size: 20px"><b>CheckOut:</b> $datetime_checkout </p>
+        <p style="font-size: 20px"><b>CheckIn:</b> $checkin </p>
+        <p style="font-size: 20px"><b>CheckOut:</b> $checkout </p>
         <p style="font-size: 20px"><b>Oaspeti:</b> $oaspeti </p>
         <p style="font-size: 20px"><b>Copii:</b> $copii </p>
         <p style="font-size: 20px"><b>Nume:</b> $name</p>
