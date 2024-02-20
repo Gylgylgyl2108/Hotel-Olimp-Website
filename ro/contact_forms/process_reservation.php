@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
 
     // Calculate price
     $interval = $dateTime_checkin->diff($dateTime_checkout);
-    $daysDifference = (($interval->days) * 200);
+    $daysDifference = (($interval->days));
 
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
@@ -52,8 +52,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
         <p style="font-size: 20px"><b>Email:</b> $email</p>
         <p style="font-size: 20px"><b>Telefon:</b> $phone</p>
         <p style="font-size: 20px"><b>Camera:</b> $room</p>
+        <p style="font-size: 20px"><b>Total zile cazare:</b> $daysDifference</p>
         <p style="font-size: 20px"><b>Mesajul:</b> $message</p>
-        <p style="font-size: 20px"><b>Pret:</b> $daysDifference</p>
     EOT;
 
     // Set additional headers
