@@ -11,8 +11,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     $recaptcha = json_decode($recaptcha);
     
     // Sanitize user input to prevent security issues
-    $checkin = htmlspecialchars($_POST["CheckInDate"]);
-    $checkout = htmlspecialchars($_POST["CheckOutDate"]);
+    $checkin = $_POST["CheckInDate"];
+    $checkout = $_POST["CheckOutDate"];
     $oaspeti = htmlspecialchars($_POST["oaspeti"]);
     $copii = htmlspecialchars($_POST["copii"]);
     $name = htmlspecialchars($_POST["name"]);
