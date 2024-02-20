@@ -1,5 +1,5 @@
 <?php 
-$images_folder = 'assets/images_hotel/rooms/Room_4_Double_Simple';
+$images_folder = '../images_hotel/rooms/Room_4_Double_Simple';
 
 // Check if the folder exists
 if (is_dir($images_folder)) {
@@ -58,23 +58,23 @@ if (is_dir($images_folder)) {
                         <div class="details-contents-header">
                                     <?php if ($number_of_photos >= 1) : ?>
                                         <div class="single-attraction-two-thumb flex-center">
-                                            <a href="assets/images_hotel/rooms/Room_4_Double_Simple/room_double_simple_1.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_4_Double_Simple/room_double_simple_1-main.jpg" alt="hotel room image"> </a>
+                                            <a href="../images_hotel/rooms/Room_4_Double_Simple/room_double_simple_1.jpg" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/rooms/Room_4_Double_Simple/room_double_simple_1-main.jpg" alt="hotel room image"> </a>
                                         </div>
                                     <?php endif; ?>
                                 <div class="details-contents-header-flex">
                                     <?php if ($number_of_photos >= 2) : ?>
                                         <div class="single-attraction-two-thumb">
-                                            <a href="assets/images_hotel/rooms/Room_4_Double_Simple/room_double_simple_2.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_4_Double_Simple/room_double_simple_2-main.jpg" alt="hotel room image"> </a>
+                                            <a href="../images_hotel/rooms/Room_4_Double_Simple/room_double_simple_2.jpg" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/rooms/Room_4_Double_Simple/room_double_simple_2-main.jpg" alt="hotel room image"> </a>
                                         </div>
                                     <?php endif; ?>
                                     <?php if ($number_of_photos >= 3) : ?>
                                         <div class="single-attraction-two-thumb">
-                                            <a href="assets/images_hotel/rooms/Room_4_Double_Simple/room_double_simple_3.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/rooms/Room_4_Double_Simple/room_double_simple_3-main.jpg" alt="hotel room image"> </a>
+                                            <a href="../images_hotel/rooms/Room_4_Double_Simple/room_double_simple_3.jpg" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/rooms/Room_4_Double_Simple/room_double_simple_3-main.jpg" alt="hotel room image"> </a>
                                         </div>
                                     <?php endif; ?>
                                     <?php for ($i = 4; $i <= $number_of_photos; $i++) : ?>
                                         <div class="single-attraction-two-thumb d-none">
-                                            <a href="assets/images_hotel/rooms/Room_4_Double_Simple/room_double_simple_<?php echo $i; ?>.jpg" class="gallery-popup-two"></a>
+                                            <a href="../images_hotel/rooms/Room_4_Double_Simple/room_double_simple_<?php echo $i; ?>.jpg" class="gallery-popup-two"></a>
                                         </div>
                                     <?php endfor; ?>
                                 </div>

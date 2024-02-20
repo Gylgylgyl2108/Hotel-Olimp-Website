@@ -35,56 +35,56 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/homemade_happiness/logo.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/homemade_happiness/logo.webp" alt="image around hotel restaurnat"> </a>
+                            <a href="../images_hotel/homemade_happiness/logo.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/homemade_happiness/logo.webp" alt="image around hotel restaurnat"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/homemade_happiness/h1.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/homemade_happiness/h1.webp" alt="image around hotel restaurnat"> </a>
+                            <a href="../images_hotel/homemade_happiness/h1.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/homemade_happiness/h1.webp" alt="image around hotel restaurnat"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/homemade_happiness/h2.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/homemade_happiness/h2.webp" alt="image around hotel restaurnat"> </a>
+                            <a href="../images_hotel/homemade_happiness/h2.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/homemade_happiness/h2.webp" alt="image around hotel restaurnat"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/homemade_happiness/hh_4.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/homemade_happiness/hh_4.jpg" alt="image around hotel restaurnat"> </a>
+                            <a href="../images_hotel/homemade_happiness/hh_4.jpg" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/homemade_happiness/hh_4.jpg" alt="image around hotel restaurnat"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/homemade_happiness/h3.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/homemade_happiness/h3.webp" alt="image around hotel restaurnat"> </a>
+                            <a href="../images_hotel/homemade_happiness/h3.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/homemade_happiness/h3.webp" alt="image around hotel restaurnat"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/homemade_happiness/hh_1.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/homemade_happiness/hh_1.jpg" alt="image around hotel restaurnat"> </a>
+                            <a href="../images_hotel/homemade_happiness/hh_1.jpg" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/homemade_happiness/hh_1.jpg" alt="image around hotel restaurnat"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/homemade_happiness/hh_2.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/homemade_happiness/hh_2.jpg" alt="image around hotel restaurnat"> </a>
+                            <a href="../images_hotel/homemade_happiness/hh_2.jpg" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/homemade_happiness/hh_2.jpg" alt="image around hotel restaurnat"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/homemade_happiness/hh_3.jpg" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/homemade_happiness/hh_3.jpg" alt="image around hotel restaurnat"> </a>
+                            <a href="../images_hotel/homemade_happiness/hh_3.jpg" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/homemade_happiness/hh_3.jpg" alt="image around hotel restaurnat"> </a>
                         </div>
                     </div>
                 </div>

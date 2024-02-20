@@ -1,5 +1,5 @@
 <?php 
-$images_folder = 'assets/images_hotel/shots';
+$images_folder = '../images_hotel/shots';
 
 // Check if the folder exists
 if (is_dir($images_folder)) {
@@ -271,7 +271,7 @@ if (is_dir($images_folder)) {
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/shots/s<?php echo $i; ?>.jpg" class="gallery-popup-two"> <img src="assets/images_hotel/shots/s<?php echo $i; ?>.jpg" alt="image around the hotel"> </a>
+                            <a href="../images_hotel/shots/s<?php echo $i; ?>.jpg" class="gallery-popup-two"> <img src="../images_hotel/shots/s<?php echo $i; ?>.jpg" alt="image around the hotel"> </a>
                         </div>
                     </div>
                 </div>

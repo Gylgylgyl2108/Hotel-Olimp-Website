@@ -98,84 +98,84 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_cactus/ap1.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="assets/images_hotel/apartments/zorilor_cactus/ap1.webp" alt="image for apartment zorilor cactus"> </a>
+                            <a href="../images_hotel/apartments/zorilor_cactus/ap1.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="../images_hotel/apartments/zorilor_cactus/ap1.webp" alt="image for apartment zorilor cactus"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_cactus/ap2.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="assets/images_hotel/apartments/zorilor_cactus/ap2.webp" alt="image for apartment zorilor cactus"> </a>
+                            <a href="../images_hotel/apartments/zorilor_cactus/ap2.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="../images_hotel/apartments/zorilor_cactus/ap2.webp" alt="image for apartment zorilor cactus"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_cactus/ap3.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="assets/images_hotel/apartments/zorilor_cactus/ap3.webp" alt="image for apartment zorilor cactus"> </a>
+                            <a href="../images_hotel/apartments/zorilor_cactus/ap3.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="../images_hotel/apartments/zorilor_cactus/ap3.webp" alt="image for apartment zorilor cactus"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_cactus/ap4.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="assets/images_hotel/apartments/zorilor_cactus/ap4.webp" alt="image for apartment zorilor cactus"> </a>
+                            <a href="../images_hotel/apartments/zorilor_cactus/ap4.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="../images_hotel/apartments/zorilor_cactus/ap4.webp" alt="image for apartment zorilor cactus"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_cactus/ap5.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="assets/images_hotel/apartments/zorilor_cactus/ap5.webp" alt="image for apartment zorilor cactus"> </a>
+                            <a href="../images_hotel/apartments/zorilor_cactus/ap5.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="../images_hotel/apartments/zorilor_cactus/ap5.webp" alt="image for apartment zorilor cactus"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_cactus/ap6.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="assets/images_hotel/apartments/zorilor_cactus/ap6.webp" alt="image for apartment zorilor cactus"> </a>
+                            <a href="../images_hotel/apartments/zorilor_cactus/ap6.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="../images_hotel/apartments/zorilor_cactus/ap6.webp" alt="image for apartment zorilor cactus"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_cactus/ap7.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="assets/images_hotel/apartments/zorilor_cactus/ap7.webp" alt="image for apartment zorilor cactus"> </a>
+                            <a href="../images_hotel/apartments/zorilor_cactus/ap7.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="../images_hotel/apartments/zorilor_cactus/ap7.webp" alt="image for apartment zorilor cactus"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_cactus/ap8.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="assets/images_hotel/apartments/zorilor_cactus/ap8.webp" alt="image for apartment zorilor cactus"> </a>
+                            <a href="../images_hotel/apartments/zorilor_cactus/ap8.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="../images_hotel/apartments/zorilor_cactus/ap8.webp" alt="image for apartment zorilor cactus"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_cactus/ap9.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="assets/images_hotel/apartments/zorilor_cactus/ap9.webp" alt="image for apartment zorilor cactus"> </a>
+                            <a href="../images_hotel/apartments/zorilor_cactus/ap9.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="../images_hotel/apartments/zorilor_cactus/ap9.webp" alt="image for apartment zorilor cactus"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_cactus/ap10.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="assets/images_hotel/apartments/zorilor_cactus/ap10.webp" alt="image for apartment zorilor cactus"> </a>
+                            <a href="../images_hotel/apartments/zorilor_cactus/ap10.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="../images_hotel/apartments/zorilor_cactus/ap10.webp" alt="image for apartment zorilor cactus"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_cactus/ap11.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="assets/images_hotel/apartments/zorilor_cactus/ap11.webp" alt="image for apartment zorilor cactus"> </a>
+                            <a href="../images_hotel/apartments/zorilor_cactus/ap11.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="../images_hotel/apartments/zorilor_cactus/ap11.webp" alt="image for apartment zorilor cactus"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_cactus/ap12.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="assets/images_hotel/apartments/zorilor_cactus/ap12.webp" alt="image for apartment zorilor cactus"> </a>
+                            <a href="../images_hotel/apartments/zorilor_cactus/ap12.webp" class="gallery-popup-two"> <img class="w-100" loading="lazy" src="../images_hotel/apartments/zorilor_cactus/ap12.webp" alt="image for apartment zorilor cactus"> </a>
                         </div>
                     </div>
                 </div>

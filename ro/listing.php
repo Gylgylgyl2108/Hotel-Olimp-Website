@@ -39,7 +39,7 @@
                             <div class="col-xxl-4 col-md-6">
                                 <div class="hotel-view bg-white radius-20">
                                     <!-- Aici se schimba poza -->
-                                    <a href="room_1_single.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(assets/images_hotel/rooms/Room_1_Single/cover.jpg);"></a>
+                                    <a href="room_1_single.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(../images_hotel/rooms/Room_1_Single/cover.jpg);"></a>
                                     <div class="hotel-view-contents">
                                         <div class="hotel-view-contents-header">
                                             <h3 class="hotel-view-contents-title text-center"> <a href="room_1_single.php"> Camera Single </a> </h3>
@@ -76,7 +76,7 @@
                             <!-- Room #2 -->
                             <div class="col-xxl-4 col-md-6">
                                 <div class="hotel-view bg-white radius-20">
-                                    <a href="room_2_double_deluxe.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(assets/images_hotel/rooms/Room_2_Double_Deluxe/cover.jpg);">
+                                    <a href="room_2_double_deluxe.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(../images_hotel/rooms/Room_2_Double_Deluxe/cover.jpg);">
                                     </a>
                                     <div class="hotel-view-contents">
                                         <div class="hotel-view-contents-header">
@@ -114,7 +114,7 @@
                             <!-- Room #3 -->
                             <div class="col-xxl-4 col-md-6">
                                 <div class="hotel-view bg-white radius-20">
-                                    <a href="room_3_triple.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(assets/images_hotel/rooms/Room_3_Triple/cover.jpg);">
+                                    <a href="room_3_triple.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(../images_hotel/rooms/Room_3_Triple/cover.jpg);">
                                     </a>
                                     <div class="hotel-view-contents">
                                         <div class="hotel-view-contents-header">
@@ -152,7 +152,7 @@
                             <!-- Room #4 -->
                             <div class="col-xxl-4 col-md-6">
                                 <div class="hotel-view bg-white radius-20">
-                                    <a href="room_4_double_simple.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(assets/images_hotel/rooms/Room_4_Double_Simple/cover.jpg);">
+                                    <a href="room_4_double_simple.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(../images_hotel/rooms/Room_4_Double_Simple/cover.jpg);">
                                     </a>
                                     <div class="hotel-view-contents">
                                         <div class="hotel-view-contents-header">
@@ -190,7 +190,7 @@
                             <!-- Room #5 -->
                             <div class="col-xxl-4 col-md-6">
                                 <div class="hotel-view bg-white radius-20">
-                                    <a href="room_5_twin.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(assets/images_hotel/rooms/Room_5_Twin/cover.jpg);">
+                                    <a href="room_5_twin.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(../images_hotel/rooms/Room_5_Twin/cover.jpg);">
                                     </a>
                                     <div class="hotel-view-contents">
                                         <div class="hotel-view-contents-header">
@@ -228,7 +228,7 @@
                             <!-- Room #6 -->
                             <div class="col-xxl-4 col-md-6">
                                 <div class="hotel-view bg-white radius-20">
-                                    <a href="room_6_4_guests.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(assets/images_hotel/rooms/Room_6_4_Guests/cover.jpg);">
+                                    <a href="room_6_4_guests.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(../images_hotel/rooms/Room_6_4_Guests/cover.jpg);">
                                     </a>
                                     <div class="hotel-view-contents">
                                         <div class="hotel-view-contents-header">

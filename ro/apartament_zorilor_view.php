@@ -97,98 +97,98 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_view/ap5.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/apartments/zorilor_view/ap5.webp" alt="image for apartment zorilor view"> </a>
+                            <a href="../images_hotel/apartments/zorilor_view/ap5.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/apartments/zorilor_view/ap5.webp" alt="image for apartment zorilor view"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_view/ap2.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/apartments/zorilor_view/ap2.webp" alt="image for apartment zorilor view"> </a>
+                            <a href="../images_hotel/apartments/zorilor_view/ap2.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/apartments/zorilor_view/ap2.webp" alt="image for apartment zorilor view"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_view/ap3.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/apartments/zorilor_view/ap3.webp" alt="image for apartment zorilor view"> </a>
+                            <a href="../images_hotel/apartments/zorilor_view/ap3.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/apartments/zorilor_view/ap3.webp" alt="image for apartment zorilor view"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_view/ap4.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/apartments/zorilor_view/ap4.webp" alt="image for apartment zorilor view"> </a>
+                            <a href="../images_hotel/apartments/zorilor_view/ap4.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/apartments/zorilor_view/ap4.webp" alt="image for apartment zorilor view"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_view/ap1.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/apartments/zorilor_view/ap1.webp" alt="image for apartment zorilor view"> </a>
+                            <a href="../images_hotel/apartments/zorilor_view/ap1.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/apartments/zorilor_view/ap1.webp" alt="image for apartment zorilor view"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_view/ap6.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/apartments/zorilor_view/ap6.webp" alt="image for apartment zorilor view"> </a>
+                            <a href="../images_hotel/apartments/zorilor_view/ap6.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/apartments/zorilor_view/ap6.webp" alt="image for apartment zorilor view"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_view/ap7.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/apartments/zorilor_view/ap7.webp" alt="image for apartment zorilor view"> </a>
+                            <a href="../images_hotel/apartments/zorilor_view/ap7.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/apartments/zorilor_view/ap7.webp" alt="image for apartment zorilor view"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_view/ap8.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/apartments/zorilor_view/ap8.webp" alt="image for apartment zorilor view"> </a>
+                            <a href="../images_hotel/apartments/zorilor_view/ap8.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/apartments/zorilor_view/ap8.webp" alt="image for apartment zorilor view"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_view/ap9.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/apartments/zorilor_view/ap9.webp" alt="image for apartment zorilor view"> </a>
+                            <a href="../images_hotel/apartments/zorilor_view/ap9.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/apartments/zorilor_view/ap9.webp" alt="image for apartment zorilor view"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_view/ap10.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/apartments/zorilor_view/ap10.webp" alt="image for apartment zorilor view"> </a>
+                            <a href="../images_hotel/apartments/zorilor_view/ap10.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/apartments/zorilor_view/ap10.webp" alt="image for apartment zorilor view"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_view/ap11.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/apartments/zorilor_view/ap11.webp" alt="image for apartment zorilor view"> </a>
+                            <a href="../images_hotel/apartments/zorilor_view/ap11.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/apartments/zorilor_view/ap11.webp" alt="image for apartment zorilor view"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_view/ap12.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/apartments/zorilor_view/ap12.webp" alt="image for apartment zorilor view"> </a>
+                            <a href="../images_hotel/apartments/zorilor_view/ap12.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/apartments/zorilor_view/ap12.webp" alt="image for apartment zorilor view"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_view/ap13.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/apartments/zorilor_view/ap13.webp" alt="image for apartment zorilor view"> </a>
+                            <a href="../images_hotel/apartments/zorilor_view/ap13.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/apartments/zorilor_view/ap13.webp" alt="image for apartment zorilor view"> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 gallery-item">
                     <div class="single-attraction-two radius-20">
                         <div class="single-attraction-two-thumb">
-                            <a href="assets/images_hotel/apartments/zorilor_view/ap14.webp" class="gallery-popup-two"> <img loading="lazy" src="assets/images_hotel/apartments/zorilor_view/ap14.webp" alt="image for apartment zorilor view"> </a>
+                            <a href="../images_hotel/apartments/zorilor_view/ap14.webp" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/apartments/zorilor_view/ap14.webp" alt="image for apartment zorilor view"> </a>
                         </div>
                     </div>
                 </div>
