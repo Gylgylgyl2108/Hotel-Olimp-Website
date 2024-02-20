@@ -34,8 +34,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     echo "<br>";
 
     // Format dates
-    $datetime_checkin = new DateTime($checkin);
-    $datetime_checkout = new DateTime($checkout);
+    $datetime_checkin = new DateTime(strval($checkin));
+    $datetime_checkout = new DateTime(strval($checkout));
 
     echo $checkin;
     echo "<br>";
@@ -43,13 +43,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     echo "<br>";
 
     // Assuming $dateTime is your DateTime object
-$dateTime = new DateTime("2024-02-20");
+    $dateTime = new DateTime("2024-02-20");
 
-// Format the DateTime object as a string
-$stringRepresentation = $dateTime->format("d F Y");
+    // Format the DateTime object as a string
+    $stringRepresentation = $dateTime->format("d F Y");
 
-// Now $stringRepresentation holds the formatted string
-echo $stringRepresentation; // Output: 20 February 2024
+    // Now $stringRepresentation holds the formatted string
+    echo $stringRepresentation; // Output: 20 February 2024
 
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
