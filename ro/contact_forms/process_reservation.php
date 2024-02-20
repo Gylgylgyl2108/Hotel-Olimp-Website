@@ -28,13 +28,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     // Set recipient email address
     $to = "office@hotel-olimp.ro";
 
-    // Format dates
-    $checkin = strval($checkin);
-    $checkout = strval($checkout);
+    echo $checkin;
+    echo "<br>";
+    echo $checkout;
+    echo "<br>";
 
+    // Format dates
     $datetime_checkin = new DateTime($checkin);
     $datetime_checkout = new DateTime($checkout);
-    
+
+    echo $checkin;
+    echo "<br>";
+    echo $checkout;
+    echo "<br>";
+
+
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
     $html_message = <<<EOT
@@ -69,13 +77,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     $email_body .= "--boundary123--";
 
     // Send email
-    $success = mail($to, $subject, $email_body, $headers);
+    // $success = mail($to, $subject, $email_body, $headers);
 
     // Check if mail was sent successfully
     if ($success && $recaptcha->score >= 0.5) {
-        header("Location: ../confirm_reservation.php");
+        // header("Location: ../confirm_reservation.php");
     } else {
-        header("Location: ../error.php");
+        // header("Location: ../error.php");
     }
 }
 ?>
