@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
         <p style="font-size: 20px"><b>Copii:</b> $copii </p>
         <p style="font-size: 20px"><b>Nume:</b> $name</p>
         <p style="font-size: 20px"><b>Prenume:</b> $surname</p>
-        <p style="font-size: 20px"><b>Email:</b> <a href="mailto:$email">$email/a></p>
+        <p style="font-size: 20px"><b>Email:</b> <a href="mailto:$email">$email</a></p>
         <p style="font-size: 20px"><b>Telefon:</b> <a href="tel:$phone">$phone</a></p>
         <p style="font-size: 20px"><b>Camera:</b> $room</p>
         <p style="font-size: 20px"><b>Total zile cazare:</b> $daysDifference</p>
