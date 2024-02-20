@@ -29,19 +29,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     $to = "office@hotel-olimp.ro";
 
     // Create a DateTime object from the input date
-    $dateTime = new DateTime($checkin);
+    $dateTime_checkin = new DateTime($checkin);
+    $dateTime_checkout = new DateTime($checkout);
 
     // Format the date as "d F Y" (day, month, year)
-    $formattedDate = $dateTime->format("d F Y");
-
-    // Now you can use $formattedDate in your email or elsewhere
-    echo "Formatted Date: " . $formattedDate;
+    $formattedDate_checkin = $dateTime->format("d F Y");
+    $formattedDate_checkout = $dateTime->format("d F Y");
   
     // Build text and HTML email parts
     $text_message = "Name: $name\nEmail: $email\n\nMessage:\n$message";
     $html_message = <<<EOT
-        <p style="font-size: 20px"><b>CheckIn:</b> $checkin </p>
-        <p style="font-size: 20px"><b>CheckOut:</b> $checkout </p>
+        <p style="font-size: 20px"><b>CheckIn:</b> $formattedDate_checkin </p>
+        <p style="font-size: 20px"><b>CheckOut:</b> $formattedDate_checkout </p>
         <p style="font-size: 20px"><b>Oaspeti:</b> $oaspeti </p>
         <p style="font-size: 20px"><b>Copii:</b> $copii </p>
         <p style="font-size: 20px"><b>Nume:</b> $name</p>
@@ -71,13 +70,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['recaptcha_response'])
     $email_body .= "--boundary123--";
 
     // Send email
-    // $success = mail($to, $subject, $email_body, $headers);
+    $success = mail($to, $subject, $email_body, $headers);
 
     // Check if mail was sent successfully
     if ($success && $recaptcha->score >= 0.5) {
-        // header("Location: ../confirm_reservation.php");
+        header("Location: ../confirm_reservation.php");
     } else {
-        // header("Location: ../error.php");
+        header("Location: ../error.php");
     }
 }
 ?>
