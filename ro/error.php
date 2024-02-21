@@ -5,23 +5,22 @@
     <?php require_once "./components/header.php" ?>
     <!-- Header end -->
     <!-- Error Area starts -->
-    <div class="error-area pab-100">
+    <!-- Confirmation area Starts -->
+    <section class="confirmation-area section-bg-2 pat-100 pab-100">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="error-wrapper center-text">
-                        <div class="error-contents mat-60">
-                            <h2 class="error-contents-title text-danger pb-4 pt-4 line-height-24"> Hopa! S-a intamplat o eroare in trimiterea formularului. <br></br>(sau site-ul nostru a detectat ca sunteti robot) </h2>
-                            <h2 class="error-contents-title pt-4"> Incercati sa ne contactati pe <a class="link-primary" href='mailto:office@hotel-olimp.ro'>office@hotel-olimp.ro</a> !  </h2>
-                            <div class="btn-wrapper mat-25 pt-4">
-                                <a href="index.php" class="cmn-btn btn-bg-1"> Inapoi acasa </a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="confirmation-contents center-text">
+                <div class="confirmation-contents-icon bg-danger">
+                    <i class="las la-times"></i>
+                </div>
+                <h4 class="confirmation-contents-title text-danger"> Hopa! S-a intamplat o eroare in trimiterea formularului. </h4>
+                <h4 class="confirmation-contents-title text-danger"> (sau site-ul nostru a detectat ca sunteti robot) </h4>
+                <h2 class="error-contents-title pt-4"> Incercati sa ne contactati pe <a class="link-primary" href='mailto:office@hotel-olimp.ro'>office@hotel-olimp.ro</a></h2>
+                <div class="btn-wrapper flex-btn mt-4 mt-lg-5">
+                    <a href="index.php" class="cmn-btn btn-outline-1 color-one"> Inapoi acasa </a>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Error Area ends -->
     <!-- footer area start -->
     <?php require_once "./components/footer.php" ?>
