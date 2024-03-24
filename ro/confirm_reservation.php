@@ -21,7 +21,7 @@
         </div>
     </section>
     <!-- Rezervare Confirmata area end -->
-
+test
         <!-- footer area start -->
     <?php require_once "./components/footer.php" ?>
     <!-- footer area end -->
