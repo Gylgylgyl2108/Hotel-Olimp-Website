@@ -15,7 +15,7 @@
     // DESPRE POZE!!!
     // SA FIE TOATE IN FORMAT JPG, (adica sa se termine numele pozei in .jpg)
 
-    // (Aici ma refer cantitatea de poze in fiecare folder)
+    // (Aici ma refer la cantitatea de poze in fiecare folder)
     // Minim una cover
     // Minim una main si una normala in perechi, 3 maxim
     // Daca ai 1 cover, si 3 poze main si 3 poze normale, atunci poti adauga cate una normala fara sa mai fie nevoie de cele ce contin "main" in nume
@@ -25,6 +25,7 @@
     // Poza "room_single_1.jpg =" poate sa fie oricare rezolutie aici.
     // Poza "room_single_1-main.jpg" = 810x356px
     // Poza "room_single_2-main.jpg" = 396x164px
+    // Poza "room_single_3-main.jpg" = 396x164px
     // Poza "room_single_3.jpg" = poate sa fie oricare rezolutie aici.
     // Poza "room_single_4.jpg" = poate sa fie oricare rezolutie aici.
     // Poza "room_single_5.jpg" = poate sa fie oricare rezolutie aici.
