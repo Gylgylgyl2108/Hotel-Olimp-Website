@@ -54,9 +54,9 @@
           </a>
       </div>
       <div class="responsive-mobile-menu d-lg-none">
-            <a href="#" class="click-nav-right-icon">
+            <!-- <a href="#" class="click-nav-right-icon">
                 <img class="flag-icon me-1" src="assets/flags/ro.svg" alt="">
-            </a>
+            </a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hotel_booking_menu">
               <span class="navbar-toggler-icon"></span>
           </button>
@@ -77,7 +77,8 @@
           </ul>
       </div>
       <div class="navbar-right-content show-nav-content">
-        <div class="dropdown border rounded">
+        
+        <!-- <div class="dropdown border rounded">
             <button class="btn btn-lg dropdown-toggle text-black" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 <img class="flag-icon me-1" src="assets/flags/ro.svg" alt="">
                 <span>Română</span>
@@ -87,7 +88,7 @@
                     <a class="dropdown-item" href="../z_en/index.html"><img class="flag-icon me-1" src="assets/flags/gb.svg" alt=""> <span cls>Engleză</span> </a>
                 </li>
             </ul>
-        </div>
+        </div> -->
         <div class="single-right-content">
             <div class="navbar-right-flex">
                 <div class="btn-wrapper">
