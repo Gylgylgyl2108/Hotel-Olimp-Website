@@ -27,7 +27,9 @@ if (is_dir($images_folder)) {
                         <div class="banner-single-content">
                             <h1 class="banner-single-content-title custom--banner-single-content-title  fw-700"> Bucura-te de concediu, vacanta si timpul cu familia impreuna cu noi! </h1>
                             <h2 class="banner-single-content-para mt-3">Ne mandrim cu serviciile noastre de inalta calitate si cu personalul nostru amabil si profesionist, care se asigura ca oaspetii nostri sunt tratati cu atentie si respect in hotelul nostru din Cluj-Napoca.</h2>
-                            <a class="submit-btn w-100 radius-10 custom--reservation-btn my-4" type="submit" href="reservation.php"> Rezerva Acum! </a>
+                            <div class="submit-btn w-100 radius-10 custom--reservation-btn my-4">
+                                <a type="submit" href="reservation.php"> Rezerva Acum! </a>
+                            </div>
                         </div>
                     </div>
                 </div>
