@@ -77,6 +77,7 @@
       </div>
       <div class="collapse navbar-collapse" id="hotel_booking_menu">
           <ul class="navbar-nav">
+              <li><a href="reservation.php" class='custom--reservation_menu_button'> Rezervati Acum </a></li>
               <li><a href="about.php"> Despre noi </a></li>
               <li><a href="listing.php"> Camere </a></li>
               <li><a href="contact.php"> Contacteaza-ne </a></li>

@@ -14081,6 +14081,11 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
 /* FIX NAVBAR 991 breakpoint END */
 
 /* NAVBAR */
+.custom--reservation_menu_button {
+    font-weight: bold;
+    color: var(--main-color-one);
+}
+
 /* ANNOUCEMENT BAR */
 .custom--announcement-bar {
     background-color: #192436;
