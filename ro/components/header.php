@@ -46,6 +46,20 @@
 <body>
 <?php require_once "../preturi.php" ?>
 <!-- Menu area Starts -->
+<!-- Adress Bar -->
+<div class="custom--announcement-bar">
+    <div class="container">
+        <div class="d-inline-flex flex-wrap flex-center text-center">
+            <span>
+                <i class="las la-phone-volume"></i>
+                    <span class="text-white">Telefon:</span><a href="tel:+40740116699"> +40 740 116 699</a></span>
+            <span>
+                <i class="las la-map-marked-alt"></i>
+                    <span class="text-white">Adresa: </span><a href="https://maps.app.goo.gl/RKEjh4K3zq7bDyhG9" target="_blank"> Strada Observatorului 82-86, Cluj-Napoca</a></span>
+        </div>
+    </div>
+</div>
+<!-- Adress Bar END -->
 <nav class="navbar navbar-area navbar-border navbar-padding navbar-expand-lg    ">
   <div class="container custom-container-one nav-container">
       <div class="logo-wrapper">

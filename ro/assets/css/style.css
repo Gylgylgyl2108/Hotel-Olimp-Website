@@ -14081,6 +14081,32 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
 /* FIX NAVBAR 991 breakpoint END */
 
 /* NAVBAR */
+/* ANNOUCEMENT BAR */
+.custom--announcement-bar {
+    background-color: #192436;
+    padding: 10px 20px;
+}
+
+.custom--announcement-bar > .container > div > span {
+    color: #ae9c86;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 1199.98px) {
+    .custom--announcement-bar > .container > div > span {
+      font-size: 23px;
+      padding: 5px;
+    }
+
+    .custom--announcement-bar {
+        background-color: #192436;
+        padding: 20px;
+    }
+}
+/* ANNOUCEMENT BAR END */
+
 .logo-wrapper .logo img{
   box-shadow: -2px 1px 10px 1px #1825369e !important;
   border-radius: 5px !important;
