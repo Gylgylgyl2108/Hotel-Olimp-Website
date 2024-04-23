@@ -11,7 +11,7 @@
 <head>
 <!-- Header -->
     <?php require_once "./components/header.php" ?>
-    <!-- Header end -->
+<!-- Header end -->
     
     <!-- Breadcrumb area Starts -->
     <div class="breadcrumb-area breadcrumb-padding">

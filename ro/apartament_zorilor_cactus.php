@@ -37,7 +37,7 @@
             <img src="assets/img/single-page/newsletter-shape2.png" alt="shapes">
         </div>
         <div class="section-title">
-            <h1 class="text-white fw-bold center-text"> Apartament in Regim Hotelier </h1>
+            <h1 class="text-white fw-bold center-text title"> Apartament in Regim Hotelier </h1>
         </div>
     </div>
     <div class="container pat-50">
