@@ -13822,6 +13822,10 @@ blockquote .blockquote-contents-title {
 }
 
 /* Utilities */
+.text-normal {
+    text-transform: none !important;
+}
+
 .flex-center {
     display: flex;
     justify-content: center;

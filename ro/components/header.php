@@ -80,7 +80,7 @@
               <li><a href="reservation.php" class='custom--reservation_menu_button'> Rezervati Acum </a></li>
               <li><a href="about.php"> Despre noi </a></li>
               <li><a href="listing.php"> Camere </a></li>
-              <li><a class="text-lowercase" href="contact.php"> Contacteaza-ne </a></li>
+              <li><a class="text-normal" href="contact.php"> Contacteaza-ne </a></li>
               <li><a href="eat-and-drink.php"> Restaurant </a></li>
               <li class="menu-item-has-children current-menu-item">
                 <a href="#">Apartamente</a>
