@@ -33,7 +33,19 @@ if (is_dir($images_folder)) {
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 bg-image banner-right-bg radius-20" style="background-image: url(assets/img/logo_full.svg);"></div>
+                <!-- style="background-image: url(assets/img/logo_full.svg); -->
+                <div class="col-lg-6 bg-image  radius-20">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval=100>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images_hotel/slider/poza_slider-1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images_hotel/slider/poza_slider-2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
