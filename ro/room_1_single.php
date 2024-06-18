@@ -95,10 +95,6 @@ if (is_dir($images_folder)) {
                                             <p class="hotel-view-contents-icon-title flex-fill"> Wifi Gratuit</p>
                                         </div>
                                         <div class="hotel-view-contents-icon d-flex gap-1">
-                                            <span> <i class="las la-coffee"></i> </span>
-                                            <p class="hotel-view-contents-icon-title flex-fill"> Mic-Dejun Inclus </p>
-                                        </div>
-                                        <div class="hotel-view-contents-icon d-flex gap-1">
                                             <span> <i class="las la-quidditch"></i> </span>
                                             <p class="hotel-view-contents-icon-title flex-fill"> Servicii Curatenie </p>
                                         </div>
