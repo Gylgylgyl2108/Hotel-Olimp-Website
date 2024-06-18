@@ -35,7 +35,7 @@ if (is_dir($images_folder)) {
                 </div>
                 <!-- style="background-image: url(assets/img/logo_full.svg); -->
                 <div class="col-lg-6 bg-image  radius-20">
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval=100>
+                    <div id="carouselExampleFade" class="custom--carousel-slider carousel slide carousel-fade" data-bs-ride="carousel" data-interval=1000>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="../images_hotel/slider/poza_slider-1.jpg" class="d-block w-100" alt="...">
@@ -353,13 +353,7 @@ if (is_dir($images_folder)) {
                                     Ce fel de mic dejun se ofera la Hotel Olimp?
                                 </h3>
                                 <div class="faq-panel">
-                                    <p class="faq-para">Oaspetii care se cazeaza la Hotel Olimp pot savura pe durata sejurului un mic dejun cu evaluari excelente (scorul din evaluarile oaspetilor: 7.8).</p>
-                                    <p class="faq-para"><b>Varianta/variantele de mic dejun:</b></p>
-                                    <ul class="mb-0">
-                                        <li>continental</li>
-                                        <li>american</li>
-                                        <li>bufet</li>
-                                    </ul>
+                                    <p class="faq-para">Pe durata sejurului mic dejun de tip continental - bufet.</p>
                                 </div>
                             </div>
                             <div class="faq-item wow ">

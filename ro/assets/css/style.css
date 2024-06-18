@@ -14166,6 +14166,32 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
 /* ANNOUCEMENT BAR END */
 /* NAVBAR END */
 
+/* BANNER SLIDER */
+.banner-area-one {
+    padding-top: 25px !important;
+}
+
+.banner-single-content {
+    padding: 25px 0;
+}
+
+.custom--carousel-slider {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-height: 512px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 991.98px) {
+    .custom--carousel-slider {
+        border-radius: 0;
+    }
+}
+/* BANNER SLIDER END */
+
 /* LISTING ROOMS FIX CARD IMG HEIGHT */
 .hotel-view-grid-thumb { height: 195px !important; }
 
