@@ -38,10 +38,10 @@ if (is_dir($images_folder)) {
                     <div id="carouselExampleFade" class="custom--carousel-slider carousel slide carousel-fade" data-bs-ride="carousel" data-interval=1000>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="../images_hotel/slider/poza_slider-1.jpg" class="d-block w-100" alt="...">
+                                <img src="../images_hotel/slider/poza_slider-1.jpg" class="d-block w-100" alt="Ccamera de hotel delux">
                             </div>
                             <div class="carousel-item">
-                                <img src="../images_hotel/slider/poza_slider-2.jpg" class="d-block w-100" alt="...">
+                                <img src="../images_hotel/slider/poza_slider-2.jpg" loading="lazy" class="d-block w-100" alt="Alta camera de hotel">
                             </div>
                         </div>
                     </div>
