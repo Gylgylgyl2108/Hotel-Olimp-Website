@@ -19,7 +19,7 @@
           <div class="row">
               <div class="col-lg-12">
                   <div class="breadcrumb-contents">
-                      <h4 class="breadcrumb-contents-title"> Apartament Zorilor Cactus </h4>
+                      <h4 class="breadcrumb-contents-title notranslate"> Apartament Zorilor Cactus </h4>
                       <ul class="breadcrumb-contents-list list-style-none">
                           <li class="breadcrumb-contents-list-item"> <a href="index.php" class="breadcrumb-contents-list-item-link"> Acasa </a> </li>
                           <li class="breadcrumb-contents-list-item"> Apartament Zorilor Cactus </li>
