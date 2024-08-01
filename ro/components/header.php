@@ -77,9 +77,9 @@
             margin-right: 10px !important;
         }
 
-        body {
+        /* body {
             top: 0 !important;
-        }
+        } */
 
         #\:2\.container {
             display: none !important;
