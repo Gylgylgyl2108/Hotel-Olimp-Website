@@ -14164,11 +14164,6 @@ div[class*=col]:nth-child(4n+4) .single-why-two:hover .single-why-two-icon {
     }    
 } */
 /* ANNOUCEMENT BAR END */
-@media only screen and (max-width: 991.8px) {
-    .navbar-area .nav-container {
-        padding: 20px 20px 0px !important;
-    }
-}
 /* NAVBAR END */
 
 /* BANNER SLIDER */
