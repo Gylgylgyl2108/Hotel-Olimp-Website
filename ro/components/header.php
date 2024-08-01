@@ -83,6 +83,7 @@
 
         #\:2\.container {
             display: none !important;
+            visibility: hidden !important;
         }
      </style>
 </head>
