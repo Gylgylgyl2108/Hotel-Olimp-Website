@@ -53,29 +53,37 @@
     <!-- GOOGLE TRANSLATE WIDGET END -->
      <style>
         .goog-te-banner-frame.skiptranslate, .goog-te-gadget-simple img {
-    display: none !important;
-}
-.goog-tooltip {
-    display: none !important;
-}
-.goog-tooltip:hover {
-    display: none !important;
-}
+            display: none !important;
+        }
+        .goog-tooltip {
+            display: none !important;
+        }
+        .goog-tooltip:hover {
+            display: none !important;
+        }
 
-.goog-te-gadget-simple {
-    border-radius: 30px !important;
-    border: 1px solid #000 !important;
-    padding: 3px !important;
-}
-.goog-text-highlight {
-    background-color: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-}
+        .goog-te-gadget-simple {
+            border-radius: 30px !important;
+            border: 1px solid #000 !important;
+            padding: 3px !important;
+        }
+        .goog-text-highlight {
+            background-color: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+        }
 
-.VIpgJd-ZVi9od-xl07Ob-lTBxed span {
-    margin-right: 10px !important;
-}
+        .VIpgJd-ZVi9od-xl07Ob-lTBxed span {
+            margin-right: 10px !important;
+        }
+
+        body {
+            top: 0 !important;
+        }
+
+        iframe > #\:2\.container {
+            display: none !important;
+        }
      </style>
 </head>
 <body>
