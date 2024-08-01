@@ -45,7 +45,7 @@
             <div class="col-lg-12 mt-0 mb-5">
                 <div class="contact-wrapper contact-padding bg-white radius-20 shadow-primary">
                     <div class="contact-contents text-center section-title">
-                        <h2 class="fw-bold">Apartament Zorilor Cactus</h2>
+                        <h2 class="fw-bold notranslate">Apartament Zorilor Cactus</h2>
                         <div class="section-title-shapes mb-4"></div>
                         <p class="single-para my-3 fs-20"><strong>Pentru a face o rezervare</strong>, va rugam sa <strong>completati formularul de mai jos</strong> si sa specificati<strong> perioada dorita si numarul de persoane</strong>
                         <p class="single-para my-3 fs-20 fw-bold">Pentru apartamente rezervarile se fac prin <a href="mailto:office@hotel-olimp.ro" class="link-primary">Email</a>, sau prin Formularul de Contact de mai jos.</p>
@@ -86,7 +86,7 @@
     <section class="attraction-area pat-0 pab-50">
         <div class="container">
             <div class="center-text">
-                <h2 class="title"> Despre Apartament Zorilor Cactus </h2>
+                <h2 class="title"> Despre <div class="notranslate">Apartament Zorilor Cactus</div> </h2>
                 <div class="section-title-line"></div>
                 <p class="single-para my-3 fs-18"><strong>Zorilor Cactus</strong> este pentru noi, sansa de a fi mai aproape de voi prietenii nostri.</p>
                 <p class="single-para my-3 fs-18">Cu un design modern acest apartament vine in intampinarea clientilor cu dotari de ultima generatie precum <strong>TV cu ecran plat</strong> cu canale prin cablu - digital  , <strong>acces internet WIFI</strong> , <strong>bucatarie complet utilata cu vesela si frigider</strong> , <strong>expresor de cafea</strong>, <strong>masina spalat rufe</strong>. </p>
