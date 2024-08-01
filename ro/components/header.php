@@ -42,6 +42,16 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- GOOGLE TRANSLATE WIDGET -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'ro', includedLanguages: 'en,hu,de,it,pl,el,ro', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+        }
+        </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- GOOGLE TRANSLATE WIDGET END -->
+     
 </head>
 <body>
 <?php require_once "../preturi.php" ?>
@@ -59,17 +69,20 @@
         </div>
     </div>
 </div>
+<!-- <div class="flex flex-center mt-4"><div id="google_translate_element"></div></div> -->
 <!-- Adress Bar END -->
-<nav class="navbar navbar-area navbar-border navbar-padding navbar-expand-lg    ">
+<nav class="navbar navbar-area navbar-border navbar-padding navbar-expand-lg">
   <div class="container custom-container-one nav-container">
       <div class="logo-wrapper">
           <a href="index.php" class="logo">
               <img src="assets/img/logo.svg" alt="">
           </a>
       </div>
+      
       <div class="responsive-mobile-menu d-lg-none">
+          
             <!-- <a href="#" class="click-nav-right-icon">
-                <img class="flag-icon me-1" src="assets/flags/ro.svg" alt="">
+                
             </a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hotel_booking_menu">
               <span class="navbar-toggler-icon"></span>
@@ -90,6 +103,7 @@
                 </ul>
             </li>
           </ul>
+          <div class="flex flex-center m-4"><div id="google_translate_element"></div></div>
       </div>
       <div class="navbar-right-content show-nav-content">
         
