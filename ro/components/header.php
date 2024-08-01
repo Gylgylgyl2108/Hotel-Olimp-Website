@@ -132,8 +132,8 @@
               <li class="menu-item-has-children current-menu-item">
                 <a href="#">Apartamente</a>
                 <ul class="sub-menu">
-                    <li><a href="apartament_zorilor_view.php">Apartament Zorilor View</a></li>
-                    <li><a href="apartament_zorilor_cactus.php">Apartament Zorilor Cactus</a></li>
+                    <li><a href="apartament_zorilor_view.php" class="notranslate">Apartament Zorilor View</a></li>
+                    <li><a href="apartament_zorilor_cactus.php" class="notranslate">Apartament Zorilor Cactus</a></li>
                 </ul>
             </li>
           </ul>
