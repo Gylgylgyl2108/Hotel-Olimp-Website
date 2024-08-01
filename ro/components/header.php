@@ -81,7 +81,7 @@
             top: 0 !important;
         }
 
-        iframe > #\:2\.container {
+        #\:2\.container {
             display: none !important;
         }
      </style>
