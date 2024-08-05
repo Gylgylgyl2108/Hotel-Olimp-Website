@@ -63,8 +63,8 @@
         }
 
         .goog-te-gadget-simple {
-            border-radius: 30px !important;
-            border: 1px solid #000 !important;
+            border-radius: 10px !important;
+            border: 2px solid #000 !important;
             padding: 3px !important;
         }
         .goog-text-highlight {
