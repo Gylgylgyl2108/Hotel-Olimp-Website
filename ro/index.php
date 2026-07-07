@@ -58,7 +58,7 @@ if (is_dir($images_folder)) {
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="section-title-booking">
                         <div class="section-title-three">
-                            <h2 class="title"> De ce Hotel Olimp este un hotel special? </h2>
+                           <h2 class="title"> De ce să alegi Hotel Olimp Cluj-Napoca? </h2>
                         </div>
                     </div>
                 </div>
@@ -69,8 +69,8 @@ if (is_dir($images_folder)) {
                                 <i class="las la-thumbs-up"></i>
                             </div>
                             <div class="single-why-two-contents">
-                                <h4 class="single-why-two-contents-title"> <a href="#">Rezervare simpla</a> </h4>
-                                <p class="single-why-two-contents-para mt-2">Rezervati camere direct de pe site-ul nostru!</p>
+                                <h4 class="single-why-two-contents-title"><a href="#">Solicitare rapidă de rezervare</a></h4>
+                                <p class="single-why-two-contents-para mt-2">Trimite cererea direct către hotel și primești răspuns rapid.</p>
                             </div>
                         </div>
                     </div>
@@ -82,8 +82,8 @@ if (is_dir($images_folder)) {
                                 <i class="las la-star"></i>
                             </div>
                             <div class="single-why-two-contents">
-                                <h4 class="single-why-two-contents-title"> <a href="#">+1.000 Recenzii pozitive </a> </h4>
-                                <p class="single-why-two-contents-para mt-2">Clientii nostri sunt mereu satisfacuti.</p>
+                                <h4 class="single-why-two-contents-title"><a href="#">Peste 1.000 de recenzii pozitive</a></h4>
+<p class="single-why-two-contents-para mt-2">Mii de oaspeți ne-au ales pentru confort, locație și ospitalitate.</p>
                             </div>
                         </div>
                     </div>
@@ -95,8 +95,8 @@ if (is_dir($images_folder)) {
                                 <i class="las la-ticket-alt "></i>
                             </div>
                             <div class="single-why-two-contents">
-                                <h4 class="single-why-two-contents-title"> <a href="#"> Acceptam Tichete </a> </h4>
-                                <p class="single-why-two-contents-para mt-2">Acceptam plata cu tichete de vacanta.</p>
+                               <h4 class="single-why-two-contents-title"><a href="#">Plată cu tichete de vacanță</a></h4>
+<p class="single-why-two-contents-para mt-2">Acceptăm plata cu carduri și tichete de vacanță.</p>
                             </div>
                         </div>
                     </div>
