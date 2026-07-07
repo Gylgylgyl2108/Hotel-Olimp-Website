@@ -28,9 +28,9 @@
                 <div class="section-title center-text">
                     <h2 class="title"> Despre Hotel Olimp </h2>
                     <div class="section-title-shapes"> </div>
-                    <p class="section-para"><strong>Situat la 10 minute de centrului istoric si cultural al orasului.</strong></p>
-                    <p class="section-para">Hotel Olimp va sta la dispozitie cu <strong>30 de camere de cazare</strong></p>
-                    <p class="section-para">Datorita <strong>pozitiel sale pe drumul european E60</strong> (Bucuresti-Cluj-Oradea-Budapesta-Viena) este <strong>recomandat turismului tranzit sau afaceri</strong>, cat si pentru cei care doresc sa isi petreaca vacanta in frumosul oras Cluj.</p>
+                   <p class="section-para"><strong>Situat la doar 10 minute de centrul istoric si cultural al orasului Cluj-Napoca</strong>, Hotel Olimp ofera acces rapid catre principalele puncte de interes ale orasului.</p>
+                    <p class="section-para">Hotel Olimp va pune la dispozitie <strong>30 de camere de cazare</strong>, potrivite atat pentru calatorii individuale, cat si pentru familii sau grupuri.</p>
+                    <p class="section-para">Datorita pozitiei sale avantajoase pe drumul european <strong>E60 (Bucuresti-Cluj-Oradea-Budapesta-Viena)</strong>, Hotel Olimp este o alegere potrivita pentru <strong>calatoriile de tranzit si de afaceri</strong>, dar si pentru cei care doresc sa descopere orasul Cluj-Napoca.</p>
                     <p class="section-para">De asemenea, Hotel Olimp reprezinta <strong>o alegere potrivita pentru turismul medical</strong>, fiind situat in apropierea Spitalului Clinic de Recuperare, Clinicii Anastasios, Spitalului Transilvania si Clinicii Humanitas.</p>
                     <ul class="list-group my-4 fs-18 ">
                         <li class="list-group-item mt-4 bg--main-color text-white text-capitalize fw-bold"> Cele mai apreciate facilitati </li>
