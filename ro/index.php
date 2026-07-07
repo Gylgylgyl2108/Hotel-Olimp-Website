@@ -28,8 +28,8 @@ if (is_dir($images_folder)) {
                          <h1 class="banner-single-content-title custom--banner-single-content-title fs-700">Hotel Olimp Cluj-Napoca – Confort, parcare gratuită și acces rapid spre centru</h1>
                          <h2 class="banner-single-content-para mt-3">Camere confortabile cu mic dejun la doar 1,8 km de centrul orașului.</h2>
                          <h3 class="banner-single-content-para mt-2">Acceptăm grupuri turistice și organizate – capacitate de peste 60 de persoane.</h3>
-                           <div class="submit-btn radius-10 custom--reservation-btn my-4" style="max-width: 460px; height: 90px;">
-                                <a type="submit" href="reservation.php"> Solicită rezervare </a>
+                          <div class="submit-btn radius-10 custom--reservation-btn my-4" style="max-width: 395px;">
+                              <a type="submit" href="reservation.php" style="display: flex; align-items: center; justify-content: center; padding: 16px 32px; font-size: 24px; line-height: 1.2;">Solicita rezervare</a>
                             </div>
                         </div>
                     </div>
