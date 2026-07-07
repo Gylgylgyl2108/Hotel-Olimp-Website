@@ -36,7 +36,7 @@
                                     </a>
                                 </li>
                                 <li class="breadcrumb-contents-list-item">
-                                    Rezervare
+                                   Cerere de rezervare 
                                 </li>
                             </ul>
                         </div>
