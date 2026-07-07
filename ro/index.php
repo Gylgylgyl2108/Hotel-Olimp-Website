@@ -108,7 +108,7 @@ if (is_dir($images_folder)) {
     <section class="attraction-area pat-50 pab-50">
         <div class="container">
             <div class="section-title text-center"><!-- append-flex -->
-                <h2 class="title">Atractii turistice in apropiere</h2>
+                <<h2 class="title">Atracții turistice in apropiere</h2>
                 <div class="section-title-line"> </div>
                 <div class="append-attraction mt-4"></div>
             </div>
@@ -181,7 +181,7 @@ if (is_dir($images_folder)) {
     <section class="guest-area pat-50 pab-50">
         <div class="container">
             <div class="section-title center-text">
-                <h2 class="title">Ce cred oaspetii nostri...</h2>
+                <h2 class="title">Ce spun oaspeții noștri despre Hotel Olimp</h2>
                 <div class="section-title-shapes"> </div>
             </div>
             <div class="custom-tab guest-wrapper mt-5">
