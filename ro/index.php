@@ -25,8 +25,9 @@ if (is_dir($images_folder)) {
                 <div class="col-lg-6">
                     <div class="banner-single banner-single-one md-px-12px percent-padding ">
                         <div class="banner-single-content">
-                           <h1 class="banner-single-content-title custom--banner-single-content-title fw-700"> Cazare confortabilă în Cluj-Napoca, aproape de centrul orașului </h1>
-                           <h2 class="banner-single-content-para mt-3"> Hotel Olimp vă oferă camere confortabile, mic dejun și parcare gratuită, la aproximativ 1,8 km de centrul Clujului. Rezervați direct pe site-ul nostru, simplu și rapid.</h2>
+                         <h1 class="banner-single-content-title custom--banner-single-content-title fs-700">Hotel Olimp Cluj-Napoca – Confort, parcare gratuită și acces rapid spre centru</h1>
+                         <h2 class="banner-single-content-para mt-3">Camere confortabile, mic dejun și parcare gratuită, la doar 1,8 km de centrul orașului.</h2>
+                         <h3 class="banner-single-content-para mt-2">Acceptăm grupuri turistice și organizate – capacitate de peste 60 de persoane.</h3>
                             <div class="submit-btn w-100 radius-10 custom--reservation-btn my-4">
                                 <a type="submit" href="reservation.php"> Solicită rezervare </a>
                             </div>
