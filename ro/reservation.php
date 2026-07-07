@@ -22,7 +22,7 @@
                     <div class="col-lg-12">
                         <div class="breadcrumb-contents">
                             <h4 class="breadcrumb-contents-title">
-                                Rezervare
+                                Cerere de rezervare
                             </h4>
                             <ul
                                 class="breadcrumb-contents-list list-style-none"
@@ -52,8 +52,9 @@
                 <div class="col-lg-12 mt-0 mb-5">
           
                         <div class="contact-contents text-center section-title">
-                            <h2 class="fw-bold">Rezervare Camera Hotel Olimp</h2>
+                           <h2 class="fw-bold">Cerere de rezervare - Hotel Olimp</h2>
                             <div class="section-title-shapes mb-4"></div>
+                            <p class="section-para mb-4"><strong>Nota:</strong> Preturile afisate sunt tarife standard de referinta si pot varia in functie de perioada anului, durata sejurului, gradul de ocupare si disponibilitatea camerelor. Tariful final va fi comunicat si confirmat in urma cererii de rezervare.</p>
                             <div class="banner-location banner-location-one bg-white radius-20 mt-5 w-100 shadow-primary py-4">
                                 <div class="contact-contents-form custom-form text-black">
                                     <form action="contact_forms/process_reservation.php" method="post">
