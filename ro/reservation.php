@@ -120,7 +120,7 @@
                                                         <option value="Camera Tripla <?php echo $camera_triple?>RON" <?php if ($_GET && $room == 'Room-Triple') { echo 'selected';};?>>Camera Tripla <?php echo $camera_triple?> RON/Noapte</option>
                                                         <option value="Camera Dubla Simpla <?php echo $camera_double_simple?>RON" <?php if ($_GET && $room == 'Room-DoubleSimple') { echo 'selected';};?>>Camera Dubla Simpla <?php echo $camera_double_simple?> RON/Noapte</option>
                                                         <option value="Camera Twin <?php echo $camera_twin?>RON" <?php if ($_GET && $room == 'Room-Twin') { echo 'selected';};?>>Camera Twin <?php echo $camera_twin?> RON/Noapte</option>
-                                                        <option value="Camera Four Guests <?php echo $camera_four_guests?>RON" <?php if ($_GET && $room == 'Room-FourGuests') { echo 'selected';};?>>Camera Four Guests <?php echo $camera_four_guests?> RON/Noapte</option>
+                                                        <option value="Camera Family - 4 persoane <?php echo $camera_four_guests?>RON" <?php if ($_GET && $room == 'Room-FourGuests') { echo 'selected';} ?>>Camera Family - 4 persoane <?php echo $camera_four_guests?>RON</option>
                                                     </select>
                                                 </div>
                                             </div>
