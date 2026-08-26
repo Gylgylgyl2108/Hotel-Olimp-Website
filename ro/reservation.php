@@ -12,7 +12,7 @@
                     <div class="col-lg-12">
                         <div class="breadcrumb-contents">
                             <h4 class="breadcrumb-contents-title">
-                                Cerere de rezervare
+                                Rezervare online
                             </h4>
                             <ul class="breadcrumb-contents-list list-style-none">
                                 <li class="breadcrumb-contents-list-item">
@@ -24,7 +24,7 @@
                                     </a>
                                 </li>
                                 <li class="breadcrumb-contents-list-item">
-                                    Cerere de rezervare
+                                    Rezervare online
                                 </li>
                             </ul>
                         </div>
