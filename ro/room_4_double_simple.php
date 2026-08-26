@@ -120,10 +120,8 @@ if (is_dir($images_folder)) {
                                 </ul>
                                 <div id="about" class="tab-content-item active">
                                     <div class="about-tab-contents">
-                                        <p class="about-tab-contents-para">Situat la mai puțin de 10 minute cu mașina de centrul orașului, în cartierul Zorilor, Hotelul Olimp din Cluj-Napoca oferă camere și suite cu aer condiționat și WiFi gratuit, precum și un restaurant cu o terasă în aer liber.                                        </p>
-                                        <p class="about-tab-contents-para mt-4">Toate camerele și suitele hotelului includ un minibar, un TV cu ecran plat cu canale prin cablu și o baie privată cu duș sau cadă, articole de toaletă gratuite și uscător de păr.</p>
-                                        <p class="about-tab-contents-para mt-4">Puteți să vă parcați mașina gratuit. La doar 30 m de hotel se găsește o stație de taxi. În vecinătate există un centru comercial, grădina botanică și diverse clinici medicale.</p>
-                                        <p class="about-tab-contents-para mt-4">Cuplurile apreciază în mod deosebit această locaţie. I-au dat scorul 8,7 pentru un sejur pentru 2 persoane.</p>
+                                        <p class="about-tab-contents-para">Camera Dublă Simplă este mai mică decât Camera Dublă Deluxe și este dotată cu pat matrimonial cu lățimea între 140 și 160 cm, televizor, Wi-Fi gratuit, aer condiționat, prosoape, baie privată și articole de toaletă.</p>
+                                        <p class="about-tab-contents-para mt-4">Tariful afișat este pentru întreaga cameră și include cazarea a maximum două persoane. Pentru cazarea unui număr mai mare de persoane se percep taxe suplimentare, în funcție de numărul oaspeților și de disponibilitate. Oaspeții beneficiază de parcare gratuită.</p>
                                     </div>
                                 </div>
                             </div>
