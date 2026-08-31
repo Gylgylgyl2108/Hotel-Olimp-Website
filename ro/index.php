@@ -69,8 +69,8 @@ if (is_dir($images_folder)) {
                                 <i class="las la-thumbs-up"></i>
                             </div>
                             <div class="single-why-two-contents">
-                                <h4 class="single-why-two-contents-title"><a href="#">Solicitare rapidă de rezervare</a></h4>
-                                <p class="single-why-two-contents-para mt-2">Trimite cererea direct către hotel și primești răspuns rapid.</p>
+                                <h4 class="single-why-two-contents-title"><a href="#">Rezervare directă pe site</a></h4>
+                                <p class="single-why-two-contents-para mt-2">Verifică disponibilitatea și rezervă imediat, direct pe site-ul hotelului.</p>
                             </div>
                         </div>
                     </div>
