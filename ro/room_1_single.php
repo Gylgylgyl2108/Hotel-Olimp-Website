@@ -1,35 +1,12 @@
-<?php 
-$images_folder = '../images_hotel/rooms/Room_1_Single';
-
-// Check if the folder exists
-if (is_dir($images_folder)) {
-    // Read the contents of the folder
-    $files = scandir($images_folder);
-    // Count the number of files (excluding '.' and '..')
-    $number_of_photos = count(array_diff($files, array('.', '..')));
-
-    if ($number_of_photos == 1) {
-        $number_of_photos -= 1;
-    } elseif ($number_of_photos == 3) {
-        $number_of_photos -= 2;
-    } elseif ($number_of_photos == 5) {
-        $number_of_photos -= 3;
-    } elseif ($number_of_photos >= 7) {
-        $number_of_photos -= 4;
-    } else {
-        echo "<h1 class='text-danger'>EROARE CEVA NU E BINE!</h1>";
-    }
-} else {
-    echo "The specified folder does not exist.";
-}
-?>
-
 <!DOCTYPE html>
 <html lang="ro">
 <head>
 <!-- Header -->
     <?php require_once "./components/header.php" ?>
     <!-- Header end -->
+    <style>
+        .mfp-wrap img.mfp-img { max-height:75vh !important; max-width:90vw; width:auto !important; height:auto !important; object-fit:contain; }
+    </style>
     <!-- Breadcrumb area Starts -->
     <div class="breadcrumb-area breadcrumb-padding">
         <div class="container custom-container-one">
@@ -57,27 +34,10 @@ if (is_dir($images_folder)) {
                         <div class="details-contents bg-white radius-10">
                             <!-- Aici sunt pozele -->
                             <div class="details-contents-header">
-                                    <?php if ($number_of_photos >= 1) : ?>
-                                        <div class="single-attraction-two-thumb flex-center">
-                                            <a href="../images_hotel/rooms/Room_1_Single/room_single_1.jpg" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/rooms/Room_1_Single/room_single_1-main.jpg" alt="hotel room image"> </a>
-                                        </div>
-                                    <?php endif; ?>
-                                <div class="details-contents-header-flex">
-                                    <?php if ($number_of_photos >= 2) : ?>
-                                        <div class="single-attraction-two-thumb">
-                                            <a href="../images_hotel/rooms/Room_1_Single/room_single_2.jpg" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/rooms/Room_1_Single/room_single_2-main.jpg" alt="hotel room image"> </a>
-                                        </div>
-                                    <?php endif; ?>
-                                    <?php if ($number_of_photos >= 3) : ?>
-                                        <div class="single-attraction-two-thumb">
-                                            <a href="../images_hotel/rooms/Room_1_Single/room_single_3.jpg" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/rooms/Room_1_Single/room_single_3-main.jpg" alt="hotel room image"> </a>
-                                        </div>
-                                    <?php endif; ?>
-                                    <?php for ($i = 4; $i <= $number_of_photos; $i++) : ?>
-                                        <div class="single-attraction-two-thumb d-none">
-                                            <a href="../images_hotel/rooms/Room_1_Single/room_single_<?php echo $i; ?>.jpg" class="gallery-popup-two"></a>
-                                        </div>
-                                    <?php endfor; ?>
+                                <div style="display:flex;flex-wrap:wrap;gap:16px;">
+                                    <a href="../images_hotel/rooms/Room_1_Single_optimized/room_single_1.webp" class="gallery-popup-two" style="display:block;flex:1 1 240px;min-width:0;"><img loading="lazy" decoding="async" src="../images_hotel/rooms/Room_1_Single_optimized/room_single_1.webp" alt="Camera single – pat și tapet floral" width="1086" height="1448" style="display:block;width:100%;height:300px;object-fit:contain;background:#f7f7f7;border-radius:10px;"></a>
+                                    <a href="../images_hotel/rooms/Room_1_Single_optimized/room_single_2.webp" class="gallery-popup-two" style="display:block;flex:1 1 240px;min-width:0;"><img loading="lazy" decoding="async" src="../images_hotel/rooms/Room_1_Single_optimized/room_single_2.webp" alt="Camera single – fereastră și birou" width="742" height="1600" style="display:block;width:100%;height:300px;object-fit:contain;background:#f7f7f7;border-radius:10px;"></a>
+                                    <a href="../images_hotel/rooms/Room_1_Single_optimized/room_single_3.webp" class="gallery-popup-two" style="display:block;flex:1 1 240px;min-width:0;"><img loading="lazy" decoding="async" src="../images_hotel/rooms/Room_1_Single_optimized/room_single_3.webp" alt="Camera single – mobilier și facilități" width="1086" height="1448" style="display:block;width:100%;height:300px;object-fit:contain;background:#f7f7f7;border-radius:10px;"></a>
                                 </div>
                             </div>
                             <div class="hotel-view-contents">

@@ -39,7 +39,7 @@
                             <div class="col-xxl-4 col-md-6">
                                 <div class="hotel-view bg-white radius-20">
                                     <!-- Aici se schimba poza -->
-                                    <a href="room_1_single.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(../images_hotel/rooms/Room_1_Single/cover.jpg);"></a>
+                                    <a href="room_1_single.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(../images_hotel/rooms/Room_1_Single_optimized/cover.webp); background-size:cover; background-position:center;"></a>
                                     <div class="hotel-view-contents">
                                         <div class="hotel-view-contents-header">
                                             <h3 class="hotel-view-contents-title text-center"> <a href="room_1_single.php"> Camera Single </a> </h3>
