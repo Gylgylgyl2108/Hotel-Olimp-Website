@@ -228,7 +228,7 @@
                             <!-- Room #6 -->
                             <div class="col-xxl-4 col-md-6">
                                 <div class="hotel-view bg-white radius-20">
-                                    <a href="room_6_4_guests.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(../images_hotel/rooms/Room_6_4_Guests/cover.jpg);">
+                                    <a href="room_6_4_guests.php" class="hotel-view-thumb hotel-view-grid-thumb bg-image" style="background-image: url(../images_hotel/rooms/Room_6_4_Guests_optimized/hotel-olimp-camera-4-persoane-foto-1.webp);">
                                     </a>
                                     <div class="hotel-view-contents">
                                         <div class="hotel-view-contents-header">
