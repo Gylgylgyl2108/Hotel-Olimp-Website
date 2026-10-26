@@ -1,29 +1,3 @@
-<?php 
-$images_folder = '../images_hotel/rooms/Room_6_4_Guests';
-
-// Check if the folder exists
-if (is_dir($images_folder)) {
-    // Read the contents of the folder
-    $files = scandir($images_folder);
-    // Count the number of files (excluding '.' and '..')
-    $number_of_photos = count(array_diff($files, array('.', '..')));
-
-    if ($number_of_photos == 1) {
-        $number_of_photos -= 1;
-    } elseif ($number_of_photos == 3) {
-        $number_of_photos -= 2;
-    } elseif ($number_of_photos == 5) {
-        $number_of_photos -= 3;
-    } elseif ($number_of_photos >= 7) {
-        $number_of_photos -= 4;
-    } else {
-        echo "<h1 class='text-danger'>EROARE CEVA NU E BINE!</h1>";
-    }
-} else {
-    echo "The specified folder does not exist.";
-}
-?>
-
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -56,27 +30,10 @@ if (is_dir($images_folder)) {
                     <div class="details-left-wrapper">
                         <div class="details-contents bg-white radius-10">
                             <div class="details-contents-header">
-                                    <?php if ($number_of_photos >= 1) : ?>
-                                        <div class="single-attraction-two-thumb flex-center">
-                                            <a href="../images_hotel/rooms/Room_6_4_Guests/room_quadro_1.jpg" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/rooms/Room_6_4_Guests/room_quadro_1-main.jpg" alt="hotel room image"> </a>
-                                        </div>
-                                    <?php endif; ?>
-                                <div class="details-contents-header-flex">
-                                    <?php if ($number_of_photos >= 2) : ?>
-                                        <div class="single-attraction-two-thumb">
-                                            <a href="../images_hotel/rooms/Room_6_4_Guests/room_quadro_2.jpg" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/rooms/Room_6_4_Guests/room_quadro_2-main.jpg" alt="hotel room image"> </a>
-                                        </div>
-                                    <?php endif; ?>
-                                    <?php if ($number_of_photos >= 3) : ?>
-                                        <div class="single-attraction-two-thumb">
-                                            <a href="../images_hotel/rooms/Room_6_4_Guests/room_quadro_3.jpg" class="gallery-popup-two"> <img loading="lazy" src="../images_hotel/rooms/Room_6_4_Guests/room_quadro_3-main.jpg" alt="hotel room image"> </a>
-                                        </div>
-                                    <?php endif; ?>
-                                    <?php for ($i = 4; $i <= $number_of_photos; $i++) : ?>
-                                        <div class="single-attraction-two-thumb d-none">
-                                            <a href="../images_hotel/rooms/Room_6_4_Guests/room_quadro_<?php echo $i; ?>.jpg" class="gallery-popup-two"></a>
-                                        </div>
-                                    <?php endfor; ?>
+                                <a href="../images_hotel/rooms/Room_6_4_Guests_optimized/hotel-olimp-camera-4-persoane-foto-3.webp" class="gallery-popup-two" style="display:block;"><img src="../images_hotel/rooms/Room_6_4_Guests_optimized/hotel-olimp-camera-4-persoane-foto-3.webp" alt="Camera de 4 persoane – vedere de ansamblu cu pat dublu" loading="eager" decoding="async" width="1672" height="941" style="display:block;width:100%;height:auto;object-fit:contain;background:#f7f7f7;border-radius:10px;"></a>
+                                <div style="display:flex;flex-wrap:wrap;gap:16px;margin-top:16px;">
+                                    <a href="../images_hotel/rooms/Room_6_4_Guests_optimized/hotel-olimp-camera-4-persoane-foto-1.webp" class="gallery-popup-two" style="display:block;flex:1 1 260px;min-width:0;"><img src="../images_hotel/rooms/Room_6_4_Guests_optimized/hotel-olimp-camera-4-persoane-foto-1.webp" alt="Camera de 4 persoane – pat supraetajat" loading="lazy" decoding="async" width="853" height="1844" style="display:block;width:100%;height:420px;object-fit:contain;background:#f7f7f7;border-radius:10px;"></a>
+                                    <a href="../images_hotel/rooms/Room_6_4_Guests_optimized/hotel-olimp-camera-4-persoane-foto-2.webp" class="gallery-popup-two" style="display:block;flex:1 1 260px;min-width:0;"><img src="../images_hotel/rooms/Room_6_4_Guests_optimized/hotel-olimp-camera-4-persoane-foto-2.webp" alt="Camera de 4 persoane – vedere spre fereastră și birou" loading="lazy" decoding="async" width="853" height="1844" style="display:block;width:100%;height:420px;object-fit:contain;background:#f7f7f7;border-radius:10px;"></a>
                                 </div>
                             </div>
                             <div class="hotel-view-contents">
