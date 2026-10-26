@@ -4,6 +4,16 @@
 <!-- Header -->
     <?php require_once "./components/header.php" ?>
     <!-- Header end -->
+    <style>
+        /* Keep enlarged room photos comfortably within the viewport. */
+        .mfp-wrap img.mfp-img {
+            max-height: 75vh !important;
+            max-width: 90vw;
+            width: auto !important;
+            height: auto !important;
+            object-fit: contain;
+        }
+    </style>
     <!-- Breadcrumb area Starts -->
     <div class="breadcrumb-area breadcrumb-padding">
         <div class="container custom-container-one">
