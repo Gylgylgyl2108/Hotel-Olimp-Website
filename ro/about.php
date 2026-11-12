@@ -28,16 +28,16 @@
                 <div class="section-title center-text">
                     <h2 class="title"> Despre Hotel Olimp </h2>
                     <div class="section-title-shapes"> </div>
-                   <p class="section-para">Hotel Olimp se află la aproximativ <strong>10 minute de centrul istoric al orașului Cluj-Napoca</strong> și oferă <strong>30 de camere</strong> pentru oaspeții care călătoresc individual, în familie sau în grup.</p>
-                    <p class="section-para">Amplasarea pe traseul european <strong>E60</strong> oferă acces convenabil celor aflați în tranzit, în călătorii de afaceri sau în vizită la Cluj-Napoca. Hotelul se află în apropierea Spitalului Clinic de Recuperare, Clinicii Anastasios, Spitalului Transilvania și Clinicii Humanitas.</p>
+                   <p class="section-para">Hotel Olimp se află în cartierul Zorilor din Cluj-Napoca, pe strada Observatorului nr. 82–86. Hotelul dispune de <strong>30 de camere</strong>, potrivite pentru călătorii individuale, familii și grupuri.</p>
+                    <p class="section-para">Amplasarea pe traseul <strong>E60</strong> oferă acces ușor pentru oaspeții aflați în tranzit sau în călătorii de afaceri. Hotelul se află în apropierea Clinicii Anastasios, a Spitalului Transilvania și a Clinicii Humanitas, fiind o opțiune de cazare și pentru oaspeții care vin la Cluj-Napoca pentru consultații sau tratamente.</p>
                     <ul class="list-group my-4 fs-18 ">
                         <li class="list-group-item mt-4 bg--main-color text-white text-capitalize fw-bold"> Cele mai apreciate facilități </li>
-                        <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Mic dejun servit între 07:30 și 09:30</li>
+                        <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Mic dejun (07:30–09:30)</li>
                         <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Wi-Fi gratuit de mare viteză</li>
                         <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Parcare gratuită</li>
-                        <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Sală de fitness <b>(se pot percepe costuri suplimentare)</b></li>
-                        <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Barber Store și Crispy Store</li>
-                        <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Bar și restaurant, deschise între 07:30 și 21:30</li>
+                        <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Sală de fitness (se pot aplica taxe suplimentare)</li>
+                        <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Barbar Store și Crispy Store</li>
+                        <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Bar și restaurant (07:30–21:30)</li>
                         <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Facilități pentru persoane cu mobilitate redusă</li>
                         <li class="list-group-item list-group-item-action text-start "> <i class="las la-check-circle text-primary"></i> Camere pentru nefumători</li>
                     </ul>
